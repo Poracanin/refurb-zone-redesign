@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nahradni-dily",
+    "name": "Náhradní díly",
+    "source_url": "https://www.refurb.zone/nahradni-dily/",
+    "count": 8,
+    "product_ids": ["3051", "6699", "698", "1454", "1646", "9339", "2762", "2965"]
+  },
+  {
+    "id": "refurb-apple",
+    "name": "Refurbish materiál — Apple",
+    "source_url": "https://www.refurb.zone/apple/",
+    "count": 5,
+    "product_ids": ["9270", "4419", "4599", "9258", "9273"]
+  },
+  {
+    "id": "refurb-android",
+    "name": "Refurbish materiál — Android",
+    "source_url": "https://www.refurb.zone/android/",
+    "count": 2,
+    "product_ids": ["4959", "4944"]
+  },
+  {
+    "id": "programatory",
+    "name": "Programátory",
+    "source_url": "https://www.refurb.zone/programatory/",
+    "count": 5,
+    "product_ids": ["8802", "10220", "10205", "9126", "9123"]
+  },
+  {
+    "id": "adaptery-a-kabely",
+    "name": "Adaptéry a kabely",
+    "source_url": "https://www.refurb.zone/adaptery-a-kabely/",
+    "count": 5,
+    "product_ids": ["6114", "9981", "10002", "10214", "10008"]
+  },
+  {
+    "id": "lepeni",
+    "name": "Lepení",
+    "source_url": "https://www.refurb.zone/lepeni/",
+    "count": 5,
+    "product_ids": ["9294", "8664", "8652", "3771", "3732"]
+  },
+  {
+    "id": "ochranna-skla",
+    "name": "Ochranná skla",
+    "source_url": "https://www.refurb.zone/ochranna-skla/",
+    "count": 5,
+    "product_ids": ["9081", "9078", "9084", "9624", "9381"]
+  },
+  {
+    "id": "naradi",
+    "name": "Nářadí",
+    "source_url": "https://www.refurb.zone/naradi/",
+    "count": 5,
+    "product_ids": ["9360", "10130", "9111", "3078", "10217"]
+  },
+  {
+    "id": "pajeni",
+    "name": "Pájení",
+    "source_url": "https://www.refurb.zone/pajeni/",
+    "count": 5,
+    "product_ids": ["9297", "3010", "3726", "3004", "2995"]
+  },
+  {
+    "id": "cisteni-a-chemie",
+    "name": "Čištění a chemie",
+    "source_url": "https://www.refurb.zone/cisteni-a-chemie/",
+    "count": 5,
+    "product_ids": ["4986", "9840", "10208", "8799", "8700"]
+  }
+]

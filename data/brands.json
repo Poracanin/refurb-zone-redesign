@@ -1,0 +1,108 @@
+[
+  {
+    "id": "apple",
+    "name": "Apple",
+    "label": "Díly a vybavení pro Apple",
+    "logo": "/assets/brands/apple.svg",
+    "product_ids": [
+      "3051",
+      "6699",
+      "698",
+      "1454",
+      "1646",
+      "9339",
+      "2762",
+      "2965",
+      "9270",
+      "4419",
+      "4599",
+      "9258",
+      "9273",
+      "8802",
+      "10220",
+      "9123",
+      "6114",
+      "9981",
+      "9081",
+      "9078",
+      "9084",
+      "9624",
+      "9381",
+      "9360",
+      "10130"
+    ],
+    "relationship": "compatibility",
+    "source_page": "https://www.apple.com/",
+    "source_image": "https://www.apple.com/"
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "label": "Díly a vybavení pro Samsung",
+    "logo": "/assets/brands/samsung.png",
+    "product_ids": ["4944"],
+    "relationship": "compatibility",
+    "source_page": "https://www.samsung.com/us/about-us/brand-identity/logo/",
+    "source_image": "https://images.samsung.com/is/content/samsung/assets/global/about-us/resource/Samsung_lettermark.zip"
+  },
+  {
+    "id": "lenovo",
+    "name": "Lenovo",
+    "label": "Díly a vybavení pro Lenovo",
+    "logo": "/assets/brands/lenovo.svg",
+    "product_ids": ["4959"],
+    "relationship": "compatibility",
+    "source_page": "https://news.lenovo.com/press-kits/best-of-holiday-consumer-products-2020/press-kit/",
+    "source_image": "https://news.lenovo.com/wp-content/themes/hw-boilerplate-four-quarters/assets/images/logo-horizontal-transparent.svg"
+  },
+  {
+    "id": "qianli",
+    "name": "QianLi",
+    "label": "QianLi",
+    "logo": "/assets/brands/qianli.png",
+    "product_ids": ["8802", "10205"],
+    "relationship": "product_brand",
+    "source_page": "https://www.qianli.cn/en/",
+    "source_image": "https://www.qianli.cn/en/static/upload/image/20210513/1620891672252417.png"
+  },
+  {
+    "id": "2uul",
+    "name": "2UUL",
+    "label": "2UUL",
+    "logo": "/assets/brands/2uul.png",
+    "product_ids": ["9360", "3004", "2995", "8700"],
+    "relationship": "product_brand",
+    "source_page": "https://www.2uul.com/",
+    "source_image": "https://www.2uul.com/cdn/shop/files/2UUL_Logo_72fc10f9-8aa1-4f09-9b85-50aa778dfc2e.png?v=1613576002"
+  },
+  {
+    "id": "mechanic",
+    "name": "MECHANIC",
+    "label": "MECHANIC",
+    "logo": "/assets/brands/mechanic.png",
+    "product_ids": ["10214"],
+    "relationship": "product_brand",
+    "source_page": "https://www.mechanicgroup.cn/",
+    "source_image": "https://omo-oss-image.thefastimg.com/portal-saas/pg2024062018294438628/cms/image/160badea-08b9-4e2d-b34a-6b2edd21f5df.png"
+  },
+  {
+    "id": "amaoe",
+    "name": "AMAOE",
+    "label": "AMAOE",
+    "logo": "/assets/brands/amaoe.png",
+    "product_ids": ["8664", "8652"],
+    "relationship": "product_brand",
+    "source_page": "https://www.amaoe.com/",
+    "source_image": "https://www.amaoe.com/wp-content/uploads/2020/10/6ee6328487f3f50.png"
+  },
+  {
+    "id": "arctic",
+    "name": "ARCTIC",
+    "label": "ARCTIC",
+    "logo": "/assets/brands/arctic.svg",
+    "product_ids": ["10208"],
+    "relationship": "product_brand",
+    "source_page": "https://support.arctic.de/en/m2-pro_r2",
+    "source_image": "https://support.arctic.de/img/ARCTIC_logo_dm.svg"
+  }
+]

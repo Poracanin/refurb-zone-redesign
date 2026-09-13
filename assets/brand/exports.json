@@ -1,0 +1,47 @@
+{
+  "method": "Browser rendering of the existing HTML wordmark and original SVG favicon. Transparent PNG; no redesign or AI image generation.",
+  "files": [
+    {
+      "file": "apple-touch-icon.png",
+      "width": 180,
+      "height": 180,
+      "bytes": 3433
+    },
+    {
+      "file": "favicon-192.png",
+      "width": 192,
+      "height": 192,
+      "bytes": 3777
+    },
+    {
+      "file": "favicon-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 655
+    },
+    {
+      "file": "favicon-64.png",
+      "width": 64,
+      "height": 64,
+      "bytes": 1181
+    },
+    {
+      "file": "favicon.png",
+      "width": 512,
+      "height": 512,
+      "bytes": 10175
+    },
+    {
+      "file": "logo-with-tagline.png",
+      "width": 1280,
+      "height": 408,
+      "bytes": 51546
+    },
+    {
+      "file": "logo.png",
+      "width": 1280,
+      "height": 256,
+      "bytes": 28389
+    }
+  ]
+}

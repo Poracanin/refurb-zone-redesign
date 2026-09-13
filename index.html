@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Náhradní díly a vybavení pro profesionální opravy. Prohlédněte si displeje, baterie a servisní příslušenství Refurb.zone."
+    />
+    <title>Refurb.zone — Díly pro Apple a repasování displejů</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png" />
+    <link rel="preload" as="image" href="/assets/service-workshop-hero.png" fetchpriority="high" />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <script src="/src/js/experience.js" defer></script>
+    <script src="/src/js/device-search.js" defer></script>
+    <script src="/src/js/data-repository.js" defer></script>
+    <script src="/src/js/app.js" defer></script>
+  </head>
+  <body>
+    <a href="#main" class="skip">Přejít na obsah</a>
+    <header id="site-header"></header>
+    <div id="header-spacer" aria-hidden="true"></div>
+    <main id="main">
+      <section class="hero">
+        <div class="hero-art" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow">SPECIALISTÉ NA APPLE A REPASOVÁNÍ DISPLEJŮ</span>
+            <h1>Díly pro Apple.<br />Nový život displejů.</h1>
+            <p>
+              Náhradní díly, materiál pro repase a servis displejů.<br />Vše pro vaši další opravu
+              na jednom místě.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="/katalog.html?category=nahradni-dily"
+                >Najít díl pro Apple <span data-icon="arrow"></span></a
+              ><a class="button secondary" href="/sluzby.html?service=repase"
+                >Repasování displejů</a
+              >
+            </div>
+            <div class="benefits">
+              <div>
+                <span data-icon="truck"></span
+                ><span><strong>Praha do 2 hodin</strong><small>Expresně s Wolt Drive</small></span>
+              </div>
+              <div>
+                <span data-icon="shield"></span
+                ><span
+                  ><strong>Objednejte do 17:30</strong
+                  ><small>Odešleme tentýž pracovní den</small></span
+                >
+              </div>
+              <div>
+                <span data-icon="headphones"></span
+                ><span><strong>Technická podpora</strong><small>Pro servisy a firmy</small></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container category-section" id="kategorie" aria-label="Kategorie produktů">
+        <div class="device-section-heading">
+          <h2>Vyberte své zařízení</h2>
+          <div class="platform-switch" role="group" aria-label="Platforma zařízení">
+            <button data-home-platform="apple" aria-pressed="true">
+              <img
+                class="platform-logo platform-logo-apple"
+                src="/assets/brands/apple.svg"
+                alt=""
+                aria-hidden="true"
+                width="26"
+                height="22"
+              /><span>Apple</span></button
+            ><button data-home-platform="android" aria-pressed="false">
+              <img
+                class="platform-logo platform-logo-android"
+                src="/assets/brands/android.svg"
+                alt=""
+                aria-hidden="true"
+                width="26"
+                height="22"
+              /><span>Android</span>
+            </button>
+          </div>
+        </div>
+        <div class="category-grid" id="category-grid"></div>
+        <div class="quick-parts">
+          <span>Hledáte konkrétní díl?</span><a href="/katalog.html?category=displeje">Displeje</a
+          ><a href="/katalog.html?category=baterie">Baterie</a
+          ><a href="/katalog.html?category=konektory">Konektory</a
+          ><a href="/katalog.html?category=kryty">Kryty a šasi</a
+          ><a href="/katalog.html?category=kamery">Kamery</a>
+        </div>
+      </section>
+      <section class="container featured-section" aria-label="Výběr produktů">
+        <div class="section-heading">
+          <div class="product-tabs" role="tablist" aria-label="Výběr z nabídky">
+            <button id="tab-selected" role="tab" aria-selected="true" data-featured="selected">
+              Vybráno pro váš servis</button
+            ><button id="tab-new" role="tab" aria-selected="false" data-featured="new">
+              Novinky</button
+            ><button id="tab-sale" role="tab" aria-selected="false" data-featured="sale">
+              Akční nabídka
+            </button>
+          </div>
+          <a href="/katalog.html" class="text-link"
+            >Zobrazit všechny <span data-icon="arrow"></span
+          ></a>
+        </div>
+        <div
+          class="products-grid"
+          id="featured-products"
+          role="tabpanel"
+          aria-labelledby="tab-selected"
+        ></div>
+      </section>
+      <div class="container" id="home-services"></div>
+      <div class="container" id="home-delivery"></div>
+      <section class="container">
+        <div class="service-banner">
+          <span class="service-icon" data-icon="phone"></span>
+          <div>
+            <h2>Jste servis? <span>Získejte lepší podmínky.</span></h2>
+            <p>Individuální ceny, osobní přístup a technická podpora.</p>
+          </div>
+          <a
+            href="https://www.refurb.zone/b2b-spoluprace/"
+            target="_blank"
+            rel="noopener"
+            class="button primary"
+            >Spolupráce pro servisy <span data-icon="arrow"></span
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer id="site-footer"></footer>
+    <div id="overlays"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

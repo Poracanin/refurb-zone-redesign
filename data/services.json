@@ -1,0 +1,599 @@
+[
+  {
+    "id": "repase",
+    "title": "Repasování displejů",
+    "eyebrow": "IPHONE · IPAD · APPLE WATCH",
+    "summary": "Prasklé sklo nemusí znamenat nový displej. Podívejte se na možnosti výměny skla, dotyku nebo podsvícení pro váš model.",
+    "source": "https://www.refurb.zone/repasovani-displeju/",
+    "checked_at": "2026-09-11",
+    "note": "Výsledek repasování nelze zaručit u každého displeje. Původní servis uvádí úspěšnost až 94 %.",
+    "groups": [
+      {
+        "id": "iphone",
+        "label": "iPhone",
+        "surcharge": 350,
+        "note": "Při zaslání celého telefonu zahrnuje příplatek demontáž, montáž a nové originální podlepení.",
+        "rows": [
+          {
+            "model": "iPhone 6S/7/8",
+            "work": "Výměna vrchního skla/podsvícení",
+            "price": 350,
+            "image": "/assets/service-models/iphone-8g.jpg",
+            "image_model": "iPhone 8",
+            "image_source": "https://www.refurb.zone/iphone-8g/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 6S Plus/7 Plus/8 Plus",
+            "work": "Výměna vrchního skla/podsvícení",
+            "price": 500,
+            "image": "/assets/service-models/iphone-8g-plus.jpg",
+            "image_model": "iPhone 8 Plus",
+            "image_source": "https://www.refurb.zone/iphone-8g-plus/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone XR/11",
+            "work": "Výměna vrchního skla/dotyku/podsvícení",
+            "price": 600,
+            "image": "/assets/devices/iphone-11.png",
+            "image_model": "iPhone 11",
+            "image_source": "https://www.refurb.zone/iphone-11/"
+          },
+          {
+            "model": "iPhone X/XS/XS Max/11 Pro",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 800,
+            "image": "/assets/service-models/iphone-x.jpg",
+            "image_model": "iPhone X",
+            "image_source": "https://www.refurb.zone/iphone-x/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 11 Pro Max",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 900,
+            "image": "/assets/service-models/iphone-11-pro-max.jpg",
+            "image_model": "iPhone 11 Pro Max",
+            "image_source": "https://www.refurb.zone/iphone-11-pro-max/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 12/12 Pro/12 Mini",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 1100,
+            "image": "/assets/service-models/iphone-12.jpg",
+            "image_model": "iPhone 12",
+            "image_source": "https://www.refurb.zone/iphone-12/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 12 Pro Max",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 1300,
+            "image": "/assets/service-models/iphone-12-pro-max.jpg",
+            "image_model": "iPhone 12 Pro Max",
+            "image_source": "https://www.refurb.zone/iphone-12-pro-max/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 13/13 Mini/14/14 Plus",
+            "work": "Výměna vrchního skla",
+            "price": 1200,
+            "image": "/assets/devices/iphone-13.png",
+            "image_model": "iPhone 13",
+            "image_source": "https://www.refurb.zone/iphone-13/"
+          },
+          {
+            "model": "iPhone 13 Pro/13 Pro Max",
+            "work": "Výměna vrchního skla",
+            "price": 1800,
+            "image": "/assets/devices/iphone-13-pro.png",
+            "image_model": "iPhone 13 Pro",
+            "image_source": "https://www.refurb.zone/iphone-13-pro/"
+          },
+          {
+            "model": "iPhone 14 Pro/14 Pro Max/15/15 Plus",
+            "work": "Výměna vrchního skla",
+            "price": 2300,
+            "image": "/assets/devices/iphone-14-pro.png",
+            "image_model": "iPhone 14 Pro",
+            "image_source": "https://www.refurb.zone/iphone-14-pro/"
+          },
+          {
+            "model": "iPhone 15 Pro/15 Pro Max",
+            "work": "Výměna vrchního skla",
+            "price": 2600,
+            "image": "/assets/devices/iphone-15-pro.png",
+            "image_model": "iPhone 15 Pro",
+            "image_source": "https://www.refurb.zone/iphone-15-pro/"
+          },
+          {
+            "model": "iPhone 16",
+            "work": "Výměna vrchního skla",
+            "price": 2600,
+            "image": "/assets/service-models/iphone-16.jpg",
+            "image_model": "iPhone 16",
+            "image_source": "https://www.refurb.zone/iphone-16/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 16 Plus",
+            "work": "Výměna vrchního skla",
+            "price": 2600,
+            "image": "/assets/service-models/iphone-16-plus.jpg",
+            "image_model": "iPhone 16 Plus",
+            "image_source": "https://www.refurb.zone/iphone-16-plus/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 16 Pro",
+            "work": "Výměna vrchního skla",
+            "price": 3500,
+            "image": "/assets/devices/iphone-16-pro.png",
+            "image_model": "iPhone 16 Pro",
+            "image_source": "https://www.refurb.zone/iphone-16-pro/"
+          },
+          {
+            "model": "iPhone 16 Pro Max",
+            "work": "Výměna vrchního skla",
+            "price": 3500,
+            "image": "/assets/service-models/iphone-16-pro-max.jpg",
+            "image_model": "iPhone 16 Pro Max",
+            "image_source": "https://www.refurb.zone/iphone-16-pro-max/",
+            "image_thumbnail": true
+          }
+        ]
+      },
+      {
+        "id": "ipad",
+        "label": "iPad",
+        "surcharge": 600,
+        "note": "Při zaslání celého iPadu zahrnuje příplatek demontáž, montáž a nové originální podlepení.",
+        "rows": [
+          {
+            "model": "iPad Air 2/Pro 9.7\"/Mini 4",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 1500,
+            "image": "/assets/service-models/ipad-air-2--generace--2014.jpg",
+            "image_model": "iPad Air 2",
+            "image_source": "https://www.refurb.zone/ipad-air-2--generace--2014/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPad Mini 5",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 1800,
+            "image": "/assets/service-models/ipad-mini-5--generace--2019.jpg",
+            "image_model": "iPad mini 5",
+            "image_source": "https://www.refurb.zone/ipad-mini-5--generace--2019/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPad Pro 10.5\"/Air 3",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 2000,
+            "image": "/assets/service-models/ipad-pro-10-5-2017.jpg",
+            "image_model": "iPad Pro 10.5 (2017)",
+            "image_source": "https://www.refurb.zone/ipad-pro-10-5-2017/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPad Air 4/Air 5",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 2500,
+            "image": "/assets/service-models/ipad-air-4--generace--2020.jpg",
+            "image_model": "iPad Air 4",
+            "image_source": "https://www.refurb.zone/ipad-air-4--generace--2020/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPad Pro 11\"/Mini 6",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 2500,
+            "image": "/assets/devices/ipad-pro-11--2--generace--2020.png",
+            "image_model": "iPad Pro 11\" 2. generace (2020)",
+            "image_source": "https://www.refurb.zone/ipad-pro-11--2--generace--2020/"
+          },
+          {
+            "model": "iPad Pro 12.9\" 2015/2017",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 3000,
+            "image": "/assets/service-models/ipad-pro-12-9--1--generace--2015.jpg",
+            "image_model": "iPad Pro 12.9 (2015)",
+            "image_source": "https://www.refurb.zone/ipad-pro-12-9--1--generace--2015/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPad Pro 12.9\" 2018/2020",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 3000,
+            "image": "/assets/devices/ipad-pro-12-9--4--generace--2020.png",
+            "image_model": "iPad Pro 12,9\" 4. generace (2020)",
+            "image_source": "https://www.refurb.zone/ipad-pro-12-9--4--generace--2020/"
+          },
+          {
+            "model": "iPad Pro 12.9\" 2021/2022",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 3500,
+            "image": "/assets/service-models/ipad-pro-12-9--5--generace--2021.jpg",
+            "image_model": "iPad Pro 12.9 (2021)",
+            "image_source": "https://www.refurb.zone/ipad-pro-12-9--5--generace--2021/",
+            "image_thumbnail": false
+          }
+        ]
+      },
+      {
+        "id": "watch",
+        "label": "Apple Watch",
+        "surcharge": null,
+        "note": "Demontáž, montáž a podlepení jsou již zahrnuty v ceně.",
+        "rows": [
+          {
+            "model": "Apple Watch 3",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 1300,
+            "image": "/assets/service-models/watch-3--generace.jpg",
+            "image_model": "Apple Watch Series 3",
+            "image_source": "https://www.refurb.zone/watch-3--generace/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "Apple Watch 4/5/6/SE1/SE2",
+            "work": "Výměna vrchního skla/dotyku",
+            "price": 1500,
+            "image": "/assets/devices/watch-5--generace.png",
+            "image_model": "Watch 5. generace",
+            "image_source": "https://www.refurb.zone/watch-5--generace/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vykup",
+    "title": "Výkup displejů",
+    "eyebrow": "DEJTE POŠKOZENÝM DISPLEJŮM DALŠÍ SMYSL",
+    "summary": "Poškozené displeje z iPhonů, iPadů a Apple Watch můžete poslat k otestování a výkupu. Výslednou nabídku dostanete po kontrole jejich stavu.",
+    "source": "https://www.refurb.zone/vykup-displeju/",
+    "checked_at": "2026-09-11",
+    "form_url": "https://www.refurb.zone/user/documents/upload/V%C3%BDkupn%C3%AD%20formul%C3%A1%C5%99.pdf",
+    "steps": [
+      {
+        "title": "Zabalte a odešlete",
+        "text": "Displeje bezpečně zabalte. Přiložte výkupní formulář a zásilku pošlete na Korytnou 1538/4, 100 00 Praha 10, REFURB.ZONE."
+      },
+      {
+        "title": "Otestujeme jejich stav",
+        "text": "Kontrola po přijetí zásilky obvykle zabere 1–3 pracovní dny podle aktuálního vytížení."
+      },
+      {
+        "title": "Dostanete nabídku",
+        "text": "Servis vám pošle test report s aktuálními výkupními cenami. Výplatu lze dohodnout hotově nebo na bankovní účet."
+      }
+    ],
+    "note": "Orientační výkupní cena za jeden displej. Konečnou nabídku obdržíte po otestování jeho stavu.",
+    "buyback_groups": [
+      {
+        "id": "iphone",
+        "label": "iPhone",
+        "image": "/assets/categories/iphone.png",
+        "rows": [
+          {
+            "id": "iphone-1",
+            "model": "iPhone 11 Pro",
+            "price": 100,
+            "damaged_touch_price": 30,
+            "models": ["iPhone 11 Pro"]
+          },
+          {
+            "id": "iphone-2",
+            "model": "iPhone 11 Pro Max",
+            "price": 100,
+            "damaged_touch_price": 30,
+            "models": ["iPhone 11 Pro Max"]
+          },
+          {
+            "id": "iphone-3",
+            "model": "iPhone 12/12 Pro",
+            "price": 150,
+            "damaged_touch_price": 50,
+            "models": ["iPhone 12", "iPhone 12 Pro"]
+          },
+          {
+            "id": "iphone-4",
+            "model": "iPhone 12 mini/13/13 mini/14",
+            "price": 300,
+            "damaged_touch_price": 150,
+            "models": ["iPhone 12 mini", "iPhone 13", "iPhone 13 mini", "iPhone 14"]
+          },
+          {
+            "id": "iphone-5",
+            "model": "iPhone 12 Pro Max",
+            "price": 300,
+            "damaged_touch_price": 150,
+            "models": ["iPhone 12 Pro Max"]
+          },
+          {
+            "id": "iphone-6",
+            "model": "iPhone 13 Pro/13 Pro Max",
+            "price": 500,
+            "damaged_touch_price": 200,
+            "models": ["iPhone 13 Pro", "iPhone 13 Pro Max"]
+          },
+          {
+            "id": "iphone-7",
+            "model": "iPhone 14 Pro",
+            "price": 800,
+            "damaged_touch_price": 200,
+            "models": ["iPhone 14 Pro"]
+          },
+          {
+            "id": "iphone-8",
+            "model": "iPhone 14 Plus",
+            "price": 500,
+            "damaged_touch_price": 100,
+            "models": ["iPhone 14 Plus"]
+          },
+          {
+            "id": "iphone-9",
+            "model": "iPhone 14 Pro Max",
+            "price": 900,
+            "damaged_touch_price": 200,
+            "models": ["iPhone 14 Pro Max"]
+          },
+          {
+            "id": "iphone-10",
+            "model": "iPhone 15",
+            "price": 700,
+            "damaged_touch_price": null,
+            "models": ["iPhone 15"]
+          },
+          {
+            "id": "iphone-11",
+            "model": "iPhone 15 Plus",
+            "price": 700,
+            "damaged_touch_price": null,
+            "models": ["iPhone 15 Plus"]
+          },
+          {
+            "id": "iphone-12",
+            "model": "iPhone 15 Pro",
+            "price": 1300,
+            "damaged_touch_price": 300,
+            "models": ["iPhone 15 Pro"]
+          },
+          {
+            "id": "iphone-13",
+            "model": "iPhone 15 Pro Max",
+            "price": 1500,
+            "damaged_touch_price": 300,
+            "models": ["iPhone 15 Pro Max"]
+          },
+          {
+            "id": "iphone-14",
+            "model": "iPhone 16",
+            "price": 1000,
+            "damaged_touch_price": 300,
+            "models": ["iPhone 16"]
+          },
+          {
+            "id": "iphone-15",
+            "model": "iPhone 16 Plus",
+            "price": 1000,
+            "damaged_touch_price": 300,
+            "models": ["iPhone 16 Plus"]
+          },
+          {
+            "id": "iphone-16",
+            "model": "iPhone 16 Pro",
+            "price": 1600,
+            "damaged_touch_price": 300,
+            "models": ["iPhone 16 Pro"]
+          },
+          {
+            "id": "iphone-17",
+            "model": "iPhone 16 Pro Max/17 Pro",
+            "price": 1800,
+            "damaged_touch_price": 300,
+            "models": ["iPhone 16 Pro Max", "iPhone 17 Pro"]
+          },
+          {
+            "id": "iphone-18",
+            "model": "iPhone 17",
+            "price": 1500,
+            "damaged_touch_price": 800,
+            "models": ["iPhone 17"]
+          },
+          {
+            "id": "iphone-19",
+            "model": "iPhone Air",
+            "price": 1500,
+            "damaged_touch_price": 900,
+            "models": ["iPhone Air"]
+          },
+          {
+            "id": "iphone-20",
+            "model": "iPhone 17 Pro Max",
+            "price": 2000,
+            "damaged_touch_price": 300,
+            "models": ["iPhone 17 Pro Max"]
+          }
+        ]
+      },
+      {
+        "id": "ipad",
+        "label": "iPad",
+        "image": "/assets/categories/ipad.png",
+        "rows": [
+          {
+            "id": "ipad-1",
+            "model": "iPad Air 2/Pro 9.7“/mini 4",
+            "price": 200,
+            "damaged_touch_price": null,
+            "models": ["iPad Air 2", "iPad Pro 9.7", "iPad mini 4"]
+          },
+          {
+            "id": "ipad-2",
+            "model": "iPad Mini 5",
+            "price": 300,
+            "damaged_touch_price": null,
+            "models": ["iPad Mini 5"]
+          },
+          {
+            "id": "ipad-3",
+            "model": "iPad Air 3/Pro 10.5“",
+            "price": 300,
+            "damaged_touch_price": null,
+            "models": ["iPad Air 3", "iPad Pro 10.5"]
+          },
+          {
+            "id": "ipad-4",
+            "model": "iPad Air 4/Air 5",
+            "price": 500,
+            "damaged_touch_price": null,
+            "models": ["iPad Air 4", "iPad Air 5"]
+          },
+          {
+            "id": "ipad-5",
+            "model": "iPad Pro 11“ 2018/2020",
+            "price": 500,
+            "damaged_touch_price": null,
+            "models": ["iPad Pro 11 2018", "iPad Pro 11 2020"]
+          },
+          {
+            "id": "ipad-6",
+            "model": "iPad Pro 11“ 2021/2022",
+            "price": 500,
+            "damaged_touch_price": null,
+            "models": ["iPad Pro 11 2021", "iPad Pro 11 2022"]
+          },
+          {
+            "id": "ipad-7",
+            "model": "iPad Pro 12.9“ 2018/2020",
+            "price": 600,
+            "damaged_touch_price": null,
+            "models": ["iPad Pro 12.9 2018", "iPad Pro 12.9 2020"]
+          },
+          {
+            "id": "ipad-8",
+            "model": "iPad Pro 12.9“ 2021/2022",
+            "price": 1000,
+            "damaged_touch_price": null,
+            "models": ["iPad Pro 12.9 2021", "iPad Pro 12.9 2022"]
+          },
+          {
+            "id": "ipad-9",
+            "model": "iPad Mini 6/Mini 7",
+            "price": 800,
+            "damaged_touch_price": null,
+            "models": ["iPad Mini 6", "iPad Mini 7"]
+          }
+        ]
+      },
+      {
+        "id": "watch",
+        "label": "Apple Watch",
+        "image": "/assets/categories/watch.png",
+        "rows": [
+          {
+            "id": "watch-1",
+            "model": "Apple Watch Series 3",
+            "price": 100,
+            "damaged_touch_price": null,
+            "models": ["Apple Watch Series 3"]
+          },
+          {
+            "id": "watch-2",
+            "model": "Apple Watch Series 4-6",
+            "price": 200,
+            "damaged_touch_price": null,
+            "models": ["Apple Watch Series 4", "Apple Watch Series 5", "Apple Watch Series 6"]
+          },
+          {
+            "id": "watch-3",
+            "model": "Apple Watch Series 7-11",
+            "price": 300,
+            "damaged_touch_price": null,
+            "models": [
+              "Apple Watch Series 7",
+              "Apple Watch Series 8",
+              "Apple Watch Series 9",
+              "Apple Watch Series 10",
+              "Apple Watch Series 11"
+            ]
+          },
+          {
+            "id": "watch-4",
+            "model": "Apple Watch Ultra 1/2",
+            "price": 400,
+            "damaged_touch_price": null,
+            "models": ["Apple Watch Ultra 1", "Apple Watch Ultra 2"]
+          }
+        ]
+      }
+    ],
+    "currency": "CZK",
+    "price_source_method": "Visible initial CZK table. Currency toggle data-czk attributes differ; not used. Missing damaged-touch prices are null, not zero."
+  },
+  {
+    "id": "zadni-skla",
+    "title": "Výměna zadních skel",
+    "eyebrow": "SERVIS ZADNÍHO SKLA PRO IPHONE",
+    "summary": "Před výměnou servis telefon rozebere, aby se střepy nedostaly k displeji, baterii ani dalším součástem. Po opravě jsou baterie i displej nově podlepeny.",
+    "source": "https://www.refurb.zone/vymena-zadniho-skla/",
+    "checked_at": "2026-09-11",
+    "groups": [
+      {
+        "id": "iphone",
+        "label": "iPhone",
+        "surcharge": null,
+        "note": "U jiného modelu si dostupnost opravy ověřte přímo v servisu.",
+        "rows": [
+          {
+            "model": "iPhone X/XS/XS Max",
+            "work": "Výměna zadního skla",
+            "price": 1000,
+            "image": "/assets/service-models/iphone-x.jpg",
+            "image_model": "iPhone X",
+            "image_source": "https://www.refurb.zone/iphone-x/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 11/11 Pro/11 Pro Max",
+            "work": "Výměna zadního skla",
+            "price": 1500,
+            "image": "/assets/devices/iphone-11.png",
+            "image_model": "iPhone 11",
+            "image_source": "https://www.refurb.zone/iphone-11/"
+          },
+          {
+            "model": "iPhone 12/12 Pro/12 Pro Max",
+            "work": "Výměna zadního skla",
+            "price": 1800,
+            "image": "/assets/service-models/iphone-12.jpg",
+            "image_model": "iPhone 12",
+            "image_source": "https://www.refurb.zone/iphone-12/",
+            "image_thumbnail": true
+          },
+          {
+            "model": "iPhone 13/13 Mini/13 Pro/13 Pro Max",
+            "work": "Výměna zadního skla",
+            "price": 2100,
+            "image": "/assets/devices/iphone-13.png",
+            "image_model": "iPhone 13",
+            "image_source": "https://www.refurb.zone/iphone-13/"
+          },
+          {
+            "model": "iPhone 14 Pro/14 Pro Max",
+            "work": "Výměna zadního skla",
+            "price": 2400,
+            "image": "/assets/devices/iphone-14-pro.png",
+            "image_model": "iPhone 14 Pro",
+            "image_source": "https://www.refurb.zone/iphone-14-pro/"
+          }
+        ]
+      }
+    ]
+  }
+]

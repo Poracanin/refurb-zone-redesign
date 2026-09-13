@@ -1,0 +1,2987 @@
+[
+  {
+    "id": "3051",
+    "name": "Neoriginální SOFT OLED displej pro iPhone 15 Pro (120Hz)",
+    "source": "https://www.refurb.zone/neoriginalni-soft-oled-displej-pro-iphone-15-pro/",
+    "group": "nahradni-dily",
+    "kind": "displeje",
+    "category_path": ["Náhradní díly", "Apple", "iPhone", "iPhone 15 Pro"],
+    "price": 1284.66,
+    "gross": 1554.44,
+    "images": ["/assets/products/35731c64dfcdb3e3.png", "/assets/products/a68b5fe7db20638b.png"],
+    "short": "Vhodné pro modely: iPhone 15 Pro: A2848, A3101, A3102, A3104",
+    "description": "📱 Typy displejů ORIGINAL SERVICE PACK (Samsung, Huawei, Apple apod.) Originální displej přímo od výrobce – nejvyšší možná kvalita bez kompromisů. Stejný typ, provedení i technologie jako v novém telefonu. ORIGINAL – original refurbished nebo original pulled (vždy je uvedeno u konkrétního produktu) Originální displej, který může být buď repasovaný (např. vyměněné sklo při zachování původní elektroniky), nebo vyjmutý z funkčního zařízení. Vždy se jedná o 100% originální kvalitu zobrazení a funkce. ELITE SOFT (SOFT OLED) Prémiový soft OLED displej – vysoká kvalita zobrazení, výborná odezva a plynulost. Většinou se stejnou obnovovací frekvencí (Hz) jako originál. U některých modelů lze displej konfigurovat bez chybové hlášky „neznámý díl“. Také je u některých modelů možná výměna čipu pro zachování plné kompatibility. Vždy je uvedeno u konkrétního produktu. PREMIUM Ověřený aftermarket displej střední třídy. Displeje typu FHD (Full HD) bez dolní \"brady\", s velmi dobrým obrazem, citlivostí i výdrží. U vybraných modelů je možná výměna čipu, aby displej nehlásil chybu při výměně – vše je vždy popsáno u konkrétního produktu. BUDGET Ekonomická varianta displeje s důrazem na funkčnost. Displej má spodní \"bradu\" a u některých modelů může lehce přesahovat přes tělo telefonu. Nižší jas, základní barevnost a jednodušší zpracování. U některých modelů je možná výměna čipu pro odstranění chybové hlášky – vždy uvedeno u produktu.",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "iPhone 15 Pro"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Modelová série",
+        "value": "iPhone 15 Series"
+      },
+      {
+        "name": "Velikost",
+        "value": "Pro"
+      },
+      {
+        "name": "Typ",
+        "value": "Displej"
+      }
+    ],
+    "flags": ["Movable IC", "Elite SOFT"],
+    "warranty": "doživotní",
+    "rating": {
+      "value": 5.0,
+      "count": 2.0
+    },
+    "variants": [
+      {
+        "id": "4806",
+        "name": null,
+        "sku": "LCD/SO/15PRO",
+        "price": 1284.66,
+        "gross": 1554.44,
+        "stock": 12.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "6699",
+    "name": "Baterie pro iPhone 13 mini - Konfigurovatelná",
+    "source": "https://www.refurb.zone/baterie-pro-iphone-13-mini-konfigurovatelna/",
+    "group": "nahradni-dily",
+    "kind": "baterie",
+    "category_path": ["Náhradní díly", "Apple", "iPhone", "iPhone 13 mini"],
+    "price": 305.57,
+    "gross": 369.74,
+    "images": ["/assets/products/b2afa48bfd1234fb.png", "/assets/products/3777d5339099fda1.png"],
+    "short": "Vhodné pro modely: iPhone 13 Mini: A2481, A2626, A2628, A2629, A2630",
+    "description": "Náhradní baterie pro iPhone Tato baterie je ideálním řešením pro opravu vašeho iPhone při nízké kapacitě, nebo nefunkčnosti původní. Po výměně bude systém zařízení zobrazovat informaci, že byl vložen využitý originální díl Apple. Funkčnost telefonu tím není nijak omezena. Vhodné při nízké kapacitě, nebo úplné nefunkčnosti původní baterie Hlavní vlastnosti: Systém rozpozná baterii jako využitý originální díl Apple Informace o provedené výměně v nastavení zařízení Vysoká kvalita, stejná kapacita jako originál Obsah balení: Náhradní baterie pro váš iPhone Ochranný obal pro bezpečný transport. Tip: Pro zajištění dlouhodobé funkčnosti doporučujeme baterii vždy podlepit.",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "iPhone 13 mini"
+      },
+      {
+        "name": "Záruka",
+        "value": "1 rok"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Modelová série",
+        "value": "iPhone 13 Series"
+      },
+      {
+        "name": "Velikost",
+        "value": "Mini"
+      },
+      {
+        "name": "Typ",
+        "value": "Baterie"
+      }
+    ],
+    "flags": ["PREMIUM", "KONFIGUROVATELNÉ", "\"Využito\""],
+    "warranty": "1 rok",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "9369",
+        "name": null,
+        "sku": "BAT/KONF/13M",
+        "price": 305.57,
+        "gross": 369.74,
+        "stock": 177.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "698",
+    "name": "Zadní kamera pro iPhone 11",
+    "source": "https://www.refurb.zone/zadni-kamera-pro-iphone-11/",
+    "group": "nahradni-dily",
+    "kind": "kamery",
+    "category_path": ["Náhradní díly", "Apple", "iPhone", "iPhone 11"],
+    "price": 291.97,
+    "gross": 353.28,
+    "images": ["/assets/products/071b350cd421c2c8.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "iPhone 11"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Modelová série",
+        "value": "iPhone 11 Series"
+      },
+      {
+        "name": "Velikost",
+        "value": "Basic"
+      },
+      {
+        "name": "Typ",
+        "value": "Kamery"
+      }
+    ],
+    "flags": ["ORIGINAL", "KONFIGUROVATELNÉ"],
+    "warranty": "doživotní",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "1007",
+        "name": null,
+        "sku": "KAM/Z/11",
+        "price": 291.97,
+        "gross": 353.28,
+        "stock": 12.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "1454",
+    "name": "Zadní sklo s větším otvorem pro iPhone 14 Pro",
+    "source": "https://www.refurb.zone/zadni-sklo-s-vetsim-otvorem-pro-iphone-14-pro/",
+    "group": "nahradni-dily",
+    "kind": "kryty",
+    "category_path": ["Náhradní díly", "Apple", "iPhone", "iPhone 14 Pro"],
+    "price": 207.22,
+    "gross": 250.74,
+    "images": ["/assets/products/88e1de2879f915e7.png"],
+    "short": "Vhodné pro modely: iPhone 14 Pro: A2650, A2889, A2890, A2891, A2892",
+    "description": "Popis produktu není dostupný",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "iPhone 14 Pro"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Modelová série",
+        "value": "iPhone 14 Series"
+      },
+      {
+        "name": "Velikost",
+        "value": "Pro"
+      },
+      {
+        "name": "Typ",
+        "value": "Zadní kryty"
+      }
+    ],
+    "flags": [],
+    "warranty": "doživotní",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "2048",
+        "name": "Barva: Bílá",
+        "sku": "102111/BIL",
+        "price": 207.22,
+        "gross": 250.74,
+        "stock": 10,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "2054",
+        "name": "Barva: Fialová",
+        "sku": "102113/FIA",
+        "price": 207.22,
+        "gross": 250.74,
+        "stock": null,
+        "availability": "Na dotaz",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "2045",
+        "name": "Barva: Černá",
+        "sku": "102110/CER",
+        "price": 207.22,
+        "gross": 250.74,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "2051",
+        "name": "Barva: Zlatá",
+        "sku": "102112/ZLA",
+        "price": 207.22,
+        "gross": 250.74,
+        "stock": 7,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "1646",
+    "name": "Dock konektor pro iPad Pro 11\" 1/2. gen/Pro 12,9\" 3/4. gen",
+    "source": "https://www.refurb.zone/dock-konektor-pro-ipad-pro-12-9--3--gen-pro-12-9--4--gen-pro-11--1--gen-2/",
+    "group": "nahradni-dily",
+    "kind": "konektory",
+    "category_path": [
+      "Náhradní díly",
+      "Apple",
+      "iPad",
+      "iPad Pro",
+      "iPad Pro 11\" 1. generace (2018)"
+    ],
+    "price": 209.29,
+    "gross": 253.24,
+    "images": ["/assets/products/ca1e0a436eb45d93.png"],
+    "short": "",
+    "description": "Dock konektor pro iPad Pro 11\" z roku 2018 se nazývá USB-C konektor. Tento konektor slouží k připojení iPadu k různým zařízením a příslušenství, jako jsou nabíječky, adaptéry, externí monitory, klávesnice, myši a další. Konektor není nutno pájet.",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "iPad Pro 11\" 1. generace (2018)"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPad"
+      },
+      {
+        "name": "Modelová série",
+        "value": "iPad Pro"
+      },
+      {
+        "name": "Velikost",
+        "value": "11\""
+      },
+      {
+        "name": "Typ",
+        "value": "Nabíjení"
+      }
+    ],
+    "flags": ["ORIGINAL", "209,89 Kč –0 %"],
+    "warranty": "doživotní",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "2291",
+        "name": null,
+        "sku": "752",
+        "price": 209.29,
+        "gross": 253.24,
+        "stock": 8.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9339",
+    "name": "Keycaps pro MacBook Pro A2442/A2779/A2485/A2780/A2918/2991/A2992/A3112/A3401/A3403/A3185/A3186",
+    "source": "https://www.refurb.zone/keycaps-pro-macbook-a2442-a2779-a2485-a2780-a2918-2991-a2992-a3112-a3401-a3403-a3185-a3186/",
+    "group": "nahradni-dily",
+    "kind": "kryty",
+    "category_path": ["Náhradní díly"],
+    "price": 242.18,
+    "gross": 293.04,
+    "images": ["/assets/products/9777503e34f97dab.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "Náhradní díly"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "MacBook"
+      },
+      {
+        "name": "Modelová série",
+        "value": "MacBook Air"
+      },
+      {
+        "name": "Velikost",
+        "value": "13\""
+      },
+      {
+        "name": "Typ",
+        "value": "Klávesnice"
+      }
+    ],
+    "flags": [],
+    "warranty": "doživotní",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "13050",
+        "name": "Jazyk: US",
+        "sku": "9339/US",
+        "price": 242.18,
+        "gross": 293.04,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "13053",
+        "name": "Jazyk: CZ",
+        "sku": "9339/CZ",
+        "price": 242.18,
+        "gross": 293.04,
+        "stock": null,
+        "availability": "Na dotaz",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "13056",
+        "name": "Jazyk: SK",
+        "sku": "9339/SK",
+        "price": 242.18,
+        "gross": 293.04,
+        "stock": 2,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2762",
+    "name": "Baterie pro Watch 5. gen/SE 1. gen",
+    "source": "https://www.refurb.zone/baterie-pro-watch-5--gen-se-1--gen/",
+    "group": "nahradni-dily",
+    "kind": "baterie",
+    "category_path": ["Náhradní díly", "Apple", "Watch", "Watch 5. generace"],
+    "price": 283.07,
+    "gross": 342.51,
+    "images": ["/assets/products/0e2b932eaa40c938.png"],
+    "short": "",
+    "description": "Baterie pro Apple Watch Series 5 40mm má kapacitu 1,07 watt-hodin (Wh) nebo přibližně 296 miliamper-hodin (mAh). Baterie pro Apple Watch Series 5 44mm má kapacitu 1,34 watt-hodin (Wh) nebo přibližně 296 miliamper-hodin (mAh).",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "Watch 5. generace"
+      },
+      {
+        "name": "Záruka",
+        "value": "1 rok"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "Watch"
+      },
+      {
+        "name": "Modelová série",
+        "value": "Watch 5. generace"
+      },
+      {
+        "name": "Typ",
+        "value": "Baterie"
+      }
+    ],
+    "flags": ["PREMIUM"],
+    "warranty": "1 rok",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "3530",
+        "name": "Varianta: 40mm",
+        "sku": "904028/40",
+        "price": 283.07,
+        "gross": 342.51,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "3533",
+        "name": "Varianta: 44mm",
+        "sku": "904029/44",
+        "price": 283.07,
+        "gross": 342.51,
+        "stock": 7,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2965",
+    "name": "Zadní kryt pro iPhone 15 Pro včetně lepení",
+    "source": "https://www.refurb.zone/zadni-kryt-iphone-15-pro-vcetne-lepeni/",
+    "group": "nahradni-dily",
+    "kind": "kryty",
+    "category_path": ["Náhradní díly", "Apple", "iPhone", "iPhone 15 Pro"],
+    "price": 403.75,
+    "gross": 488.54,
+    "images": ["/assets/products/715967aafeea1002.jpg"],
+    "short": "Vhodné pro modely: iPhone 15 Pro: A2848, A3101, A3102, A3104",
+    "description": "Typy zadních skel / krytů🔙 ORIGINAL 100% originální zadní sklo nebo kryt přímo z výroby. Jedná se o tzv. original pulled – originální komponent demontovaný z nového nebo funkčního zařízení. Zachovává přesný vzhled, barvu i strukturu povrchu. Ideální volba pro zákazníky, kteří chtějí zařízení opravit do původního stavu. PREMIUM Skvělé aftermarket zadní sklo nebo kryt. Vysoká kvalita provedení, přesné výřezy i barvy. Výborná alternativa k originálu.",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "iPhone 15 Pro"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Modelová série",
+        "value": "iPhone 15 Series"
+      },
+      {
+        "name": "Velikost",
+        "value": "Pro"
+      },
+      {
+        "name": "Typ",
+        "value": "Zadní kryty"
+      }
+    ],
+    "flags": ["PREMIUM"],
+    "warranty": "doživotní",
+    "rating": {
+      "value": 4.6,
+      "count": 5.0
+    },
+    "variants": [
+      {
+        "id": "4687",
+        "name": "Barva: Bílá",
+        "sku": "102629/BIL",
+        "price": 403.75,
+        "gross": 488.54,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "4690",
+        "name": "Barva: Modrá",
+        "sku": "102630/MOD",
+        "price": 403.75,
+        "gross": 488.54,
+        "stock": null,
+        "availability": "Na dotaz",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "4693",
+        "name": "Barva: Černá",
+        "sku": "102628/CER",
+        "price": 403.75,
+        "gross": 488.54,
+        "stock": 3,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "4696",
+        "name": "Barva: Přírodní titan",
+        "sku": "102631/PRI",
+        "price": 403.75,
+        "gross": 488.54,
+        "stock": 18,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9270",
+    "name": "Rámeček na displej pro iPhone 17 Pro",
+    "source": "https://www.refurb.zone/ramecek-na-displej-pro-iphone-17-pro/",
+    "group": "refurb-apple",
+    "kind": "refurb-apple",
+    "category_path": ["Refurbish materiál", "Apple", "iPhone", "iPhone 17 Series"],
+    "price": 60.92,
+    "gross": 73.71,
+    "images": ["/assets/products/bf49923987406b5b.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["121,92 Kč –50 %"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12888",
+        "name": null,
+        "sku": "9270",
+        "price": 60.92,
+        "gross": 73.71,
+        "stock": 12.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "4419",
+    "name": "Přední sklo + OCA pro iPhone 16 Pro",
+    "source": "https://www.refurb.zone/predni-sklo-oca-pro-iphone-16-pro/",
+    "group": "refurb-apple",
+    "kind": "refurb-apple",
+    "category_path": ["Refurbish materiál", "Apple", "iPhone", "iPhone 16 Series"],
+    "price": 66.29,
+    "gross": 80.21,
+    "images": ["/assets/products/6666f6e65b437f00.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["117,66 Kč –43 %"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "6933",
+        "name": null,
+        "sku": "611164",
+        "price": 66.29,
+        "gross": 80.21,
+        "stock": 6.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "4599",
+    "name": "Mřížka sluchátka pro iPhone 13/13 Mini/13 Pro/13 Pro Max",
+    "source": "https://www.refurb.zone/mrizka-sluchatka-pro-iphone-13-13-mini-13-pro-13-pro-max/",
+    "group": "refurb-apple",
+    "kind": "refurb-apple",
+    "category_path": ["Refurbish materiál", "Apple", "iPhone", "iPhone 13 Series"],
+    "price": 33.01,
+    "gross": 39.94,
+    "images": ["/assets/products/ca8735be07efbce9.png"],
+    "short": "Vhodné pro modely: iPhone 13: A2482, A2631, A2633, A2634, A2635 iPhone 13 Mini: A2481, A2626, A2628, A2629, A2630 iPhone 13 Pro: A2483, A2636, A2638, A2639, A2640 iPhone 13 Pro Max: A2484, A2641, A2643, A2644, A2645",
+    "description": "Popis produktu není dostupný",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "iPhone 13 Series"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Modelová série",
+        "value": "iPhone 13 Series"
+      },
+      {
+        "name": "Velikost",
+        "value": "Pro Max"
+      },
+      {
+        "name": "Typ",
+        "value": "Ostatní"
+      }
+    ],
+    "flags": [],
+    "warranty": "doživotní",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "7113",
+        "name": null,
+        "sku": "153719",
+        "price": 33.01,
+        "gross": 39.94,
+        "stock": 33.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9258",
+    "name": "Přední sklo + OCA pro iPhone 17 Pro",
+    "source": "https://www.refurb.zone/predni-sklo-oca-pro-iphone-17-pro/",
+    "group": "refurb-apple",
+    "kind": "refurb-apple",
+    "category_path": ["Refurbish materiál", "Apple", "iPhone", "iPhone 17 Series"],
+    "price": 66.29,
+    "gross": 80.21,
+    "images": ["/assets/products/c4f05b2ecaa126a5.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["117,66 Kč –43 %"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12876",
+        "name": null,
+        "sku": "9258",
+        "price": 66.29,
+        "gross": 80.21,
+        "stock": 24.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9273",
+    "name": "Rámeček na displej pro iPhone 17 Pro Max",
+    "source": "https://www.refurb.zone/ramecek-na-displej-pro-iphone-17-pro-max/",
+    "group": "refurb-apple",
+    "kind": "refurb-apple",
+    "category_path": ["Refurbish materiál", "Apple", "iPhone", "iPhone 17 Series"],
+    "price": 60.92,
+    "gross": 73.71,
+    "images": ["/assets/products/bf49923987406b5b.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["121,92 Kč –50 %"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12891",
+        "name": null,
+        "sku": "9273",
+        "price": 60.92,
+        "gross": 73.71,
+        "stock": 8.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "4959",
+    "name": "Přední sklo + OCA pro Lenovo Tab M11",
+    "source": "https://www.refurb.zone/predni-sklo-oca-pro-lenovo-tab-m11/",
+    "group": "refurb-android",
+    "kind": "refurb-android",
+    "category_path": ["Refurbish materiál", "Android"],
+    "price": 287.06,
+    "gross": 347.34,
+    "images": ["/assets/products/6a5f80a19689f98b.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "7566",
+        "name": null,
+        "sku": "4959",
+        "price": 287.06,
+        "gross": 347.34,
+        "stock": 1.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "4944",
+    "name": "Přední sklo + OCA pro Samsung Galaxy Tab S9 FE (X510, X516)",
+    "source": "https://www.refurb.zone/predni-sklo-oca-pro-samsung-galaxy-tab-s9-fe--x510--x516/",
+    "group": "refurb-android",
+    "kind": "refurb-android",
+    "category_path": ["Refurbish materiál", "Android"],
+    "price": 187.06,
+    "gross": 226.34,
+    "images": ["/assets/products/367135ca30329e28.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "7551",
+        "name": null,
+        "sku": "4944",
+        "price": 187.06,
+        "gross": 226.34,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "8802",
+    "name": "Nástroj pro odstranění lepidla pod baterií pro iPhone - QianLi IP66",
+    "source": "https://www.refurb.zone/qianli-ip66-nastroj-pro-odstraneni-lepidla-pod-baterii-pro-iphone/",
+    "group": "programatory",
+    "kind": "programatory",
+    "category_path": ["Příslušenství"],
+    "price": 203.7,
+    "gross": 246.48,
+    "images": ["/assets/products/a134c636d9966ef7.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "11673",
+        "name": null,
+        "sku": "8802",
+        "price": 203.7,
+        "gross": 246.48,
+        "stock": 1.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10220",
+    "name": "Prodlužovací flex pro Watch 7/8/9 gen. 41mm pro aktivátor baterií",
+    "source": "https://www.refurb.zone/prodluzovaci-flex-pro-watch-7-8-9-gen--41mm-pro-aktivator-baterii/",
+    "group": "programatory",
+    "kind": "programatory",
+    "category_path": ["Příslušenství"],
+    "price": 199.0,
+    "gross": 240.79,
+    "images": ["/assets/products/53a4b4a98661a378.png"],
+    "short": "Prodlužovací flex kabel pro aktivátor baterií pro Watch 7/8/9 gen. 41mm",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14468",
+        "name": null,
+        "sku": "10220/41",
+        "price": 199.0,
+        "gross": 240.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10205",
+    "name": "Qianli iBridge A3 – Profesionální tester",
+    "source": "https://www.refurb.zone/qianli-ibridge-a3---profesionalni-tester/",
+    "group": "programatory",
+    "kind": "programatory",
+    "category_path": ["Příslušenství"],
+    "price": 711.71,
+    "gross": 861.17,
+    "images": [
+      "/assets/products/c7bafeaf1b6aaf0b.png",
+      "/assets/products/c01acab36ad866dc.png",
+      "/assets/products/f17a38b7ff9a44c9.png",
+      "/assets/products/a4da58f49995cb18.png",
+      "/assets/products/40497272bd756d26.png"
+    ],
+    "short": "",
+    "description": "Qianli iBridge A3 je kompaktní diagnostický přístroj určený pro servisní techniky a opraváře mobilních telefonů. Umožňuje rychlou kontrolu a analýzu nabíjecích konektorů zařízení s rozhraním Lightning i USB-C bez nutnosti složitého měření nebo demontáže zařízení. Díky přehlednému displeji a automatické diagnostice pomáhá rychle identifikovat závady nabíjecího portu, datových linek i souvisejících obvodů na základní desce. Výrazně tak zkracuje čas potřebný k diagnostice a opravě. Hlavní vlastnosti Podpora konektorů Lightning a USB-C Měření nabíjecího napětí a proudu Analýza datových a komunikačních linek Rychlá diagnostika vadných nabíjecích portů Přehledný integrovaný displej Vestavěná dobíjecí baterie Kompaktní a přenosné provedení Vhodné pro servis iPhonů, iPadů a Android zařízení Využití Diagnostika problémů s nabíjením Kontrola funkčnosti Lightning a USB-C konektorů Vyhledávání zkratů a závad v nabíjecím obvodu Ověření komunikace datových linek Servisní testování po opravě zařízení Technické parametry Model: Qianli iBridge A3 Typ zařízení: Diagnostický tester nabíjecích konektorů Podporované rozhraní: Lightning, USB-C Napájení: Vestavěná dobíjecí baterie Displej: Integrovaný LCD displej",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14453",
+        "name": null,
+        "sku": "10205",
+        "price": 711.71,
+        "gross": 861.17,
+        "stock": 2.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9126",
+    "name": "DL F210 - Destička pro programátor",
+    "source": "https://www.refurb.zone/dl-f210-desticka-pro-programator/",
+    "group": "programatory",
+    "kind": "programatory",
+    "category_path": ["Příslušenství", "Programátory"],
+    "price": 336.0,
+    "gross": 406.56,
+    "images": [
+      "/assets/products/1048b8a618f0b81b.png",
+      "/assets/products/ef6ab40cc77c69ae.png",
+      "/assets/products/717a5c99c0fa3983.png",
+      "/assets/products/d9efa55f5ac2be2f.png",
+      "/assets/products/5b8645a9f467df79.png",
+      "/assets/products/0fd6979ac6b1d032.png",
+      "/assets/products/fceacab67da97ca2.png",
+      "/assets/products/7ea39292e9a537d1.png",
+      "/assets/products/60ab649832aa40b4.png"
+    ],
+    "short": "A - TrueTone pro iPhone 13 Pro, 13 Pro Max, 14 Pro, 14 Pro Max, 15 Pro, 15 Pro MaxB - TrueTone pro iPhone 14, 14 Plus, 15, 15 PlusC - TrueTone pro iPhone 16 Pro, 16 Pro Max, 17 Pro, 17 Pro MaxD - TrueTone pro iPhone 16, 16 PlusE - TrueTone pro iPhone 7, 8, X, XS, XS Max, 11, 11 Pro, 11 Pro MaxF - TrueTone pro iPhone 12, 12 Pro, 12 Pro Max, 12 Mini, 13, 13 MiniH - TrueTone pro iPhone 17, Air",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12609",
+        "name": "Písmena: A",
+        "sku": "9126/A",
+        "price": 909.3,
+        "gross": 1100.25,
+        "stock": 2,
+        "availability": "Skladem",
+        "image": "/assets/products/ef6ab40cc77c69ae.png",
+        "disabled": false
+      },
+      {
+        "id": "12612",
+        "name": "Písmena: B",
+        "sku": "9126/B",
+        "price": 336.0,
+        "gross": 406.56,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12615",
+        "name": "Písmena: C",
+        "sku": "9126/C",
+        "price": 852.6,
+        "gross": 1031.65,
+        "stock": 1,
+        "availability": "Skladem",
+        "image": "/assets/products/d9efa55f5ac2be2f.png",
+        "disabled": false
+      },
+      {
+        "id": "12618",
+        "name": "Písmena: D",
+        "sku": "9126/D",
+        "price": 378.0,
+        "gross": 457.38,
+        "stock": 1,
+        "availability": "Skladem",
+        "image": "/assets/products/5b8645a9f467df79.png",
+        "disabled": false
+      },
+      {
+        "id": "12621",
+        "name": "Písmena: E",
+        "sku": "9126/E",
+        "price": 336.0,
+        "gross": 406.56,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": "/assets/products/0fd6979ac6b1d032.png",
+        "disabled": true
+      },
+      {
+        "id": "12624",
+        "name": "Písmena: F",
+        "sku": "9126/F",
+        "price": 336.0,
+        "gross": 406.56,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": "/assets/products/fceacab67da97ca2.png",
+        "disabled": true
+      },
+      {
+        "id": "14826",
+        "name": "Písmena: H",
+        "sku": "9126/H",
+        "price": 909.3,
+        "gross": 1100.25,
+        "stock": 1,
+        "availability": "Skladem",
+        "image": "/assets/products/7ea39292e9a537d1.png",
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9123",
+    "name": "DL F210 - Programátor displejů pro iPhone",
+    "source": "https://www.refurb.zone/dl-f210-programator-pro-iphone/",
+    "group": "programatory",
+    "kind": "programatory",
+    "category_path": ["Příslušenství", "Programátory"],
+    "price": 1608.6,
+    "gross": 1946.41,
+    "images": ["/assets/products/397f68523b4d3900.png"],
+    "short": "DL F210 – univerzální programátorProfesionální programátor určený pro opravy a servis mobilních zařízení. Podporuje čtení, zápis i mazání paměťových čipů typu EEPROM, eMMC a NAND. Díky přehlednému rozhraní a vysoké rychlosti práce šetří čas při diagnostice i obnově dat. Kompatibilní s širokou škálou značek a modelů, ideální pro servisní techniky i pokročilé uživatele.",
+    "description": "Součástí balení: 1x Programátor F2101x Manuál1x USB C kabel1x Destička TrueTone pro iPhone 7, 8, X, XS, XS Max, 11, 11 Pro, 11 Pro Max1x Destička TrueTone pro iPhone 12, 12 Pro, 12 Pro Max, 12 Mini, 13, 13 Mini",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12603",
+        "name": null,
+        "sku": "9123",
+        "price": 1608.6,
+        "gross": 1946.41,
+        "stock": 1.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "6114",
+    "name": "Nabíjecí kabel Magsafe 3 pro MacBook",
+    "source": "https://www.refurb.zone/nabijeci-kabel-magsafe-3-pro-macbook/",
+    "group": "adaptery-a-kabely",
+    "kind": "adaptery-a-kabely",
+    "category_path": ["Náhradní díly"],
+    "price": 482.94,
+    "gross": 584.36,
+    "images": [
+      "/assets/products/ffc0ae785fd34d8f.png",
+      "/assets/products/85f5857957d75c5e.png",
+      "/assets/products/3f99659b8898b7c4.png",
+      "/assets/products/981a53697b689992.png",
+      "/assets/products/6dbea0d05ea1b70a.png",
+      "/assets/products/e0e3339259ba7b33.png"
+    ],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "Náhradní díly"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "MacBook"
+      },
+      {
+        "name": "Velikost",
+        "value": "13\""
+      },
+      {
+        "name": "Typ",
+        "value": "Příslušenství"
+      }
+    ],
+    "flags": ["PREMIUM", "499 Kč –3 %"],
+    "warranty": "doživotní",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12957",
+        "name": "Macbook: Space Gray",
+        "sku": "6114/SG",
+        "price": 482.94,
+        "gross": 584.36,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12960",
+        "name": "Macbook: Silver",
+        "sku": "6114/SIL",
+        "price": 482.94,
+        "gross": 584.36,
+        "stock": 2,
+        "availability": "Skladem",
+        "image": "/assets/products/e0e3339259ba7b33.png",
+        "disabled": false
+      },
+      {
+        "id": "12963",
+        "name": "Macbook: Starlight",
+        "sku": "6114/STAR",
+        "price": 482.94,
+        "gross": 584.36,
+        "stock": 3,
+        "availability": "Skladem",
+        "image": "/assets/products/3f99659b8898b7c4.png",
+        "disabled": false
+      },
+      {
+        "id": "12966",
+        "name": "Macbook: Midnight",
+        "sku": "6114/MID",
+        "price": 482.94,
+        "gross": 584.36,
+        "stock": 8,
+        "availability": "Skladem",
+        "image": "/assets/products/85f5857957d75c5e.png",
+        "disabled": false
+      },
+      {
+        "id": "12969",
+        "name": "Macbook: Space Black",
+        "sku": "6114/SB",
+        "price": 482.94,
+        "gross": 584.36,
+        "stock": 2,
+        "availability": "Skladem",
+        "image": "/assets/products/6dbea0d05ea1b70a.png",
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9981",
+    "name": "Nabíjecí kabel Magsafe 2 pro MacBook",
+    "source": "https://www.refurb.zone/nabijeci-kabel-magsafe-2-pro-macbook/",
+    "group": "adaptery-a-kabely",
+    "kind": "adaptery-a-kabely",
+    "category_path": ["Příslušenství"],
+    "price": 212.0,
+    "gross": 256.52,
+    "images": ["/assets/products/983aeb299423b857.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "Příslušenství"
+      },
+      {
+        "name": "Záruka",
+        "value": "doživotní"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "MacBook"
+      },
+      {
+        "name": "Velikost",
+        "value": "13\""
+      },
+      {
+        "name": "Typ",
+        "value": "Příslušenství"
+      }
+    ],
+    "flags": ["499 Kč –57 %"],
+    "warranty": "doživotní",
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14100",
+        "name": null,
+        "sku": "9981",
+        "price": 212.0,
+        "gross": 256.52,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10002",
+    "name": "Originální nabíječka (adaptér) - 87W",
+    "source": "https://www.refurb.zone/nabijecka-adapter-87w/",
+    "group": "adaptery-a-kabely",
+    "kind": "adaptery-a-kabely",
+    "category_path": ["Příslušenství", "Adaptéry a kabely"],
+    "price": 1117.2,
+    "gross": 1351.81,
+    "images": ["/assets/products/3904d0c5128f16df.png"],
+    "short": "Originální nabíjecí adaptér v dobrém vizuálním stavu - Plně funkční.Může vykazovat známky použití (stav A/B).",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["Novinka", "ORIGINAL"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14124",
+        "name": null,
+        "sku": "9997",
+        "price": 1117.2,
+        "gross": 1351.81,
+        "stock": 1.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10214",
+    "name": "Nabíjecí stanice Mechanic G-Power 160W",
+    "source": "https://www.refurb.zone/nabijeci-stanice-mechanic-g-power-160w/",
+    "group": "adaptery-a-kabely",
+    "kind": "adaptery-a-kabely",
+    "category_path": ["Příslušenství"],
+    "price": 1759.87,
+    "gross": 2129.44,
+    "images": [
+      "/assets/products/6ef3dfcee8c4af2b.png",
+      "/assets/products/ab2a1fac0c65354b.png",
+      "/assets/products/92ff4b6c48854c64.png",
+      "/assets/products/9697edc4e6843207.png",
+      "/assets/products/430f0ef1207e3445.png"
+    ],
+    "short": "",
+    "description": "Mechanic G-Power 160W je výkonná stolní nabíjecí stanice navržená pro servisní techniky, profesionální pracoviště i náročné uživatele. Díky celkovému výkonu až 160 W umožňuje současné nabíjení více zařízení najednou, včetně mobilních telefonů, tabletů, notebooků, servisních nástrojů a další elektroniky. Stanice využívá moderní GaN technologii (Gallium Nitride), která zajišťuje vysokou účinnost, nižší zahřívání a kompaktní rozměry. Součástí je také přehledný barevný displej zobrazující aktuální nabíjecí výkon, napětí a proud jednotlivých portů v reálném čase. Hlavní vlastnosti Celkový výkon až 160 W Moderní GaN technologie s vysokou účinností 8 nabíjecích portů (4× USB-C + 4× USB-A) Podpora rychlonabíjecích protokolů PD 3.1 a QC Bezdrátové nabíjení až 15 W Inteligentní TFT displej s monitoringem nabíjení Zobrazení napětí, proudu a výkonu v reálném čase Současné nabíjení více zařízení Kompaktní stolní provedení vhodné do servisu i kanceláře Technické parametry Model: Mechanic G-Power Typ zařízení: Stolní nabíjecí stanice Celkový výkon: 160 W Porty: 4× USB-C 4× USB-A Bezdrátové nabíjení: až 15 W Podporované protokoly: PD 3.1, QC Fast Charge Displej: Barevný TFT displej Rozměry: 110 × 110 × 110 mm Hmotnost: cca 600 g Obsah balení 1× Mechanic G-Power 160W 1× Napájecí kabel",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14462",
+        "name": null,
+        "sku": "10214",
+        "price": 1759.87,
+        "gross": 2129.44,
+        "stock": 2.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10008",
+    "name": "Originální nabíječka (adaptér) - 30W",
+    "source": "https://www.refurb.zone/nabijecka-adapter-30w/",
+    "group": "adaptery-a-kabely",
+    "kind": "adaptery-a-kabely",
+    "category_path": ["Příslušenství", "Adaptéry a kabely"],
+    "price": 680.69,
+    "gross": 823.63,
+    "images": ["/assets/products/41e3561f740ecd96.png"],
+    "short": "Originální nabíjecí adaptér v dobrém vizuálním stavu - Plně funkční.Může vykazovat známky použití (stav A/B).",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["Novinka", "ORIGINAL"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14130",
+        "name": null,
+        "sku": "9999",
+        "price": 680.69,
+        "gross": 823.63,
+        "stock": 5.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9294",
+    "name": "Lepidlo na rámeček displeje",
+    "source": "https://www.refurb.zone/lepidlo-na-ramecek-displeje/",
+    "group": "lepeni",
+    "kind": "lepeni",
+    "category_path": ["Příslušenství"],
+    "price": 321.0,
+    "gross": 388.41,
+    "images": ["/assets/products/bf49923987406b5b.png"],
+    "short": "Speciální lepidlo pro lepení rámečku k displeji. Určeno pro refurbish servis, podlepení zadních skel, apod.",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12945",
+        "name": null,
+        "sku": "ACCS8773",
+        "price": 321.0,
+        "gross": 388.41,
+        "stock": 2.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "8664",
+    "name": "Primer 94 AMAOE (3M)",
+    "source": "https://www.refurb.zone/primer-94-amaoe--3m/",
+    "group": "lepeni",
+    "kind": "lepeni",
+    "category_path": ["Příslušenství", "Lepení"],
+    "price": 107.0,
+    "gross": 129.47,
+    "images": ["/assets/products/d85ab28a396f487e.png"],
+    "short": "",
+    "description": "Speciální nátěr pro zvýšení lepivosti materiálů s nízkou povrchovou energií ( LSE) , jako je polypropylen, polyethylen či práškové barvy. Nejčastěji se používá při celoplošných polepech folií na obtížně lepitelné plastové díly. Dále se používá na materiály s komaxitovou barvou a jinými nízkoenergetickými nátěry.",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "11400",
+        "name": null,
+        "sku": "8664",
+        "price": 107.0,
+        "gross": 129.47,
+        "stock": 8.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "8652",
+    "name": "DST oboustranná lepící páska AMAOE 2mm",
+    "source": "https://www.refurb.zone/dst-oboustranna-lepici-paska-amaoe/",
+    "group": "lepeni",
+    "kind": "lepeni",
+    "category_path": ["Příslušenství", "Lepení"],
+    "price": 80.46,
+    "gross": 97.36,
+    "images": ["/assets/products/90496e73afbd21ea.png"],
+    "short": "",
+    "description": "Oboustranná lepící páska DST Amaoe Profesionální oboustranná lepící páska značky Amaoe, určená pro přesné a pevné spojování dílů při opravách mobilních telefonů, tabletů a další elektroniky. Výborně drží na skle, plastu i kovu a díky své kvalitě je vhodná i pro náročnější aplikace. Vlastnosti: Tepelná odolnost až 120 °C Silná přilnavost a dlouhá životnost Jednoduché použití bez zanechání zbytků lepidla Ideální pro LCD, dotykové panely, rámečky a další komponenty Doporučení:Pro maximální přilnavost doporučujeme před aplikací použít 3M Primer 94, který výrazně zvyšuje spojení s podkladem – zejména na skleněných a plastových částech.",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "11388",
+        "name": null,
+        "sku": "8652",
+        "price": 80.46,
+        "gross": 97.36,
+        "stock": 4.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "3771",
+    "name": "Aplikační tryska pro epoxidovou pryskyřici",
+    "source": "https://www.refurb.zone/aplikacni-tryska-pro-epoxidovou-pryskyrici/",
+    "group": "lepeni",
+    "kind": "lepeni",
+    "category_path": ["Příslušenství"],
+    "price": 39.0,
+    "gross": 47.19,
+    "images": ["/assets/products/9951565e66edd7c2.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "6171",
+        "name": null,
+        "sku": "ACCS0450",
+        "price": 39.0,
+        "gross": 47.19,
+        "stock": 14.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "3732",
+    "name": "Lepidlo Lanrui - Speciální pod zadní sklo - Průhledné 55ml",
+    "source": "https://www.refurb.zone/specialni-lepidlo-pod-zadni-sklo/",
+    "group": "lepeni",
+    "kind": "lepeni",
+    "category_path": ["Příslušenství"],
+    "price": 149.0,
+    "gross": 180.29,
+    "images": ["/assets/products/025bbe8f7d2481d6.png"],
+    "short": "Lepidlo vhodné k lepení zadních skel k rámu telefonu. Lepidlo neobsahuje rozpuštědla. Viskozita: StředníBarva: Průhledná",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "6114",
+        "name": null,
+        "sku": "LEP/LANRUI/55/CL",
+        "price": 149.0,
+        "gross": 180.29,
+        "stock": 9.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9081",
+    "name": "KOBU PROTECT 3D ochranné sklo pro iPhone",
+    "source": "https://www.refurb.zone/kobu-protect-3d-ochranne-sklo-pro-iphone/",
+    "group": "ochranna-skla",
+    "kind": "ochranna-skla",
+    "category_path": ["Příslušenství"],
+    "price": 399.0,
+    "gross": 482.79,
+    "images": ["/assets/products/b0db4ed752e28f75.png"],
+    "short": "",
+    "description": "Kompletní Pokrytí: Na rozdíl od standardních plochých ochranných skel, 3D ochranné sklo kopíruje zakřivení displeje telefonu, což zajišťuje plné pokrytí od okraje k okraji, včetně zakřivených částí. To poskytuje lepší ochranu proti nárazům a pádům. Vysoká Odolnost: Vyrobeno z tvrzeného skla s tvrdostí 9H, což znamená, že je velmi odolné vůči poškrábání a dalším mechanickým poškozením. Je schopné odolat i ostrým předmětům jako jsou klíče nebo nože. Olejofobní Vrstva: Povrch skla je ošetřen oleofobní vrstvou, která odpuzuje mastnotu a otisky prstů, což zajišťuje snadnější údržbu a čistý vzhled displeje. Vrstva Proti Roztříštění: Pokud dojde k extrémnímu nárazu a sklo se rozbije, vrstva proti roztříštění zajistí, že sklo zůstane pohromadě a nevytvoří ostré střepy, které by mohly poškodit displej nebo zranit uživatele. Snadná Aplikace: Mnoho 3D ochranných skel je navrženo tak, aby byla aplikace jednoduchá a bez bublin. Obsahují adhezivní vrstvu, která umožňuje snadné přichycení k displeji.",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "Příslušenství"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Typ",
+        "value": "Ochranné skla"
+      }
+    ],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": 4.5,
+      "count": 2.0
+    },
+    "variants": [
+      {
+        "id": "12372",
+        "name": "Modely: 13 mini",
+        "sku": "KOBU/3D/13M",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12375",
+        "name": "Modely: 13 Pro Max/14 Plus",
+        "sku": "KOBU/3D/13PM/14PL",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 5,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12378",
+        "name": "Modely: 15 Plus",
+        "sku": "KOBU/3D/15PL",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 14,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12381",
+        "name": "Modely: 15 Pro",
+        "sku": "KOBU/3D/15PRO",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 14,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12384",
+        "name": "Modely: 15 Pro Max",
+        "sku": "KOBU/3D/15PM",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "12387",
+        "name": "Modely: 15/16",
+        "sku": "KOBU/3D/15/16",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 10,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12390",
+        "name": "Modely: 13/13 Pro/14/16E",
+        "sku": "KOBU/3D/13/13PRO/14/16E",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 20,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12393",
+        "name": "Modely: 16 Plus",
+        "sku": "KOBU/3D/16PL",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 9,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12399",
+        "name": "Modely: 16 Pro Max",
+        "sku": "KOBU/3D/16PM",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "12411",
+        "name": "Modely: Air",
+        "sku": "KOBU/3D/AIR",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 16,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12414",
+        "name": "Modely: 14 Pro Max",
+        "sku": "KOBU/3D/14PM",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 15,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12420",
+        "name": "Modely: 14 Pro",
+        "sku": "KOBU/3D/14PRO",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 15,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "14832",
+        "name": "Modely: 18",
+        "sku": "9081/18",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "14835",
+        "name": "Modely: Ultra",
+        "sku": "9081/ULT",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "12408",
+        "name": "Modely: 17 Pro Max/18 Pro Max",
+        "sku": "KOBU/3D/17PM/18PM",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 36,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12405",
+        "name": "Modely: 17 Pro/18 Pro",
+        "sku": "KOBU/3D/17PRO/18PRO",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 79,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12396",
+        "name": "Modely: 16 Pro/17",
+        "sku": "KOBU/3D/16PRO/17",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9078",
+    "name": "KOBU PROTECT 2,5D ochranné sklo pro iPhone",
+    "source": "https://www.refurb.zone/kobu-protect-2-5d-ochranne-sklo-pro-iphone/",
+    "group": "ochranna-skla",
+    "kind": "ochranna-skla",
+    "category_path": ["Příslušenství"],
+    "price": 299.0,
+    "gross": 361.79,
+    "images": ["/assets/products/eaafcf603e479443.png"],
+    "short": "",
+    "description": "Rozšířené Pokrytí: Na rozdíl od zcela plochých skel, 2,5D ochranné sklo se přizpůsobuje mírnému zaoblení okrajů displeje. Díky tomu pokrývá větší plochu obrazovky a poskytuje lepší ochranu než standardní plochá skla, i když nepokrývá celé 3D zakřivení. Vysoká Odolnost: Sklo je vyrobeno z tvrzeného materiálu s tvrdostí 9H, což znamená, že účinně odolává poškrábání i drobným nárazům. Snadno zvládne kontakt s klíči, mincemi nebo jinými ostrými předměty. Olejofobní Vrstva: Speciální povrchová úprava odpuzuje mastnotu a otisky prstů. Displej tak zůstává déle čistý a snadno se udržuje. Vrstva Proti Roztříštění: Při silném nárazu se sklo nerozsype na nebezpečné ostré střepy, ale zůstane pohromadě, čímž chrání displej i uživatele. Snadná Aplikace: 2,5D ochranná skla jsou navržena pro jednoduchou instalaci bez bublin. Adhezivní vrstva zajišťuje pevné a rovnoměrné přilnutí k displeji.",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "Příslušenství"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Typ",
+        "value": "Ochranné skla"
+      }
+    ],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12291",
+        "name": "Modely: X/XS/11 Pro",
+        "sku": "KOBU/2-5/X/XS/11PRO",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12294",
+        "name": "Modely: XS Max/11 Pro Max",
+        "sku": "KOBU/2-5/XSM/11PM",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 9,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12297",
+        "name": "Modely: 12/12 Pro",
+        "sku": "KOBU/2-5/12/12PRO",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 27,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12300",
+        "name": "Modely: 12 mini",
+        "sku": "KOBU/2-5/12M",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 14,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12303",
+        "name": "Modely: 12 Pro Max",
+        "sku": "KOBU/2-5/12PM",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 8,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12309",
+        "name": "Modely: 13 mini",
+        "sku": "KOBU/2-5/13M",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 30,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12312",
+        "name": "Modely: 13 Pro Max/14 Plus",
+        "sku": "KOBU/2-5/13PM/14PL",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 13,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12318",
+        "name": "Modely: 15 Plus",
+        "sku": "KOBU/2-5/15PL",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 7,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12321",
+        "name": "Modely: 15 Pro",
+        "sku": "KOBU/2-5/15PRO",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 27,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12324",
+        "name": "Modely: 15 Pro Max",
+        "sku": "KOBU/2-5/15PM",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 16,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12330",
+        "name": "Modely: XR/11",
+        "sku": "KOBU/2-5/XR/11",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 24,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12336",
+        "name": "Modely: 15/16",
+        "sku": "KOBU/2-5/15/16",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 1,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12339",
+        "name": "Modely: 13/13 Pro/14/16E",
+        "sku": "KOBU/2-5/13/13PRO/14/16E",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 55,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12342",
+        "name": "Modely: 16 Plus",
+        "sku": "KOBU/2-5/16PL",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 3,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12348",
+        "name": "Modely: 16 Pro Max",
+        "sku": "KOBU/2-5/16PM",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 21,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12360",
+        "name": "Modely: Air",
+        "sku": "KOBU/2-5/AIR",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 11,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12363",
+        "name": "Modely: 7G/8G/SE2/SE3",
+        "sku": "KOBU/2-5/7/8/SE2/SE3",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 24,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12366",
+        "name": "Modely: 14 Pro Max",
+        "sku": "KOBU/2-5/14PM",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 16,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12417",
+        "name": "Modely: 14 Pro",
+        "sku": "KOBU/2-5/14PRO",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 30,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "14751",
+        "name": "Modely: 18",
+        "sku": "KOBU/2-5/18",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 20,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "14760",
+        "name": "Modely: Ultra",
+        "sku": "KOBU/2-5/ULTRA",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 15,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "14793",
+        "name": "Modely: 17 Pro Max/18 Pro Max",
+        "sku": "KOBU/2-5/17PM/18PM",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 27,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "14796",
+        "name": "Modely: 17 Pro/18 Pro",
+        "sku": "KOBU/2-5/17PRO/18PRO",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 43,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12345",
+        "name": "Modely: 16 Pro/17",
+        "sku": "KOBU/2-5/16PRO/17",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 42,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9084",
+    "name": "KOBU PROTECT 3D PRIVACY ochranné sklo pro iPhone",
+    "source": "https://www.refurb.zone/kobu-protect-3d-privacy-ochranne-sklo-pro-iphone/",
+    "group": "ochranna-skla",
+    "kind": "ochranna-skla",
+    "category_path": ["Příslušenství"],
+    "price": 499.0,
+    "gross": 603.79,
+    "images": ["/assets/products/3a279c50a12d17ca.png"],
+    "short": "",
+    "description": "Kompletní Pokrytí: Na rozdíl od standardních plochých ochranných skel, 3D ochranné sklo kopíruje zakřivení displeje telefonu, což zajišťuje plné pokrytí od okraje k okraji, včetně zakřivených částí. To poskytuje lepší ochranu proti nárazům a pádům. Vysoká Odolnost: Vyrobeno z tvrzeného skla s tvrdostí 9H, což znamená, že je velmi odolné vůči poškrábání a dalším mechanickým poškozením. Je schopné odolat i ostrým předmětům jako jsou klíče nebo nože. Olejofobní Vrstva: Povrch skla je ošetřen oleofobní vrstvou, která odpuzuje mastnotu a otisky prstů, což zajišťuje snadnější údržbu a čistý vzhled displeje. Vrstva Proti Roztříštění: Pokud dojde k extrémnímu nárazu a sklo se rozbije, vrstva proti roztříštění zajistí, že sklo zůstane pohromadě a nevytvoří ostré střepy, které by mohly poškodit displej nebo zranit uživatele. Snadná Aplikace: Mnoho 3D ochranných skel je navrženo tak, aby byla aplikace jednoduchá a bez bublin. Obsahují adhezivní vrstvu, která umožňuje snadné přichycení k displeji.",
+    "parameters": [
+      {
+        "name": "Kategorie",
+        "value": "Příslušenství"
+      },
+      {
+        "name": "Značka",
+        "value": "Apple"
+      },
+      {
+        "name": "Produkt",
+        "value": "iPhone"
+      },
+      {
+        "name": "Typ",
+        "value": "Ochranné skla"
+      }
+    ],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12429",
+        "name": "Modely: 15 Plus",
+        "sku": "KOBU/3D/PRIV/15PL",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12432",
+        "name": "Modely: 15 Pro",
+        "sku": "KOBU/3D/PRIV/15PRO",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 3,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12435",
+        "name": "Modely: 15 Pro Max",
+        "sku": "KOBU/3D/PRIV/15PM",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 10,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12438",
+        "name": "Modely: 15/16",
+        "sku": "KOBU/3D/PRIV/15/16",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 19,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12441",
+        "name": "Modely: 13/13 Pro/14/16E",
+        "sku": "KOBU/3D/PRIV/13/13PRO/14/16E",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 5,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12444",
+        "name": "Modely: 16 Plus",
+        "sku": "KOBU/3D/PRIV/16PL",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 20,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12450",
+        "name": "Modely: 16 Pro Max",
+        "sku": "KOBU/3D/PRIV/16PM",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 13,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12456",
+        "name": "Modely: 17 Pro",
+        "sku": "KOBU/3D/PRIV/17PRO",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 20,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "12459",
+        "name": "Modely: 17 Pro Max",
+        "sku": "KOBU/3D/PRIV/17PM",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "12462",
+        "name": "Modely: Air",
+        "sku": "KOBU/3D/PRIV/AIR",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 15,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "14838",
+        "name": "Modely: 18",
+        "sku": "KOBU/3D/PRIV/18",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "14847",
+        "name": "Modely: 18 Pro",
+        "sku": "KOBU/3D/PRIV/18PRO",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "14850",
+        "name": "Modely: 18 Pro Max",
+        "sku": "KOBU/3D/PRIV/18PM",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "14841",
+        "name": "Modely: Ultra",
+        "sku": "KOBU/3D/PRIV/ULTRA",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": true
+      },
+      {
+        "id": "12447",
+        "name": "Modely: 16 Pro/17",
+        "sku": "KOBU/3D/PRIV/16PRO/17",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 15,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9624",
+    "name": "KOBU PROTECT 3D ochranné sklo kamer pro iPhone 17 Pro Max",
+    "source": "https://www.refurb.zone/kobu-protect-3d-ochranne-sklo-kamer-pro-iphone-17-pro-max-2/",
+    "group": "ochranna-skla",
+    "kind": "ochranna-skla",
+    "category_path": ["Příslušenství", "Ochranná skla"],
+    "price": 299.0,
+    "gross": 361.79,
+    "images": ["/assets/products/d33349dfd9c4c2e6.png"],
+    "short": "Jedná se o jednolité ochranné 3D sklo.",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "13452",
+        "name": "Barva: Bílá",
+        "sku": "KOBU/CAM/3D/17PM/BIL",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "13455",
+        "name": "Barva: Modrá",
+        "sku": "KOBU/CAM/3D/17PM/MOD",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 6,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "13458",
+        "name": "Barva: Oranžová",
+        "sku": "KOBU/CAM/3D/17PM/ORA",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 17,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9381",
+    "name": "KOBU PROTECT 3D ochranné sklo kamer pro iPhone 17 Pro",
+    "source": "https://www.refurb.zone/kobu-protect-3d-ochranne-sklo-kamer-pro-iphone-17-pro/",
+    "group": "ochranna-skla",
+    "kind": "ochranna-skla",
+    "category_path": ["Příslušenství", "Ochranná skla"],
+    "price": 299.0,
+    "gross": 361.79,
+    "images": ["/assets/products/48e68efa396b3a43.png"],
+    "short": "Jedná se o jednolité ochranné 3D sklo.",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "13149",
+        "name": "Barva: Bílá",
+        "sku": "KOBU/CAM/3D/17PRO/BIL",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "13152",
+        "name": "Barva: Modrá",
+        "sku": "KOBU/CAM/3D/17PRO/MOD",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 1,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "13158",
+        "name": "Barva: Oranžová",
+        "sku": "KOBU/CAM/3D/17PRO/ORA",
+        "price": 299.0,
+        "gross": 361.79,
+        "stock": 15,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9360",
+    "name": "2UUL - Šroubovák pro iPhone",
+    "source": "https://www.refurb.zone/2uul-sroubovak-pro-iphone/",
+    "group": "naradi",
+    "kind": "naradi",
+    "category_path": ["Příslušenství", "Nářadí"],
+    "price": 172.2,
+    "gross": 208.36,
+    "images": [
+      "/assets/products/acb5a31380f3cfce.png",
+      "/assets/products/f99420d2ea07eced.png",
+      "/assets/products/5d48de40269ac067.png",
+      "/assets/products/216730ba6dcf206a.png",
+      "/assets/products/7e157986a7662591.png",
+      "/assets/products/f6225f8f2c50e399.png"
+    ],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["Novinka"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "13086",
+        "name": "Šroubováky: Pentalobe (0,8mm)",
+        "sku": "9360/PENT",
+        "price": 172.2,
+        "gross": 208.36,
+        "stock": null,
+        "availability": null,
+        "image": null,
+        "disabled": false
+      },
+      {
+        "id": "13089",
+        "name": "Šroubováky: Philips (1,2/1,5mm)",
+        "sku": "9360/PHIL",
+        "price": 172.2,
+        "gross": 208.36,
+        "stock": 2,
+        "availability": "Skladem",
+        "image": "/assets/products/7e157986a7662591.png",
+        "disabled": false
+      },
+      {
+        "id": "13092",
+        "name": "Šroubováky: Tri-Point (0,6mm)",
+        "sku": "9360/TRI",
+        "price": 172.2,
+        "gross": 208.36,
+        "stock": 6,
+        "availability": "Skladem",
+        "image": "/assets/products/216730ba6dcf206a.png",
+        "disabled": false
+      },
+      {
+        "id": "13095",
+        "name": "Šroubováky: Convex Cross (2,5mm)",
+        "sku": "9360/CRO",
+        "price": 172.2,
+        "gross": 208.36,
+        "stock": 2,
+        "availability": "Skladem",
+        "image": "/assets/products/5d48de40269ac067.png",
+        "disabled": false
+      },
+      {
+        "id": "13098",
+        "name": "Šroubováky: Torx (T2)",
+        "sku": "9360/TT2",
+        "price": 172.2,
+        "gross": 208.36,
+        "stock": 4,
+        "availability": "Skladem",
+        "image": "/assets/products/f99420d2ea07eced.png",
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10130",
+    "name": "Mr.Yang - Ochranný magnetický kryt pro přední kameru iPhone X - 17 Pro Max",
+    "source": "https://www.refurb.zone/ochranny-magneticky-kryt-pro-predni-kameru-iphone-x-17-pro-max/",
+    "group": "naradi",
+    "kind": "naradi",
+    "category_path": ["Příslušenství"],
+    "price": 147.0,
+    "gross": 177.87,
+    "images": ["/assets/products/da620763146df95e.png"],
+    "short": "Pro modely iPhone X - iPhone 17 Pro Max",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14372",
+        "name": null,
+        "sku": "50273",
+        "price": 147.0,
+        "gross": 177.87,
+        "stock": 17.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9111",
+    "name": "Nástroj pro odvrtání strženého šroubku - Lanrui U8",
+    "source": "https://www.refurb.zone/nastroj-pro-odvrtani-strzeneho-sroubku-lanrui-u8/",
+    "group": "naradi",
+    "kind": "naradi",
+    "category_path": ["Příslušenství", "Nářadí"],
+    "price": 159.6,
+    "gross": 193.12,
+    "images": [
+      "/assets/products/36edfe5813456f9b.jpg",
+      "/assets/products/7eea06583269701b.jpg",
+      "/assets/products/27b7338ca36b3a1e.jpg"
+    ],
+    "short": "Nástroj pro odvrtání strženého šroubku.Vrták 1ks / Závit 1ks",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12585",
+        "name": null,
+        "sku": "9111",
+        "price": 159.6,
+        "gross": 193.12,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "3078",
+    "name": "Sunshine SS-001A - Multifunkční organizér (box) pro opravy",
+    "source": "https://www.refurb.zone/sunshine-ss-001a-multifunkcni-box/",
+    "group": "naradi",
+    "kind": "naradi",
+    "category_path": ["Příslušenství"],
+    "price": 149.0,
+    "gross": 180.29,
+    "images": ["/assets/products/1701acb15ae33334.jpg", "/assets/products/5c42c5759af30c69.jpg"],
+    "short": "",
+    "description": "Sunshine SS-001A je multifunkční úložná krabička určená především pro opravy mobilních telefonů. Je speciálně navržena pro organizaci a ochranu různých malých komponent, které se používají při údržbě mobilních telefonů, jako jsou LCD displeje, hlavní desky a IC části. Klíčové vlastnosti: Rozměry a materiál: Krabička má rozměry 18 x 9 x 4 cm a je vyrobena z kvalitního plastu, což zajišťuje její odolnost a dlouhou životnost. Poskytuje plnou ochranu proti prachu, nárazům, škrábancům a dalším každodenním poškozením. Design a přihrádky: Úložná krabička má dvouvrstvý design. Horní vrstva je dobře uspořádaná pro ukládání malých součástek, jako jsou IC a šrouby, což pomáhá zabránit ztrátě malých dílů. Ochrana: Krabička poskytuje kompletní ochranu proti prachu, nárazům, škrábancům a jinému každodennímu poškození. Sunshine SS-001A je praktickým nástrojem pro každého, kdo se zabývá opravami mobilních telefonů, díky své schopnosti efektivně organizovat a chránit důležité komponenty.",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "4953",
+        "name": null,
+        "sku": "ACCS0400",
+        "price": 149.0,
+        "gross": 180.29,
+        "stock": null,
+        "availability": "Na dotaz",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10217",
+    "name": "Nástroj pro nárovnání hliníkových rámů MY 2in1",
+    "source": "https://www.refurb.zone/nastroj-pro-narovnani-hlinikovych-ramu-my-2in1/",
+    "group": "naradi",
+    "kind": "naradi",
+    "category_path": ["Příslušenství"],
+    "price": 1013.65,
+    "gross": 1226.52,
+    "images": ["/assets/products/3bde39c9d0be831e.png"],
+    "short": "",
+    "description": "MY 2 in 1 Frame Calibration Tool je profesionální servisní přípravek určený pro opravu a vyrovnávání deformovaných rámů mobilních telefonů. Umožňuje přesné srovnání ohnutých hran i poškozených rohů zařízení po pádu nebo mechanickém namáhání, čímž usnadňuje následnou montáž displeje, zadního krytu a dalších komponent. Díky konstrukci 2 v 1 lze nástroj použít pro opravu různých částí rámu bez nutnosti používat více samostatných přípravků. Robustní kovové provedení zajišťuje vysokou stabilitu, dlouhou životnost a přesnou práci při opravách moderních smartphonů. Hlavní vlastnosti Profesionální přípravek pro rovnání rámů mobilních telefonů Konstrukce 2 v 1 pro opravu hran i rohů zařízení Přesné vyrovnání deformací po pádu nebo nárazu Usnadňuje montáž displejů a zadních krytů Robustní celokovová konstrukce Jednoduché a bezpečné použití Vhodné pro většinu moderních smartphonů Ideální pro profesionální servisní techniky",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14465",
+        "name": null,
+        "sku": "10217",
+        "price": 1013.65,
+        "gross": 1226.52,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9297",
+    "name": "AMTECH flux NC-559-ASM",
+    "source": "https://www.refurb.zone/amtech-flux-nc-559-asm/",
+    "group": "pajeni",
+    "kind": "pajeni",
+    "category_path": ["Příslušenství"],
+    "price": 128.4,
+    "gross": 155.36,
+    "images": ["/assets/products/876abffbd44797c2.png"],
+    "short": "Kvalitní pájecí pasta od renomované společnosti AMTECH",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["Novinka"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "12948",
+        "name": null,
+        "sku": "ACCS8774",
+        "price": 128.4,
+        "gross": 155.36,
+        "stock": null,
+        "availability": "Na dotaz",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "3010",
+    "name": "UV lampa USB",
+    "source": "https://www.refurb.zone/uv-lampa-usb/",
+    "group": "pajeni",
+    "kind": "pajeni",
+    "category_path": ["Příslušenství"],
+    "price": 399.0,
+    "gross": 482.79,
+    "images": ["/assets/products/91dbf5657c8e6755.png"],
+    "short": "Lampa pro vytvrzování UV lepidla",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "4750",
+        "name": null,
+        "sku": "ACCS0305",
+        "price": 399.0,
+        "gross": 482.79,
+        "stock": 1.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "3726",
+    "name": "Odsavač výparů s LED osvětlením",
+    "source": "https://www.refurb.zone/odsavac-vyparu-s-led-osvetlenim/",
+    "group": "pajeni",
+    "kind": "pajeni",
+    "category_path": ["Příslušenství"],
+    "price": 499.0,
+    "gross": 603.79,
+    "images": ["/assets/products/ba823da8caf4ae35.png", "/assets/products/2f59b90ddd7e6eec.jpg"],
+    "short": "Osdávač výparů a přisvětlení při pájení. 4 stupně otáčení ventilátoru 3 stupně intenzity osvětlení Napájení 5V 2A Rychlost otáčení 8000 ot/min",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "6108",
+        "name": null,
+        "sku": "ACCS0300",
+        "price": 499.0,
+        "gross": 603.79,
+        "stock": 2.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "3004",
+    "name": "2UUL odsavač pájecích zplodin",
+    "source": "https://www.refurb.zone/2uul-odsavac-koure-pri-pajeni/",
+    "group": "pajeni",
+    "kind": "pajeni",
+    "category_path": ["Příslušenství"],
+    "price": 2490.0,
+    "gross": 3012.9,
+    "images": [
+      "/assets/products/1ba30f0ce8c91336.png",
+      "/assets/products/a6b0c1d7ed48c6c5.png",
+      "/assets/products/08cce52835ae80d8.png",
+      "/assets/products/5b342ce694251d23.png"
+    ],
+    "short": "Kvalitní odsavač pájecích zplodin, které se čistí přes 5 vrstev HEPA filtrů a 1 vrstvu filtru s aktivním uhlím.",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": ["Novinka"],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "4744",
+        "name": null,
+        "sku": "ACCS0301",
+        "price": 2490.0,
+        "gross": 3012.9,
+        "stock": null,
+        "availability": "Na dotaz",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2995",
+    "name": "2UUL pájecí cín včetně tavidla",
+    "source": "https://www.refurb.zone/2uul-pajeci-cin-vcetne-tavidla/",
+    "group": "pajeni",
+    "kind": "pajeni",
+    "category_path": ["Příslušenství"],
+    "price": 129.0,
+    "gross": 156.09,
+    "images": ["/assets/products/ececb4c9accb72aa.png"],
+    "short": "Tento cín je navržený na pájení kontaktů baterií. Cín je již obsažený s tavidlem.",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "4735",
+        "name": null,
+        "sku": "ACCS0070",
+        "price": 129.0,
+        "gross": 156.09,
+        "stock": 1.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "4986",
+    "name": "Hadříky na čištění (150 kusů)",
+    "source": "https://www.refurb.zone/hadriky-na-cisteni--150-kusu/",
+    "group": "cisteni-a-chemie",
+    "kind": "cisteni-a-chemie",
+    "category_path": ["Příslušenství"],
+    "price": 123.6,
+    "gross": 149.56,
+    "images": ["/assets/products/9a0b2add063e1a14.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": 5.0,
+      "count": 1.0
+    },
+    "variants": [
+      {
+        "id": "7593",
+        "name": null,
+        "sku": "ACCS0473",
+        "price": 123.6,
+        "gross": 149.56,
+        "stock": 28.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "9840",
+    "name": "Isopropylalkohol 1L (IPA)",
+    "source": "https://www.refurb.zone/isopropylalkohol-1l--ipa/",
+    "group": "cisteni-a-chemie",
+    "kind": "cisteni-a-chemie",
+    "category_path": ["Příslušenství", "Čištění a chemie"],
+    "price": 133.14,
+    "gross": 161.1,
+    "images": ["/assets/products/d48b9638fe266ab0.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "13869",
+        "name": null,
+        "sku": "IPA",
+        "price": 133.14,
+        "gross": 161.1,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "10208",
+    "name": "Teplovodivá pasta Arctic MX-4 (4g)",
+    "source": "https://www.refurb.zone/teplovodiva-pasta-arctic-mx-4/",
+    "group": "cisteni-a-chemie",
+    "kind": "cisteni-a-chemie",
+    "category_path": ["Příslušenství", "Čištění a chemie"],
+    "price": 150.97,
+    "gross": 182.67,
+    "images": ["/assets/products/c04b7eeaa3bc5c0b.jpg"],
+    "short": "",
+    "description": "ARCTIC MX-4 (4g) je kvalitní teplovodivá pasta určená pro efektivní přenos tepla mezi procesorem, grafickým čipem nebo jinou elektronickou součástkou a chladičem. Díky vysoké tepelné vodivosti pomáhá snižovat provozní teploty a zajišťuje stabilní výkon zařízení i při vysoké zátěži. Pasta je elektricky nevodivá, bezpečná pro použití na citlivých elektronických komponentech a vyznačuje se dlouhou životností bez vysychání či tvrdnutí. Je vhodná jak pro profesionální servisy, tak pro běžné uživatele při stavbě nebo údržbě počítačů. Hlavní vlastnosti Vysoká tepelná vodivost 8,5 W/mK Výborný přenos tepla mezi čipem a chladičem Elektricky nevodivá a nekapacitní Bez obsahu kovových částic Snadná aplikace Nevysychá a netvrdne Dlouhá životnost až několik let Vhodná pro CPU, GPU, notebooky, konzole i průmyslovou elektroniku Využití Procesory (CPU) Grafické karty (GPU) Herní počítače Notebooky PlayStation a Xbox konzole Chladicí systémy elektroniky Servisní opravy a repase zařízení Technické parametry Model: ARCTIC MX-4 Typ: Teplovodivá pasta Tepelná vodivost: 8,5 W/mK Hustota: 2,5 g/cm³ Elektrická vodivost: Nevodivá Barva: Šedá Provozní teplota: −50 °C až +150 °C Výhody oproti běžným pastám Lepší tepelný přenos a nižší provozní teploty Bezpečné použití bez rizika zkratu Dlouhodobá stabilita bez degradace Osvědčená volba mezi servisními techniky a PC nadšenci Vhodná pro nové instalace i výměnu staré teplovodivé pasty",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "14456",
+        "name": null,
+        "sku": "10208",
+        "price": 150.97,
+        "gross": 182.67,
+        "stock": 10.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "8799",
+    "name": "Houbičky na čištění elektroniky",
+    "source": "https://www.refurb.zone/houbicky-na-cisteni-elektroniky/",
+    "group": "cisteni-a-chemie",
+    "kind": "cisteni-a-chemie",
+    "category_path": ["Příslušenství", "Čištění a chemie"],
+    "price": 105.5,
+    "gross": 127.66,
+    "images": ["/assets/products/51635a0658102f92.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "11670",
+        "name": null,
+        "sku": "8799",
+        "price": 105.5,
+        "gross": 127.66,
+        "stock": 2.0,
+        "availability": "Skladem",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "8700",
+    "name": "Čisticí tyčinky na objektiv kamery 2UUL (48 kusů)",
+    "source": "https://www.refurb.zone/cistici-tycinky-na-objektiv-kamery-2uul--48-kusu/",
+    "group": "cisteni-a-chemie",
+    "kind": "cisteni-a-chemie",
+    "category_path": ["Příslušenství", "Čištění a chemie"],
+    "price": 117.74,
+    "gross": 142.47,
+    "images": ["/assets/products/05eb20aab08b780f.png"],
+    "short": "",
+    "description": "Popis produktu není dostupný",
+    "parameters": [],
+    "flags": [],
+    "warranty": null,
+    "rating": {
+      "value": null,
+      "count": null
+    },
+    "variants": [
+      {
+        "id": "11436",
+        "name": null,
+        "sku": "ACCS8700",
+        "price": 117.74,
+        "gross": 142.47,
+        "stock": null,
+        "availability": "Vyprodáno",
+        "image": null,
+        "disabled": false
+      }
+    ],
+    "related": []
+  }
+]

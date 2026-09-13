@@ -1,0 +1,15 @@
+{
+  "asset": "display-buyback-editorial.png",
+  "mode": "built-in image_gen",
+  "use_case": "photorealistic-natural",
+  "generated_on": "2026-09-11",
+  "dimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "generation_count": 1,
+  "variants_or_retries": 0,
+  "disclosure": "AI-generated illustrative service-workshop image; not a photograph of actual Refurb.zone premises.",
+  "visual_qa": "Single image inspected: detached screens in black trays, two visibly cracked front screens, dynamic-island apertures, one black-gloved hand, testing adapter, tools and blue parts bins. No text, logos, prices, fake interface content or floating elements.",
+  "prompt": "Use case: photorealistic-natural\nAsset type: editorial website hero image, illustrative display-buyback service scene, not claimed to depict actual Refurb.zone premises.\nPrimary request: A photorealistic editorial photograph of display buyback and inspection at a professional Apple repair workshop.\nScene/backdrop: A neat service-workshop bench with several detached modern iPhone OLED display assemblies arranged in black antistatic trays. Softly out-of-focus workshop parts bins behind the bench, small display testing adapter and a few precise repair tools naturally on the bench.\nSubject/details: The detached displays have identifiable narrow modern iPhone screen silhouettes. At least one has the recognizable dynamic-island cutout. Two glass screens show clearly visible natural fine spiderweb fractures, realistic cracked glass. One technician's black nitrile gloved hand is neatly sorting or testing a single detached display. Devices are screen assemblies with slim visible edges and flex cables, not whole phones.\nStyle/medium: Authentic sophisticated service-workshop documentary photography with believable materials, tactile black glass and antistatic tray texture, natural optical depth of field.\nComposition/framing: Approximately 4:3 landscape; viewed at a three-quarter angle above the bench. Hero image will occupy the right half of a webpage, with key focus central-right and pleasing breathing room around the screen trays; no negative text space needed. Clear readable screen shapes, composed orderly workshop scene.\nLighting/mood: Soft bright neutral grey daylight, calm professional and precise.\nColor palette: charcoal, white, muted cool blue.\nConstraints: Generate exactly one photograph. No text, prices, logos or watermark. No floating elements. No electronics junk heap. No whole phones stacked with backs. No fake screen content or glowing interfaces. No exaggerated cracked glass, sparks or broken fragments."
+}

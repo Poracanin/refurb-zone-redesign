@@ -1,0 +1,34 @@
+{
+  "source": "https://www.refurb.zone/doprava-a-platba/",
+  "checked_at": "2026-09-11",
+  "cutoff": "17:30",
+  "cutoff_days": "Ve všední dny",
+  "vat_basis": "bez DPH",
+  "options": [
+    {
+      "id": "wolt",
+      "name": "Wolt Drive",
+      "region": "Po Praze",
+      "time": "Do 2 hodin",
+      "free_threshold": 7500,
+      "threshold_comparison": "above",
+      "text": "Expresní doručení zboží po Praze do 2 hodin od objednání."
+    },
+    {
+      "id": "ppl",
+      "name": "PPL",
+      "region": "Po Česku",
+      "time": "Doporučeno pro doručení do druhého dne",
+      "free_threshold": 3000,
+      "threshold_comparison": "at_least"
+    },
+    {
+      "id": "balikovna",
+      "name": "Balíkovna",
+      "region": "Po Česku",
+      "time": "Obvykle 1–2 pracovní dny",
+      "free_threshold": 2000,
+      "threshold_comparison": "at_least"
+    }
+  ]
+}

@@ -1,0 +1,1167 @@
+/* Display buyback: model-first pricing, with the existing shop's neutral palette. */
+.buyback-page {
+  padding-bottom: 75px;
+  max-width: 1320px;
+}
+.buyback-page .service-navigation {
+  margin-bottom: 26px;
+}
+.buyback-hero {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  background: #f3f5f7;
+  border-radius: 17px;
+  overflow: hidden;
+  min-height: 405px;
+}
+.buyback-hero-copy {
+  padding: 43px 38px 32px 42px;
+  align-self: center;
+}
+.buyback-hero h1 {
+  font-size: clamp(36px, 3.5vw, 53px);
+  line-height: 1.08;
+  letter-spacing: -2.1px;
+  margin: 18px 0 20px;
+  font-weight: 700;
+}
+.buyback-hero h1 span {
+  color: #5f7184;
+}
+.buyback-hero-copy > p {
+  max-width: 500px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #56616f;
+}
+.buyback-hero .hero-actions {
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.buyback-hero .button {
+  padding-inline: 18px;
+  min-height: 47px;
+}
+.buyback-hero-proof {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: #657180;
+  margin-top: 26px;
+}
+.buyback-hero-proof > .icon {
+  width: 18px;
+  height: 18px;
+}
+.buyback-hero-proof i {
+  width: 3px;
+  height: 3px;
+  background: #8b98a5;
+  border-radius: 50%;
+  margin-inline: 2px;
+}
+.buyback-hero-photo {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  isolation: isolate;
+}
+.buyback-hero-photo > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 55% center;
+}
+.buyback-hero-photo:after {
+  content: '';
+  position: absolute;
+  inset: 50% 0 0;
+  z-index: 0;
+  background: linear-gradient(transparent, #111b29a6);
+}
+.buyback-hero-photo figcaption {
+  position: absolute;
+  bottom: 24px;
+  left: 28px;
+  right: 25px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 550;
+  z-index: 1;
+}
+.buyback-hero-photo small {
+  display: block;
+  color: #e2e7ec;
+  font-size: 0.625rem;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.buyback-pricing {
+  margin-top: 52px;
+  scroll-margin-top: 24px;
+}
+.buyback-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 25px;
+}
+.buyback-section-title h2,
+.buyback-condition-guide h2,
+.buyback-faq h2 {
+  font-size: 30px;
+  line-height: 1.23;
+  letter-spacing: -1px;
+  font-weight: 650;
+  margin-top: 10px;
+}
+.buyback-section-title p {
+  font-size: 0.9375rem;
+  color: #6a7583;
+  margin-top: 10px;
+}
+.buyback-section-title > .text-link {
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+.buyback-families {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.buyback-families > button {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  min-height: 118px;
+  background: #f7f8fa;
+  border: 1px solid #e7ebf0;
+  border-radius: 11px;
+  padding: 17px 25px;
+  gap: 20px;
+  transition:
+    border-color 0.18s,
+    background 0.18s;
+  position: relative;
+}
+.buyback-families > button:hover {
+  border-color: #a4b1c2;
+}
+.buyback-families > button[aria-pressed='true'] {
+  background: #f1f5fa;
+  border-color: #536f91;
+  box-shadow: inset 0 0 0 1px #536f91;
+}
+.buyback-families img {
+  width: 60px;
+  height: 77px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  flex: none;
+}
+.buyback-families strong {
+  font-size: 1.125rem;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  display: block;
+}
+.buyback-families small {
+  font-size: 0.75rem;
+  display: block;
+  color: #728093;
+  margin-top: 5px;
+}
+.buyback-family-check {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  border: 1px solid #d9e1e9;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  flex: none;
+  background: #fff;
+}
+.buyback-family-check .icon {
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+}
+.buyback-families [aria-pressed='true'] .buyback-family-check {
+  background: #294564;
+  border-color: #294564;
+  color: white;
+}
+.buyback-families [aria-pressed='true'] .buyback-family-check .icon {
+  opacity: 1;
+}
+.buyback-price-panel {
+  border: 1px solid #e0e5ec;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.buyback-filters {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 0.8fr 0.9fr;
+  gap: 16px;
+  padding: 23px 25px;
+  background: #fafbfc;
+  border-bottom: 1px solid #e5eaf0;
+}
+.buyback-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+.buyback-filters label > span:first-child {
+  font-size: 0.75rem;
+  font-weight: 550;
+  color: #5d6c7d;
+}
+.buyback-input {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 12px;
+  border: 1px solid #dce2e9;
+  border-radius: 7px;
+  background: white;
+}
+.buyback-input:focus-within {
+  outline: 2px solid #819cbd;
+  outline-offset: 2px;
+}
+.buyback-input > .icon {
+  width: 19px;
+  height: 19px;
+  color: #7e8da0;
+}
+.buyback-input input {
+  background: none;
+  border: 0;
+  outline: 0;
+  font-size: 0.875rem;
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  color: var(--ink);
+  padding: 0;
+}
+.buyback-input input:focus-visible {
+  outline: none;
+}
+.buyback-input input::placeholder {
+  color: #8692a2;
+}
+.buyback-field select {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #dce2e9;
+  border-radius: 7px;
+  padding: 0 30px 0 11px;
+  background: #fff;
+  color: #263648;
+  font-size: 0.8125rem;
+  text-overflow: ellipsis;
+}
+.buyback-field select:disabled {
+  color: #8290a1;
+  background: #f1f3f6;
+  opacity: 1;
+  cursor: not-allowed;
+}
+.buyback-login {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #edf3fa;
+  margin: 22px 25px 6px;
+  border-radius: 9px;
+  padding: 18px 20px;
+}
+.buyback-login > .icon {
+  color: #527091;
+}
+.buyback-login strong {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.buyback-login p {
+  font-size: 0.8125rem;
+  color: #667a91;
+  margin-top: 3px;
+}
+.buyback-login .button {
+  margin-left: auto;
+  white-space: nowrap;
+  padding: 10px 18px;
+  min-height: 42px;
+  font-size: 0.8125rem;
+}
+.buyback-results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  min-height: 58px;
+  padding: 14px 25px;
+  font-size: 0.75rem;
+  color: #6a7789;
+}
+.buyback-results-bar > button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #486381;
+  padding: 3px 0;
+}
+.buyback-results-bar > button[hidden] {
+  display: none;
+}
+.buyback-results-bar .icon {
+  width: 14px;
+  height: 14px;
+}
+.buyback-table-scroll {
+  overflow-x: auto;
+  max-height: 530px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #b4c1d0 #f6f8fa;
+}
+.buyback-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  text-align: left;
+}
+.buyback-table th,
+.buyback-table td {
+  padding: 15px 26px;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  border-bottom: 1px solid #eaf0f5;
+}
+.buyback-table thead th {
+  background: #f2f5f8;
+  color: #55667b;
+  font-size: 0.75rem;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  white-space: nowrap;
+  border-bottom: 1px solid #e2e8ef;
+}
+.buyback-table thead th > span {
+  font-size: 0.625rem;
+  margin-left: 6px;
+  background: #e2e9f1;
+  color: #52657d;
+  border-radius: 4px;
+  padding: 3px 5px;
+}
+.buyback-table th[scope='row'] {
+  font-weight: 500;
+  width: 55%;
+  color: #25303c;
+}
+.buyback-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.buyback-table tbody tr:nth-child(even) {
+  background: #fbfcfd;
+}
+.buyback-table tbody tr:hover {
+  background: #f1f5f9;
+}
+.buyback-table td,
+.buyback-table thead th:not(:first-child) {
+  text-align: right;
+}
+.buyback-table td strong {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.buyback-table .buyback-damaged-price strong {
+  color: #65758a;
+  font-weight: 500;
+}
+.buyback-unquoted {
+  font-size: 0.75rem;
+  color: #7a8899;
+  white-space: nowrap;
+}
+.buyback-price-lock {
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  gap: 6px;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  color: #60768e;
+  padding: 2px 0;
+}
+.buyback-price-lock:hover {
+  color: #214d80;
+  text-decoration: underline;
+}
+.buyback-price-lock > .icon {
+  width: 14px;
+  height: 14px;
+}
+.buyback-table-note {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 18px 25px;
+  background: #fafbfc;
+  border-top: 1px solid #e3e9f0;
+  color: #778394;
+  font-size: 0.75rem;
+  line-height: 1.65;
+}
+.buyback-table-note > .icon {
+  width: 17px;
+  height: 17px;
+  margin-top: 2px;
+}
+.buyback-table-note p {
+  max-width: 920px;
+}
+.buyback-pricing-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 0.6875rem;
+  color: #8390a0;
+  padding: 14px 2px;
+}
+.buyback-pricing-foot a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+.buyback-pricing-foot .icon {
+  width: 13px;
+  height: 13px;
+}
+.buyback-empty {
+  text-align: center;
+  padding: 45px 25px 55px;
+}
+.buyback-empty > .icon {
+  width: 28px;
+  height: 28px;
+  color: #93a2b4;
+  margin-bottom: 15px;
+}
+.buyback-empty h3 {
+  font-size: 1.125rem;
+  font-weight: 550;
+}
+.buyback-empty p {
+  max-width: 540px;
+  margin: 10px auto 20px;
+  color: #738397;
+  font-size: 0.875rem;
+}
+.buyback-empty > .text-link {
+  margin-left: 20px;
+}
+.buyback-condition-guide {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr 1fr;
+  gap: 45px;
+  border-top: 1px solid #e7ecf1;
+  border-bottom: 1px solid #e7ecf1;
+  padding: 34px 0 38px;
+}
+.buyback-condition-guide h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+.buyback-condition-guide p {
+  font-size: 0.875rem;
+  color: #6b798a;
+  line-height: 1.75;
+  margin-top: 12px;
+  max-width: 360px;
+}
+.buyback-state-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  margin: 3px 0 15px;
+}
+.buyback-state-icon .icon {
+  width: 21px;
+  height: 21px;
+}
+.buyback-state-icon.good {
+  background: #eaf3ed;
+  color: #3a8256;
+}
+.buyback-state-icon.damaged {
+  background: #f0f1f6;
+  color: #748099;
+}
+.buyback-condition-guide h3 {
+  font-size: 1rem;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.buyback-condition-guide h3 small {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  border: 1px solid #e0e6ed;
+  border-radius: 4px;
+  color: #728198;
+  padding: 2px 5px;
+}
+.buyback-process {
+  margin-top: 58px;
+  scroll-margin-top: 24px;
+}
+.buyback-process-time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: #677b92;
+  margin-bottom: 4px;
+}
+.buyback-process-time > .icon {
+  width: 17px;
+  height: 17px;
+}
+.buyback-process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+.buyback-process-grid > article {
+  padding: 25px 26px 26px;
+  border-radius: 11px;
+  background: #f5f7fa;
+}
+.buyback-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8b9bb0;
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.buyback-step > .icon {
+  width: 26px;
+  height: 26px;
+  stroke-width: 1.4;
+  color: #57718d;
+}
+.buyback-process-grid h3 {
+  font-size: 1.125rem;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.buyback-process-grid p {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: #6a7a8e;
+}
+.buyback-step-detail,
+.buyback-process-grid .text-link {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: #5b738e;
+  margin-top: 18px;
+}
+.buyback-process-grid .text-link {
+  display: flex;
+  gap: 9px;
+}
+.buyback-shipping {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin-top: 52px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: #fff;
+  background: #172330;
+}
+.buyback-shipping-main {
+  padding: 41px 45px;
+}
+.buyback-shipping .eyebrow {
+  color: #a3b6ca;
+  font-size: 0.6875rem;
+}
+.buyback-shipping h2 {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 1.18;
+  letter-spacing: -1px;
+  margin-top: 15px;
+}
+.buyback-shipping p {
+  max-width: 460px;
+  color: #b4c2d1;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  margin-top: 17px;
+}
+.buyback-shipping .button {
+  background: #fff;
+  color: #172330;
+  margin-top: 23px;
+  font-size: 0.8125rem;
+  min-height: 44px;
+}
+.buyback-shipping-contact {
+  padding: 42px 45px;
+  border-left: 1px solid #ffffff14;
+  align-self: stretch;
+  background: #121e2a;
+}
+.buyback-address-label {
+  font-size: 0.625rem;
+  letter-spacing: 1.7px;
+  color: #9eb1c7;
+  font-weight: 600;
+}
+.buyback-shipping address {
+  font-size: 1rem;
+  line-height: 1.65;
+  font-style: normal;
+  color: #e5ecf4;
+  margin-top: 13px;
+}
+.buyback-shipping address strong {
+  display: block;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.buyback-contact-links {
+  border-top: 1px solid #ffffff1c;
+  padding-top: 20px;
+  margin-top: 20px;
+  display: grid;
+  gap: 8px;
+}
+.buyback-contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: #d1deed;
+}
+.buyback-contact-links .icon {
+  width: 16px;
+  height: 16px;
+}
+.buyback-contact-links small {
+  color: #8fa5be;
+  font-size: 0.6875rem;
+  margin-left: 26px;
+  margin-top: 4px;
+}
+.buyback-faq {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 55px;
+  margin-top: 55px;
+}
+.buyback-faq h2 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+.buyback-faq .text-link {
+  color: #607c9c;
+}
+.buyback-faq details {
+  border-bottom: 1px solid #e5eaf0;
+}
+.buyback-faq summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 550;
+  list-style: none;
+  padding: 20px 0;
+  line-height: 1.6;
+}
+.buyback-faq summary::-webkit-details-marker {
+  display: none;
+}
+.buyback-faq summary:focus-visible {
+  outline: 3px solid #779efa;
+  outline-offset: 4px;
+}
+.buyback-faq summary > .icon {
+  width: 17px;
+  height: 17px;
+  color: #7890ad;
+  transition: transform 0.15s;
+}
+.buyback-faq details[open] summary > .icon {
+  transform: rotate(45deg);
+}
+.buyback-faq details p {
+  font-size: 0.875rem;
+  color: #6a7a8e;
+  line-height: 1.8;
+  padding: 0 26px 22px 0;
+}
+.buyback-faq details p a {
+  color: #345a85;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.buyback-page .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (min-width: 1500px) {
+  .buyback-hero {
+    min-height: 420px;
+  }
+  .buyback-hero-copy {
+    padding: 43px 44px;
+  }
+  .buyback-hero h1 {
+    font-size: 55px;
+  }
+}
+@media (max-width: 1050px) {
+  .buyback-hero-copy {
+    padding: 33px 27px;
+  }
+  .buyback-hero h1 {
+    font-size: 41px;
+  }
+  .buyback-hero-copy > p {
+    font-size: 0.9375rem;
+  }
+  .buyback-hero-proof i {
+    display: none;
+  }
+  .buyback-hero-proof > span:last-child {
+    width: 100%;
+    padding-left: 27px;
+  }
+  .buyback-families > button {
+    padding: 16px 18px;
+    gap: 15px;
+  }
+  .buyback-families img {
+    width: 49px;
+    height: 67px;
+  }
+  .buyback-families strong {
+    font-size: 1rem;
+  }
+  .buyback-families small {
+    font-size: 0.6875rem;
+  }
+  .buyback-filters {
+    grid-template-columns: 1.35fr 1fr;
+    gap: 15px;
+  }
+  .buyback-process-grid {
+    gap: 16px;
+  }
+  .buyback-process-grid > article {
+    padding: 23px;
+  }
+  .buyback-condition-guide {
+    gap: 28px;
+  }
+  .buyback-process-time {
+    max-width: 210px;
+  }
+  .buyback-shipping-main,
+  .buyback-shipping-contact {
+    padding: 35px;
+  }
+  .buyback-table th,
+  .buyback-table td {
+    padding-inline: 22px;
+  }
+}
+@media (max-width: 740px) {
+  .buyback-page .service-navigation {
+    margin-bottom: 18px;
+  }
+  .buyback-hero {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .buyback-hero-copy {
+    padding: 32px 28px 28px;
+  }
+  .buyback-hero h1 {
+    font-size: 43px;
+    letter-spacing: -1.8px;
+  }
+  .buyback-hero-copy > p {
+    max-width: 560px;
+  }
+  .buyback-hero-photo {
+    min-height: 250px;
+  }
+  .buyback-hero-photo > img {
+    object-position: center 52%;
+  }
+  .buyback-hero-proof {
+    margin-top: 21px;
+  }
+  .buyback-hero-proof > span:last-child {
+    width: auto;
+    padding-left: 0;
+  }
+  .buyback-hero-proof i {
+    display: block;
+  }
+  .buyback-pricing {
+    margin-top: 35px;
+  }
+  .buyback-section-title {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .buyback-section-title > .text-link {
+    margin-top: 15px;
+  }
+  .buyback-section-title h2 {
+    font-size: 26px;
+  }
+  .buyback-section-title p {
+    font-size: 0.875rem;
+  }
+  .buyback-families {
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .buyback-families > button {
+    flex-direction: column;
+    padding: 16px 7px 14px;
+    gap: 11px;
+    min-height: 146px;
+    text-align: center;
+  }
+  .buyback-families img {
+    height: 64px;
+    width: 54px;
+  }
+  .buyback-families strong {
+    font-size: 0.9375rem;
+  }
+  .buyback-families small {
+    font-size: 0.625rem;
+  }
+  .buyback-family-check {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 18px;
+    height: 18px;
+  }
+  .buyback-family-check .icon {
+    width: 11px;
+    height: 11px;
+  }
+  .buyback-filters {
+    padding: 18px;
+    gap: 13px;
+  }
+  .buyback-table th,
+  .buyback-table td {
+    padding: 14px 17px;
+  }
+  .buyback-table th[scope='row'] {
+    width: 48%;
+    font-size: 0.8125rem;
+  }
+  .buyback-table td strong {
+    font-size: 0.875rem;
+  }
+  .buyback-table thead th {
+    font-size: 0.6875rem;
+    white-space: normal;
+    min-width: 115px;
+  }
+  .buyback-table thead th > span {
+    display: inline-block;
+    margin-left: 2px;
+  }
+  .buyback-results-bar {
+    padding: 14px 18px;
+    font-size: 0.6875rem;
+  }
+  .buyback-login {
+    margin: 18px 18px 0;
+    padding: 17px;
+    gap: 11px;
+    flex-wrap: wrap;
+  }
+  .buyback-login strong {
+    font-size: 0.875rem;
+  }
+  .buyback-login p {
+    font-size: 0.75rem;
+  }
+  .buyback-login > div {
+    flex: 1;
+  }
+  .buyback-login .button {
+    margin-left: 33px;
+  }
+  .buyback-table-note {
+    padding: 16px 18px;
+    font-size: 0.6875rem;
+  }
+  .buyback-pricing-foot {
+    font-size: 0.625rem;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  .buyback-condition-guide {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    padding: 27px 0;
+    gap: 24px;
+  }
+  .buyback-condition-guide > div {
+    grid-column: 1/-1;
+  }
+  .buyback-condition-guide h2 br {
+    display: none;
+  }
+  .buyback-condition-guide p {
+    max-width: none;
+    font-size: 0.8125rem;
+  }
+  .buyback-condition-guide h3 {
+    font-size: 0.9375rem;
+    gap: 7px;
+  }
+  .buyback-condition-guide h2 {
+    font-size: 25px;
+  }
+  .buyback-process {
+    margin-top: 35px;
+  }
+  .buyback-process-time {
+    margin-top: 14px;
+    max-width: none;
+  }
+  .buyback-process-grid {
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+  .buyback-process-grid > article {
+    padding: 23px;
+  }
+  .buyback-step {
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+  }
+  .buyback-process-grid p {
+    max-width: 580px;
+  }
+  .buyback-step-detail,
+  .buyback-process-grid .text-link {
+    margin-top: 12px;
+  }
+  .buyback-shipping {
+    margin-top: 34px;
+    grid-template-columns: 1fr;
+  }
+  .buyback-shipping-main {
+    padding: 30px;
+  }
+  .buyback-shipping h2 {
+    font-size: 30px;
+  }
+  .buyback-shipping-contact {
+    padding: 29px 30px;
+    border: 0;
+    border-top: 1px solid #ffffff14;
+  }
+  .buyback-faq {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 35px;
+  }
+  .buyback-faq h2 {
+    font-size: 25px;
+    margin-bottom: 13px;
+  }
+  .buyback-empty {
+    padding: 30px 20px;
+  }
+  .buyback-empty > .text-link {
+    display: flex;
+    margin: 20px auto 0;
+    width: fit-content;
+  }
+  .buyback-page {
+    padding-bottom: 45px;
+  }
+}
+@media (max-width: 430px) {
+  .buyback-hero-copy {
+    padding: 28px 22px;
+  }
+  .buyback-hero h1 {
+    font-size: 37px;
+    letter-spacing: -1.4px;
+  }
+  .buyback-hero .eyebrow {
+    font-size: 0.625rem;
+    letter-spacing: 1.4px;
+  }
+  .buyback-hero-copy > p {
+    font-size: 0.875rem;
+  }
+  .buyback-hero .hero-actions {
+    display: grid;
+    gap: 9px;
+  }
+  .buyback-hero-proof {
+    font-size: 0.6875rem;
+  }
+  .buyback-hero-proof > span:last-child {
+    width: 100%;
+    padding-left: 27px;
+  }
+  .buyback-hero-proof i {
+    display: none;
+  }
+  .buyback-hero-photo {
+    min-height: 218px;
+  }
+  .buyback-hero-photo figcaption {
+    left: 22px;
+    bottom: 20px;
+    font-size: 0.8125rem;
+  }
+  .buyback-section-title h2 {
+    font-size: 24px;
+  }
+  .buyback-page .eyebrow {
+    font-size: 0.625rem;
+    letter-spacing: 1.5px;
+  }
+  .buyback-families {
+    gap: 7px;
+  }
+  .buyback-families strong {
+    font-size: 0.8125rem;
+  }
+  .buyback-families small {
+    font-size: 0.5625rem;
+  }
+  .buyback-filters {
+    padding: 16px;
+    gap: 12px;
+  }
+  .buyback-search {
+    grid-column: 1/-1;
+  }
+  .buyback-filters .buyback-field:last-child {
+    grid-column: 1/-1;
+  }
+  .buyback-field select {
+    font-size: 0.8125rem;
+  }
+  .buyback-input input {
+    font-size: 1rem;
+  }
+  .buyback-table th,
+  .buyback-table td {
+    padding: 13px 12px;
+  }
+  .buyback-table th[scope='row'] {
+    font-size: 0.75rem;
+    min-width: 126px;
+    width: 42%;
+  }
+  .buyback-table thead th {
+    min-width: 94px;
+    font-size: 0.625rem;
+  }
+  .buyback-table td strong {
+    font-size: 0.8125rem;
+  }
+  .buyback-price-lock {
+    font-size: 0.6875rem;
+    gap: 4px;
+    white-space: normal;
+  }
+  .buyback-price-lock > .icon {
+    width: 12px;
+    height: 12px;
+  }
+  .buyback-unquoted {
+    font-size: 0.6875rem;
+    white-space: normal;
+  }
+  .buyback-condition-guide {
+    gap: 22px 17px;
+  }
+  .buyback-condition-guide h3 {
+    flex-wrap: wrap;
+  }
+  .buyback-condition-guide p {
+    font-size: 0.8125rem;
+  }
+  .buyback-section-title p {
+    font-size: 0.8125rem;
+  }
+  .buyback-results-bar {
+    padding-inline: 16px;
+  }
+  .buyback-table-scroll {
+    max-height: 470px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .buyback-page * {
+    scroll-behavior: auto;
+    transition: none;
+  }
+}
