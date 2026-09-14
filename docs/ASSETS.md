@@ -10,9 +10,11 @@ Inter je přibalený v latinské a rozšířené latinské sadě pro češtinu. 
 
 ## Animace loga
 
-Sdílená komponenta je v `src/js/brand-logo.js` a `src/css/brand-logo.css`. Používá Web Animations API bez další knihovny. Animace trvá 2 700 ms. Ikona `r` zůstává viditelná i po dokončení; vedle ní se jedním pohybem odkryje celé `refurb.zone` a podtitulek. Hlavička si rezervuje konečný rozměr, aby se při přehrávání neposouvalo okolní rozhraní.
+Sdílená komponenta je v `src/js/brand-logo.js` a `src/css/brand-logo.css`. Používá Web Animations API bez další knihovny. Logo v hlavičce je statické, včetně překreslení po přihlášení nebo změně košíku.
 
-V hlavičce proběhne jednou za relaci karty (`sessionStorage`, klíč `refurb-brand-intro-v2`); při omezení pohybu se nepřehrává. Samostatný náhled `/assets/brand/animation.html` zobrazuje pouze animaci přes celou plochu stránky, bez dalších textů a tlačítek. Opakované přehrání spustí kliknutí, mezerník nebo Enter. Volba `play(logo, { negativeCanvas })` přidává závěrečný přechod do negativu: název se dokončí za 2 300 ms, posledních 700 ms se pozadí změní na `#111419` a logo na světlou variantu. Celkem 3 sekundy; negativ pak zůstane zobrazený. Hlavička tuto volbu nepoužívá. Negativní PNG je `assets/brand/logo-negative.png`, zdroj podporuje `?variant=negative`. `logo-source.html` používá tutéž komponentu ve statickém stavu pro export průhledných PNG.
+Vstupní animaci přes celou obrazovku spouští `src/js/site-intro.js` jednou za relaci karty (`sessionStorage`, klíč `refurb-site-intro-v1`). Název se dokončí za 2 300 ms, posledních 700 ms přechází pozadí na `#111419` a logo na světlou variantu. Poté překryv během 280 ms odkryje web. Kliknutí, Esc, Enter, mezerník nebo Tab vstup přeskočí. Omezený pohyb animaci vynechá či ihned ukončí. Po dobu úvodu není obsah pod ním interaktivní; při selhání dokončení se web nejpozději za 5,5 sekundy odblokuje.
+
+Samostatný náhled `/assets/brand/animation.html` zobrazuje pouze animaci přes celou plochu stránky, bez dalších textů a tlačítek. Opakované přehrání spustí kliknutí, mezerník nebo Enter. Volba `play(logo, { negativeCanvas })` přidává závěrečný přechod do negativu a vrací příslib dokončení. V náhledu negativ zůstane zobrazený. Negativní PNG je `assets/brand/logo-negative.png`, zdroj podporuje `?variant=negative`. `logo-source.html` používá tutéž komponentu ve statickém stavu pro export průhledných PNG.
 
 ## Fotografie a loga třetích stran
 

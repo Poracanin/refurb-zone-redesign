@@ -86,8 +86,6 @@ function header() {
     `<div class="footer"><div class="container"><div class="footer-top"><a class="logo" href="/">refurb<span>.</span>zone</a><div class="footer-links"><a href="tel:+420777122858">+420 777 122 858</a><a href="mailto:info@refurb.zone">info@refurb.zone</a><a href="/doprava.html">Doprava</a><a href="https://www.refurb.zone/vraceni-a-reklamace/" target="_blank" rel="noopener">Vrácení a reklamace</a></div></div><div class="footer-bottom"><span>© ${new Date().getFullYear()} Refurb.zone · Díly a vybavení pro servisy.</span><span>Ukázka obchodu · katalog k 10. 9. 2026 · ${demoClient ? (qs.get('service') === 'vykup' ? 'výkupní ceník v Kč' : 'ceny bez DPH') : 'ceny po přihlášení'}</span></div><details class="brand-attribution"><summary>Loga a licence</summary><p>Apple a ostatní značky patří svým vlastníkům. Android je ochranná známka společnosti Google LLC. Robot Android pochází z díla vytvořeného a sdíleného společností Google a je použit podle licence <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">Creative Commons Uveďte původ 3.0</a>.</p></details></div></div>`;
   decorate();
   initCompactHeader();
-  const logo = document.querySelector('#site-header .brand-logo.is-intro');
-  if (logo) refurbBrand.play(logo);
 }
 function inStock(p) {
   return p.variants.some((v) => v.availability === 'Skladem' && !v.disabled);

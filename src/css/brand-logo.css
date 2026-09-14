@@ -110,3 +110,25 @@
 .brand-logo.is-negative .brand-seed-letter {
   fill: #111419;
 }
+
+/* The opening animation sits above the page without moving its layout. */
+html.has-site-intro,
+html.has-site-intro body {
+  overflow: hidden;
+}
+.site-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  overflow: hidden;
+  background: #fff;
+}
+.site-intro.is-negative {
+  background: #111419;
+}
+.site-intro .brand-logo {
+  font-size: min(10vw, 25vh, 128px);
+}
