@@ -130,5 +130,5 @@ html.has-site-intro body {
   background: #111419;
 }
 .site-intro .brand-logo {
-  font-size: min(10vw, 25vh, 128px);
+  font-size: calc(min(10vw, 25vh, 128px) / 3);
 }
