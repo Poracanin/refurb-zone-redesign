@@ -77,7 +77,7 @@ V `assets/brand/`:
 
 Původní vektorový favicon je v `assets/favicon.svg`. PNG jsou exporty současného návrhu; samotná hlavička ponechává ostré textové logo. Písmo Inter je uložené lokálně včetně licence.
 
-Animace v hlavičce trvá 2,7 sekundy: symbol faviconu zůstává vlevo a vedle něj se plynule odkryje celý název s podtitulkem. Spustí se jednou v dané kartě prohlížeče; navigace ani přihlášení ji neopakují. Při nastavení omezeného pohybu se zobrazí rovnou celé logo. Náhled otevřete na `/assets/brand/animation.html`; trvá 3 sekundy a zakončuje jej přechod na černé pozadí se světlým logem. Hlavička používá původní světlou variantu.
+Při prvním otevření webu se přehraje 3sekundová animace přes celou obrazovku: symbol faviconu odhalí název a podtitulek, poté přejde na tmavé pozadí se světlým logem. Následuje krátké odkrytí webu. Spuštění řídí `src/js/site-intro.js` jednou v dané kartě prohlížeče; navigace, obnovení stránky ani přihlášení ji neopakují. Kliknutí nebo klávesy Esc, Enter, mezerník a Tab úvod přeskočí. Při nastavení omezeného pohybu se web zobrazí rovnou. Logo v hlavičce je vždy statické. Samostatný náhled `/assets/brand/animation.html` zachovává opakované přehrávání.
 
 ## Demo přihlášení
 

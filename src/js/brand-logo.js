@@ -5,24 +5,11 @@ window.refurbBrand = (() => {
   const duration = 2700;
   const negativeDuration = 3000;
   const tagline = 'LCD & OLED REFURBISHING';
-  const sessionKey = 'refurb-brand-intro-v2';
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const playing = new Map();
   const pending = new WeakMap();
-  let introClaimed = false;
-
-  function claimIntro() {
-    if (introClaimed || reducedMotion.matches) return false;
-    introClaimed = true;
-    try {
-      if (sessionStorage.getItem(sessionKey)) return false;
-      sessionStorage.setItem(sessionKey, 'seen');
-    } catch {}
-    return true;
-  }
-
   function markup({ header = false, intro = false } = {}) {
-    const animate = header ? claimIntro() : intro && !reducedMotion.matches;
+    const animate = !header && intro && !reducedMotion.matches;
     const tag = header ? 'a' : 'div';
     const attributes = header
       ? 'href="/" aria-label="Refurb.zone — LCD & OLED REFURBISHING — úvodní stránka"'
@@ -140,7 +127,7 @@ window.refurbBrand = (() => {
       playing.delete(element);
     };
     playing.set(element, finish);
-    last.finished.then(finish, () => {});
+    return last.finished.then(finish, () => {});
   }
 
   reducedMotion.addEventListener('change', () => {
