@@ -35,9 +35,11 @@ Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání m
 ├── src/
 │   ├── css/
 │   │   ├── styles.css              # Společný vzhled, responzivita, komponenty
+│   │   ├── brand-logo.css          # Vzhled a proporce animovaného loga
 │   │   └── buyback.css             # Výkup displejů
 │   └── js/
 │       ├── data-repository.js      # Jediné místo pro načítání dat
+│       ├── brand-logo.js           # Animace identity r → refurb.zone (2,7 s)
 │       ├── app.js                  # Katalog, produkt, košík a demo přihlášení
 │       ├── experience.js           # Hlavička, navigace, služby a doprava
 │       ├── device-search.js        # Výběr zařízení a hledání kompatibilních dílů
@@ -65,13 +67,17 @@ Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání m
 V `assets/brand/`:
 
 - `logo.png` — současný wordmark **refurb.zone** s průhledným pozadím.
-- `logo-with-tagline.png` — stejný wordmark s textem „Díly pro delší život zařízení.“
+- `logo-with-tagline.png` — stejný wordmark s textem „LCD & OLED REFURBISHING“
 - `favicon.png` — favicon ve velikosti 512 × 512 px, průhledné rohy.
 - `favicon-32.png`, `favicon-64.png`, `favicon-192.png` — menší velikosti.
 - `apple-touch-icon.png` — 180 × 180 px.
+- `logo-negative.png` — světlá varianta s ikonou a podtitulkem pro tmavé pozadí.
 - `logo-source.html` — typografický zdroj pro další exporty.
+- `animation.html` — samotná animace přes celou stránku; kliknutí, mezerník nebo Enter ji přehraje znovu.
 
 Původní vektorový favicon je v `assets/favicon.svg`. PNG jsou exporty současného návrhu; samotná hlavička ponechává ostré textové logo. Písmo Inter je uložené lokálně včetně licence.
+
+Animace v hlavičce trvá 2,7 sekundy: symbol faviconu zůstává vlevo a vedle něj se plynule odkryje celý název s podtitulkem. Spustí se jednou v dané kartě prohlížeče; navigace ani přihlášení ji neopakují. Při nastavení omezeného pohybu se zobrazí rovnou celé logo. Náhled otevřete na `/assets/brand/animation.html`; trvá 3 sekundy a zakončuje jej přechod na černé pozadí se světlým logem. Hlavička používá původní světlou variantu.
 
 ## Demo přihlášení
 

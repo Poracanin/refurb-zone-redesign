@@ -32,16 +32,23 @@
       "bytes": 10175
     },
     {
+      "file": "logo-negative.png",
+      "width": 1736,
+      "height": 360,
+      "bytes": 51223
+    },
+    {
       "file": "logo-with-tagline.png",
-      "width": 1280,
-      "height": 408,
-      "bytes": 51546
+      "width": 1736,
+      "height": 360,
+      "bytes": 51057
     },
     {
       "file": "logo.png",
-      "width": 1280,
+      "width": 1296,
       "height": 256,
-      "bytes": 28389
+      "bytes": 28546
     }
-  ]
+  ],
+  "tagline": "LCD & OLED REFURBISHING"
 }
