@@ -102,15 +102,24 @@ npm run build
 npm run preview
 ```
 
-Výstup `dist/` je připravený pro statický hosting. Build nepublikuje web. Při umístění do podadresáře, například pro případné GitHub Pages:
+Výstup `dist/` je připravený pro statický hosting. Build nepublikuje web. Při umístění do podadresáře, například pro GitHub Pages:
 
 ```sh
 npm run build -- --base=/refurb-zone-redesign/
+npm run check:build -- --base=/refurb-zone-redesign/
 ```
 
 Tato volba přepíše interní odkazy a cesty k datům. Build s prefixem `/refurb-zone-redesign/` musí hosting skutečně vystavit pod tímto prefixem; lokální `preview` je určené pro výchozí build s `/`.
 
-`npm run format` formátuje zdroje pomocí Prettier. V GitHub Actions běží kontrola JSON vazeb, souborů, syntaxe a build. Žádné automatické zveřejnění webu není zapnuté.
+`npm run format` formátuje zdroje pomocí Prettier. V GitHub Actions běží kontrola JSON vazeb, souborů, syntaxe a build pro `/` i `/refurb-zone-redesign/`. `check:build` ověřuje cesty a existenci stránek, skriptů, CSS, fontů i JSON assetů.
+
+## GitHub Pages
+
+Živý web: https://poracanin.github.io/refurb-zone-redesign/
+
+V nastavení repozitáře **Settings → Pages → Source** se používá **GitHub Actions**. Workflow `.github/workflows/pages.yml` po změně v `main` sestaví web s prefixem skutečné adresy Pages a zveřejní výhradně ověřený adresář `dist/`. Odkazy, JSON cesty i CSS `url(...)` tak zůstávají uvnitř projektové adresy. Zdrojový kořen repozitáře není připravený k přímému publikování jako projektový web.
+
+Pull request se nejprve kontroluje; jeho sloučení do `main` spustí nasazení. Nasazení lze také zopakovat ručně přes **Actions → Nasazení GitHub Pages → Run workflow**.
 
 ## Původ podkladů
 

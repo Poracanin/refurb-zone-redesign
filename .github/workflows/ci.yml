@@ -5,6 +5,9 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        base: ['/', '/refurb-zone-redesign/']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -13,4 +16,9 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
-      - run: npm run build
+      - run: npm run build -- --base="$SITE_BASE"
+        env:
+          SITE_BASE: ${{ matrix.base }}
+      - run: npm run check:build -- --base="$SITE_BASE"
+        env:
+          SITE_BASE: ${{ matrix.base }}
