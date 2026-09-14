@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111419" />
+    <title>refurb.zone — animace loga</title>
+    <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/brand-logo.css" />
+    <script src="/src/js/brand-logo.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #fff;
+      }
+      .motion-canvas {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        overflow: hidden;
+        background: #fff;
+        border: 0;
+        border-radius: 0;
+      }
+      .motion-canvas.is-negative { background: #111419; }
+      .motion-canvas .brand-logo { font-size: min(10vw, 25vh, 128px); }
+    </style>
+  </head>
+  <body>
+    <main class="motion-canvas" id="brand-preview" aria-label="Animace loga refurb.zone"></main>
+    <script>
+      const preview = document.getElementById('brand-preview');
+      preview.innerHTML = refurbBrand.markup({ intro: true });
+      const logo = preview.querySelector('.brand-logo');
+      const replay = () => refurbBrand.play(logo, { negativeCanvas: preview });
+      replay();
+      preview.addEventListener('click', replay);
+      document.addEventListener('keydown', (event) => {
+        if (!event.repeat && (event.code === 'Space' || event.code === 'Enter')) {
+          event.preventDefault();
+          replay();
+        }
+      });
+    </script>
+  </body>
+</html>

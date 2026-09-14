@@ -1,0 +1,112 @@
+/* Shared brand proportions; fixed space keeps search and navigation perfectly still. */
+.brand-logo {
+  position: relative;
+  display: block;
+  width: max-content;
+  flex: none;
+  color: #101318;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.brand-logo .brand-stage {
+  position: relative;
+  display: block;
+  padding-left: 1.85em;
+  color: inherit;
+}
+.brand-logo .brand-wordmark {
+  display: flex;
+  align-items: baseline;
+  color: inherit;
+}
+.brand-logo .brand-wordmark > span {
+  display: block;
+  color: inherit;
+}
+.brand-logo .brand-wordmark > .brand-dot {
+  color: #517db7;
+  transform-origin: center 80%;
+}
+.brand-logo .brand-seed {
+  position: absolute;
+  top: 0.04em;
+  left: 0;
+  width: 1.45em;
+  height: 1.45em;
+  opacity: 1;
+  overflow: visible;
+  pointer-events: none;
+}
+.brand-logo .brand-tagline {
+  display: block;
+  margin-top: 0.3em;
+  margin-left: calc(1.85em / 0.3);
+  color: #737d8c;
+  font-size: 0.3em;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.075em;
+}
+.brand-logo.is-intro .brand-seed {
+  opacity: 1;
+  left: calc(50% - 0.725em);
+}
+.brand-logo.is-intro .brand-wordmark,
+.brand-logo.is-intro .brand-tagline {
+  opacity: 0;
+}
+/* The animation controls translation after measuring the font, not the layout. */
+.brand-logo.is-intro.is-playing .brand-seed {
+  left: 0;
+}
+@media (max-width: 620px) {
+  .logo.brand-logo {
+    font-size: 27px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand-logo.is-intro .brand-seed {
+    opacity: 1;
+    left: 0;
+  }
+  .brand-logo.is-intro .brand-wordmark,
+  .brand-logo.is-intro .brand-tagline {
+    opacity: 1;
+  }
+}
+
+.brand-logo.is-playing .brand-seed,
+.brand-logo.is-playing .brand-wordmark,
+.brand-logo.is-playing .brand-tagline {
+  will-change: transform, opacity;
+}
+#site-header.is-compact .brand-seed {
+  top: -0.2em;
+}
+@media (max-width: 360px) {
+  #site-header.is-compact .brand-logo {
+    font-size: 20px;
+  }
+}
+
+/* Negative lockup for dark backgrounds. The blue dots retain the brand accent. */
+.brand-logo.is-negative .brand-wordmark {
+  color: #f7f9fc;
+}
+.brand-logo.is-negative .brand-tagline {
+  color: #c0c8d5;
+}
+.brand-logo.is-negative .brand-wordmark > .brand-dot {
+  color: #7da9ff;
+}
+.brand-logo.is-negative .brand-seed-bg {
+  fill: #f7f9fc;
+}
+.brand-logo.is-negative .brand-seed-letter {
+  fill: #111419;
+}
