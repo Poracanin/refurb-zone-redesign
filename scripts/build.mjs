@@ -36,6 +36,8 @@ async function applyBase(directory) {
       /(["'`])\/(index|katalog|produkt|sluzby|doprava)\.html/g,
       `$1${base}$2.html`,
     );
+    // CSS fonts can use unquoted url(/assets/...), unlike HTML and JS strings.
+    text = text.replace(/(\burl\(\s*)\/(assets|data|src)\//g, `$1${base}$2/`);
     text = text.replace(/href=(["'])\/\1/g, `href="${base}"`);
     await writeFile(file, text);
   }
