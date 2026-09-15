@@ -29,7 +29,7 @@
   color: inherit;
 }
 .brand-logo .brand-wordmark > .brand-dot {
-  color: #517db7;
+  color: #ec4899;
   transform-origin: center 80%;
 }
 .brand-logo .brand-seed {
@@ -94,7 +94,7 @@
   }
 }
 
-/* Negative lockup for dark backgrounds. The blue dots retain the brand accent. */
+/* Negative lockup for dark backgrounds. The pink dots retain the brand accent. */
 .brand-logo.is-negative .brand-wordmark {
   color: #f7f9fc;
 }
@@ -102,7 +102,7 @@
   color: #c0c8d5;
 }
 .brand-logo.is-negative .brand-wordmark > .brand-dot {
-  color: #7da9ff;
+  color: #ec4899;
 }
 .brand-logo.is-negative .brand-seed-bg {
   fill: #f7f9fc;
