@@ -19,7 +19,7 @@ window.refurbBrand = (() => {
         <svg class="brand-seed" viewBox="0 0 40 40" focusable="false">
           <rect class="brand-seed-bg" width="40" height="40" rx="11" fill="#111419"/>
           <text class="brand-seed-letter" x="10" y="29" fill="white" font-family="Arial,sans-serif" font-size="31" font-weight="700">r</text>
-          <circle cx="30" cy="28" r="3" fill="#7da9ff"/>
+          <circle cx="30" cy="28" r="3" fill="#ec4899"/>
         </svg>
         <span class="brand-wordmark"><span class="brand-initial">r</span><span class="brand-stem">efurb</span><span class="brand-dot">.</span><span class="brand-zone">zone</span></span>
       </span>
@@ -109,7 +109,7 @@ window.refurbBrand = (() => {
       };
       animate('.brand-wordmark', [{ color: '#101318' }, { color: '#f7f9fc' }], negativeTiming);
       animate('.brand-tagline', [{ color: '#737d8c' }, { color: '#c0c8d5' }], negativeTiming);
-      animate('.brand-dot', [{ color: '#517db7' }, { color: '#7da9ff' }], negativeTiming);
+      animate('.brand-dot', [{ color: '#ec4899' }, { color: '#ec4899' }], negativeTiming);
       animate('.brand-seed-bg', [{ fill: '#111419' }, { fill: '#f7f9fc' }], negativeTiming);
       animate('.brand-seed-letter', [{ fill: '#ffffff' }, { fill: '#111419' }], negativeTiming);
       last = animate(

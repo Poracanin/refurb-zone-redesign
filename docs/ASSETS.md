@@ -2,9 +2,9 @@
 
 ## Vlastní identita návrhu
 
-Wordmark `refurb.zone` používá Inter 800, barvu `#101318`, modrou tečku `#517db7` a stejné proporce jako hlavička návrhu. Exporty PNG mají průhledné pozadí. Textové logo zůstává v hlavičce pro ostré zobrazení v každé velikosti. Nový podtitulek je `LCD & OLED REFURBISHING`.
+Wordmark `refurb.zone` používá Inter 800, barvu `#101318`, růžovou tečku `#ec4899` a stejné proporce jako hlavička návrhu. Exporty PNG mají průhledné pozadí. Textové logo zůstává v hlavičce pro ostré zobrazení v každé velikosti. Nový podtitulek je `LCD & OLED REFURBISHING`.
 
-Favicon je původní symbol `r` na zaobleném tmavém poli `#111419` s tečkou `#7da9ff`. Vektorový zdroj je `assets/favicon.svg`, PNG velikosti jsou v `assets/brand/`.
+Favicon je původní symbol `r` na zaobleném tmavém poli `#111419` s tečkou `#ec4899`. Vektorový zdroj je `assets/favicon.svg`, PNG velikosti jsou v `assets/brand/`.
 
 Inter je přibalený v latinské a rozšířené latinské sadě pro češtinu. Licence SIL Open Font License je v `assets/fonts/OFL.txt`.
 
