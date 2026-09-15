@@ -17,6 +17,7 @@ for (const item of [
   'sluzby.html',
   'doprava.html',
   'administrace.html',
+  'obchodni-podminky.html',
   'assets',
   'data',
   'src',
@@ -34,7 +35,7 @@ async function applyBase(directory) {
     let text = await readFile(file, 'utf8');
     text = text.replace(/(["'`])\/(assets|data|src)\//g, `$1${base}$2/`);
     text = text.replace(
-      /(["'`])\/(index|katalog|produkt|sluzby|doprava|administrace)\.html/g,
+      /(["'`])\/(index|katalog|produkt|sluzby|doprava|administrace|obchodni-podminky)\.html/g,
       `$1${base}$2.html`,
     );
     // CSS fonts can use unquoted url(/assets/...), unlike HTML and JS strings.

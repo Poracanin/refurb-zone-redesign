@@ -24,6 +24,7 @@ Otevřete **http://127.0.0.1:4173/**. Jiný port: `npm run dev -- --port 4175`. 
 | `sluzby.html?service=vykup`      | Výkup displejů: modely, stav dotyku, filtrování cen a postup             |
 | `sluzby.html?service=zadni-skla` | Výměna zadních skel a ceník                                              |
 | `doprava.html`                   | Wolt Drive, PPL, Balíkovna a podmínky doručení                           |
+| `obchodni-podminky.html`         | Obchodní podmínky, vyplnění odstoupení, stažení PDF a tisk               |
 | `administrace.html`              | Demo správy servisních zakázek, objednávek, expedice, skladu a zákazníků |
 
 Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání modelů funguje v modálním okně, včetně Apple/Android a fotografií zařízení. Součástí je 50 vzorových produktů se 130 variantami, ne celý katalog původního obchodu.
@@ -33,6 +34,7 @@ Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání m
 ```text
 .
 ├── index.html, katalog.html, produkt.html, sluzby.html, doprava.html, administrace.html
+├── obchodni-podminky.html          # Podmínky a generátor odstoupení
 ├── src/
 │   ├── css/
 │   │   ├── styles.css              # Společný vzhled, responzivita, komponenty
@@ -55,6 +57,7 @@ Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání m
 │   ├── devices.json               # Modely zařízení a kompatibilita
 │   ├── services.json              # Služby a jejich ceníky
 │   ├── operations-demo.json       # Fiktivní provozní data administrace
+│   ├── terms.json                 # Obchodní podmínky a firemní údaje
 │   ├── delivery.json              # Doprava
 │   └── meta.json                  # Datum katalogového vzorku
 ├── assets/
@@ -98,6 +101,10 @@ Bez přihlášení rozhraní skrývá ceny. Demo přihlášení a košík použ�
 Repase, výkup a výměna zadních skel mají nabídky jako produktové dlaždice s fotografiemi. Přihlášený klient může odeslat demo poptávku a sledovat její stav. Správce najde stejnou poptávku v administraci, kde spravuje techniky, termíny, ceny, kontrolu, poznámky a expedici. Objednávky dílů jsou propojené se skladovými rezervacemi a odpisem při odeslání.
 
 **Demo správce:** `admin@example.com` / `Admin2026!`. Přihlášení nabízí tlačítko pro vyplnění údajů. Provozní vzorek je v `data/operations-demo.json`, změny v `localStorage`. Neodesílají se e-maily ani skutečné zásilky. Podrobný průchod, přehled funkcí a uložení dat: [docs/ADMIN-DEMO.md](docs/ADMIN-DEMO.md).
+
+## Obchodní podmínky a formulář odstoupení
+
+Ve společném zápatí jsou odkazy na podmínky a přímo na formulář odstoupení od smlouvy o dílo na servis. Formulář funguje bez přihlášení, má živý náhled, generuje PDF s českou diakritikou a nabízí tisk i prázdný vzor. Vyplněné údaje zůstávají v prohlížeči; zákazník odesílá oznámení sám. Zdroj textu, schválené změny a postup aktualizace: [docs/TERMS.md](docs/TERMS.md).
 
 ## Úpravy dat a pozdější databáze
 
