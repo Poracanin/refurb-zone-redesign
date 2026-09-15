@@ -730,6 +730,8 @@ input[type='search']::-webkit-search-cancel-button {
 }
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 24px;
   font-size: 13px;
   color: #6c7380;
@@ -1228,6 +1230,7 @@ input[type='search']::-webkit-search-cancel-button {
     flex-direction: column;
   }
   .footer-links {
+    justify-content: flex-start;
     font-size: 12px;
     gap: 14px 20px;
   }

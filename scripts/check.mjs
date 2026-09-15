@@ -41,6 +41,7 @@ for (const file of [
   'sluzby.html',
   'doprava.html',
   'administrace.html',
+  'obchodni-podminky.html',
 ]) {
   const html = await readFile(resolve(root, file), 'utf8');
   if (file !== 'administrace.html') {

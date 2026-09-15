@@ -1,0 +1,433 @@
+{
+  "title": "Všeobecné obchodní podmínky",
+  "prepared_at": "2026-09-15",
+  "source": "Text dodaný provozovatelem webu",
+  "source_sha256": "dd55437349b9c0a89437fe329b496539bdb1ac3a58e9d7fac22b5558cfdd6d83",
+  "company": {
+    "name": "KUGLER distribution s.r.o.",
+    "ico": "04591429",
+    "dic": "CZ04591429",
+    "street": "Korunní 2569/108",
+    "city": "Vinohrady, 101 00 Praha",
+    "registry": "Obchodní rejstřík vedený Městským soudem v Praze, oddíl C, vložka 250350",
+    "email": "info@refurb.zone",
+    "phone": "739 751 611"
+  },
+  "articles": [
+    {
+      "number": 1,
+      "title": "Úvodní ustanovení",
+      "clauses": [
+        {
+          "text": "Tyto všeobecné obchodní podmínky Společnosti (dále „Podmínky“) upravují právní vztahy mezi Společností a třetí osobou (dále „Zákazník“), které vznikají při podnikatelské činnosti Společnosti, tj. při poskytování služeb servisu elektroniky podnikatelům nebo spotřebitelům a dále také při prodeji náhradních dílů k mobilním telefonům a dalším elektronickým zařízením (dále „Zboží“) výlučně podnikatelům.",
+          "children": []
+        },
+        {
+          "text": "Pokud jsou tyto Podmínky v rozporu s případnou smlouvou uzavřenou mezi Společností a Zákazníkem, má v příslušném rozsahu přednost smlouva před těmito Podmínkami.",
+          "children": []
+        },
+        {
+          "text": "Tyto Podmínky jsou pro Zákazníka a Společnost závazné od okamžiku, kdy je mezi nimi uzavřená příslušná smlouva dle dalších ustanovení. Ustanovení těchto Podmínek jsou nedílnou součástí takových smluv.",
+          "children": []
+        },
+        {
+          "text": "Níže uvedené smlouvy včetně těchto Podmínek jsou vyhotoveny a uzavírají se v českém jazyce.",
+          "children": []
+        },
+        {
+          "text": "Společnost upozorňuje, že znění těchto Podmínek může měnit. Změnou Podmínek ustanovením nejsou dotčena práva a povinnosti vzniklé po dobu účinnosti předchozího znění Podmínek.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Servis – uzavírání smlouvy o dílo",
+      "clauses": [
+        {
+          "text": "Touto částí Podmínek, tj. článkem 2. – 6., se řídí uzavírání smluv o dílo mezi Společností a Zákazníkem. Tyto podmínky jsou jejich nedílnou součástí.",
+          "children": []
+        },
+        {
+          "text": "Zákazníkem je spotřebitel nebo podnikatel.",
+          "children": [
+            "Spotřebitelem je taková fyzická osoba, která se Společností jedná mimo rámec své podnikatelské činnosti nebo mimo rámec svého samostatného výkonu povolání.",
+            "Podnikatelem je ten, kdo samostatně, na vlastní účet a odpovědnost vykonává výdělečnou činnost živnostenským nebo obdobným způsobem se záměrem činit tak soustavně za účelem dosažení zisku. Za podnikatele se považuje také každá osoba, která jedná se Společností v souvislosti s vlastní obchodní, výrobní nebo obdobnou činností či při samostatném výkonu svého povolání, popřípadě osoba, která jedná jménem nebo na účet podnikatele."
+          ]
+        },
+        {
+          "text": "Smlouvou o dílo se Společnost zavazuje dle příslušné specifikace sdělené Zákazníkem provést dílo, zejména opravu elektronického zařízení nebo výměnu dílu v elektronickém zařízení (dále „Servis“) a Zákazník se za to zavazuje Společnosti zaplatit sjednanou částku.",
+          "children": []
+        },
+        {
+          "text": "Podmínky smlouvy o dílo mohou být sjednány dvěma způsoby, a to:",
+          "children": [
+            "kombinací telefonického sjednání a fyzického předání nebo",
+            "kombinací sjednání prostřednictvím SMS zprávy, WhatsApp, Facebook messenger či e-mailu (dále souhrnně jako „Komunikační platforma“) a fyzického předání;"
+          ]
+        },
+        {
+          "text": "Uzavření smlouvy o dílo kombinací telefonického sjednání a fyzického předání probíhá následovně:",
+          "children": [
+            "Zákazník telefonicky sdělí Společnosti specifikaci požadovaného Servisu, tj. alespoň konkrétní typ elektronického zařízení, popis projevů vady, které elektronické zařízení vykazuje, případně jaký způsob Servisu Zákazník požaduje (dále „Poptávka Servisu“);",
+            "Společnost sdělí Zákazníkovi cenu, případně dostupnost náhradních dílů a dobu, za jakou bude Servis proveden (dále „Nabídka Servisu“) a dále informaci o těchto Podmínkách dostupných na internetové adrese www.refurb.zone",
+            "Zákazník potvrdí, zda Nabídku Servisu přijímá či nikoli a pokud Nabídku servisu přijímá, dohodne se se Společností na místě předání elektronického zařízení;",
+            "Společnost je oprávněna požadovat dodatečné schválení Nabídky Servisu Zákazníkem prostřednictvím jakékoli Komunikační platformy, jejíž kontakt je za tímto účelem Společnost oprávněna vyžadovat;",
+            "smlouva o dílo je uzavřena teprve okamžikem, kdy Zákazník předá elektronické zařízení určené k Servisu pověřené osobě Společnosti. Společnost i Zákazník jsou do okamžiku předání oprávněny kdykoli od sjednání smlouvy o dílo ustoupit a smlouvu o dílo neuzavřít."
+          ]
+        },
+        {
+          "text": "Uzavření smlouvy o dílo prostřednictvím kombinace Komunikační platformy a fyzického předání probíhá následovně:",
+          "children": [
+            "Zákazník prostřednictvím Komunikační platformy sdělí Společnosti Poptávku Servisu;",
+            "Společnost prostřednictvím Komunikační platformy sdělí Zákazníkovi Nabídku Servisu;",
+            "Zákazník potvrdí, zda Nabídku Servisu přijímá či nikoli a pokud Nabídku servisu přijímá, dohodne se se Společností na místě předání elektronického zařízení;",
+            "smlouva o dílo je uzavřena teprve okamžikem, kdy Zákazník předá elektronické zařízení určené k Servisu pověřené osobě Společnosti. Společnost i Zákazník jsou do okamžiku předání oprávněny kdykoli od sjednávání a uzavření smlouvy o dílo ustoupit a smlouvu o dílo neuzavřít."
+          ]
+        },
+        {
+          "text": "V případě, že je nutné provést výměnu některé ze součástí elektronického zařízení, informuje Společnost Zákazníka v rámci Nabídky o ceně a dostupnosti náhradního dílu a sdělí zároveň, zda se jedná o originální repasovaný díl, případně neoriginální díl z druhovýroby.",
+          "children": []
+        },
+        {
+          "text": "Zákazník obdrží jedno vyhotovení Podmínek v písemné podobě při předání elektronického zařízení, přičemž platí, že předáním elektronického zařízení tyto Podmínky bez výhrad akceptuje. Zákazník tím zároveň potvrzuje, že se s Podmínkami měl možnost seznámit s dostatečným předstihem.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Servis – způsob a podmínky provedení",
+      "clauses": [
+        {
+          "text": "Společnost výslovně upozorňuje Zákazníka – spotřebitele, že s plněním smlouvy o dílo vyčká na uplynutí 14denní lhůty k odstoupení. S plněním před uplynutím této lhůty začne jedině na výslovnou žádost Zákazníka – spotřebitele.",
+          "children": []
+        },
+        {
+          "text": "Společnost nenese žádnou odpovědnost za jakékoli poškození nebo ztrátu dat na předaném elektronickém zařízení.",
+          "children": []
+        },
+        {
+          "text": "Společnost nenese žádnou odpovědnost a neručí za jakékoli vady elektronického zařízení způsobené neodbornou instalací hardwarových komponentů či softwarových produktů do elektronického zařízení před předáním elektronického zařízení Společnosti a rovněž neručí za jejich funkčnost.",
+          "children": []
+        },
+        {
+          "text": "Společnost odstraní závadu dle Zákazníkova popisu. V případě, že se vyskytnou komplikace nebo nutnost dalších nebo odlišných prací (víceprací) než jaké byly sjednány se Zákazníkem, kontaktuje Společnost Zákazníka a vyžádá si potvrzení provedení víceprací. Potvrzení je Společnost oprávněna vyžadovat prostřednictvím Komunikační platformy.",
+          "children": []
+        },
+        {
+          "text": "Jakmile dojde k předání elektronického zařízení zpět Zákazníkovi, je povinen funkčnost vráceného elektronické zařízení neprodleně zkontrolovat.",
+          "children": []
+        },
+        {
+          "text": "V případě, že nebude možné provést Servis z technických či jiných důvodů, uvede Společnost elektronické zařízení do původního stavu na náklady Zákazníka. Společnost se dohodne se Zákazníkem, kdy a kde bude možné si zařízení vyzvednout, případě se zařízení posílá smluvním dopravcem na náklady Zákazníka.",
+          "children": []
+        },
+        {
+          "text": "Zákazník – spotřebitel, není oprávněn odstoupit od smlouvy o dílo v rozsahu, ve kterém ji Společnost na výslovnou žádost Zákazníka – spotřebitele již splnila. Tuto splněnou část smlouvy o dílo je Zákazník – spotřebitel povinen uhradit.",
+          "children": []
+        },
+        {
+          "text": "Zákazník bere na vědomí, že doba dokončení Servisu se může prodloužit v závislosti na složitosti provedení Servisu.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Servis – záruky a práva z vadného plnění",
+      "clauses": [
+        {
+          "text": "Společnost na provedený Servis a náhradní díly poskytuje Zákazníkovi záruku 12 měsíců, která se váže výlučně k osobě Zákazníka a nepřechází na jeho právní nástupce. Na originální repasované displeje společnost poskytuje doživotní záruku. Společnost upozorňuje, že Záruční doba na to, po jakou dobu si baterie udrží kapacitu, činí pouze 6 měsíců.",
+          "children": []
+        },
+        {
+          "text": "Pokud se během záruční doby projeví na Zákazníkově elektronickém zařízení jiná závada, než jaká byla předmětem Servisu, nenese Společnost odpovědnost za její odstranění.",
+          "children": []
+        },
+        {
+          "text": "Reklamace nebude uznána v případě, že elektronické zařízení nese známky působení kapaliny, je prasklé či došlo k přetrhání flex kabelů, případně vykazuje známky zjevně úmyslného poškození nebo poškození, které je nad rámec běžného opotřebení. Práva ze záruky rovněž Zákazník ztrácí v případě, že elektronické zařízení nese známky opravy jiným subjektem.",
+          "children": []
+        },
+        {
+          "text": "Společnost odpovídá Zákazníkovi, že náhradní díly, které v rámci Servisu vložila do elektronického zařízení Zákazníka, mají dohodnuté vlastnosti. Pokud se strany o vlastnostech náhradního dílu nedohodly, pak platí, že má mít takové vlastnosti, které Zákazník mohl očekávat s ohledem na povahu náhradního dílu.",
+          "children": []
+        },
+        {
+          "text": "V případě výskytu vady náhradního dílu nebo provedení Servisu může Zákazník u Společnosti uplatnit reklamaci a:",
+          "children": [
+            "požadovat výměnu za nový náhradní díl;",
+            "požadovat opravu elektronického zařízení;",
+            "požadovat přiměřenou slevu z ceny;",
+            "odstoupit od smlouvy o dílo."
+          ]
+        },
+        {
+          "text": "Zákazník má právo odstoupit od smlouvy o dílo v případě, že za vady odpovídá Společnost, a to:",
+          "children": [
+            "pokud má náhradní díl nebo provedení Servisu podstatnou vadu;",
+            "pokud nemůže elektronické zařízení řádně užívat pro opakovaný výskyt vady nebo vad po provedení Servisu;",
+            "při větším počtu vad provedeného Servisu."
+          ]
+        },
+        {
+          "text": "Zákazník uplatní reklamaci na jakémkoli kontaktu Společnosti uvedeném v záhlaví těchto Podmínek. Společnost v takovém případě zajistí vyzvednutí elektronického zařízení na místě sjednaném se Zákazníkem. V případě, že nedojde k dohodě, přijme Společnost elektronické zařízení pomocí smluvního dopravce. Společnost Zákazníkovi vydá potvrzení o tom, kdy Zákazník právo uplatnil, co je obsahem reklamace a jaký způsob vyřízení reklamace Zákazník požaduje. Společnost Zákazníkovi rovněž vydá potvrzení o vyřízení reklamace, včetně potvrzení o provedení opravy a době jejího trvání, případně písemné odůvodnění zamítnutí reklamace.",
+          "children": []
+        },
+        {
+          "text": "Práva a povinnosti smluvních stran ohledně práv z vadného plnění se řídí § 1914 až 1925, § 2099 až 2117 a § 2161 až 2174 občanského zákoníku a zákonem č. 634/1992 Sb., o ochraně spotřebitele.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Servis – odstoupení od smlouvy o dílo",
+      "clauses": [
+        {
+          "text": "Zákazník – spotřebitel má právo odstoupit od uzavřené smlouvy o dílo do 14 dnů od jejího uzavření. V případě, že Společnost na jeho výslovnou žádost již začala s plněním smlouvy o dílo, má Zákazník – spotřebitel právo odstoupit jen v té části, v jaké smlouva o dílo ještě nebyla splněna. V takovém případě se postupuje dle odst. 3.7. Podmínek.",
+          "children": []
+        },
+        {
+          "text": "V případě odstoupení Zákazníka od smlouvy o dílo vrátí Společnost příslušnou částku do 14 dnů od odstoupení, a to stejným způsobem, jakým ji Společnost od Zákazníka přijala. Společnost je taktéž oprávněna vrátit příslušnou částku zákazníkovi při vrácení Zboží či náhradního dílu, případně ji vrátit jiným způsobem, pokud s tím Zákazník bude souhlasit a nevzniknou mu tím další náklady. Pokud Zákazník odstoupí od smlouvy o dílo týkající se pouze vadného náhradního dílu, Společnost není povinna vrátit příslušnou částku Zákazníkovi dříve, než jí Zákazník náhradní díl vrátí nebo prokáže, že náhradní díl Společnosti odeslal.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Formulář k odstoupení od smlouvy o dílo",
+      "template": "OZNÁMENÍ O ODSTOUPENÍ OD SMLOUVY\n\nSpolečnost: KUGLER distribution s.r.o.\nsídlo: Korunní 2569/108, Vinohrady, 101 00\ntelefon: 739 751 611\nemail: info@refurb.zone\n\nOznamuji Vám, že tímto odstupuji od smlouvy o dílo, jejímž předmětem byl Servis:\n\n- elektronického zařízení – specifikace elektronického zařízení a ceny Servisu:\n\n- objednaný dne\n\n- s číslem objednávky/smlouvy:\n\n\nJméno a příjmení:\n\nUlice a číslo:\n\nPSČ:\n\nMěsto:\n\nKontakt:\n\n\n\n5) Datum:\n\n\n6) Podpis (1):\n\n\n- tento formulář lze zaslat s vlastnoručním podpisem poštou nebo bez podpisu elektronickou poštou",
+      "clauses": []
+    },
+    {
+      "number": 7,
+      "title": "Prodej Zboží – uzavření kupní smlouvy",
+      "clauses": [
+        {
+          "text": "Touto částí Podmínek, tj. články 7. – 10. se řídí uzavírání kupních smluv na Zboží, které uzavírá Společnost se Zákazníky.",
+          "children": []
+        },
+        {
+          "text": "Uzavření kupní smlouvy na Zboží Společnost umožňuje pouze podnikatelům v rámci jejich podnikatelské činnosti.",
+          "children": []
+        },
+        {
+          "text": "Společnost výslovně upozorňuje, že Zboží může patřit do kategorie tzv. druhovýroby, tj. jedná se o díly, které nejsou originální. Společnost nabízí rovněž repasované originální díly. Před uzavřením kupní smlouvy Společnost Zákazníka upozorní, zda se jedná o originální repasovaný díl nebo díl tzv. z druhovýroby, tj. neoriginální. Zákazník bere na vědomí, že Společnost nijak neodpovídá za způsob, jakým Zákazník prezentuje Zboží třetím osobám a nenese za tuto prezentaci jakoukoli odpovědnost.",
+          "children": []
+        },
+        {
+          "text": "Uzavření kupní smlouvy probíhá ve třech krocích:",
+          "children": [
+            "v prvním kroku Zákazník sdělí společnosti, o jaké Zboží má zájem (dále „Poptávka“);",
+            "následně Společnost Zákazníkovi sdělí, jaká je dostupnost poptávaného Zboží, jeho cena a cena dodání (dále „Nabídka“);",
+            "schválením nabídky ze strany Zákazníka dochází k uzavření kupní smlouvy (dále „Schválení“)."
+          ]
+        },
+        {
+          "text": "Uzavření kupní smlouvy probíhá:",
+          "children": [
+            "telefonicky;",
+            "prostřednictvím Komunikační platformy;",
+            "prostřednictvím kontaktního formuláře uvedeného na internetových stránkách společnosti umístěných na adrese [refurb.zone](http://www.refurb.zone/) (dále „Kontaktní formulář“) v kombinaci s telefonickým uzavřením nebo uzavřením prostřednictvím Komunikační platformy."
+          ]
+        },
+        {
+          "text": "Telefonické uzavření kupní smlouvy probíhá následovně:",
+          "children": [
+            "Zákazník telefonicky sdělí Společnosti Poptávku;",
+            "Společnost sdělí Zákazníkovi Nabídku;",
+            "Zákazník potvrdí, zda má o Zboží zájem či nikoli, tj. nabídku schválí či nikoli;",
+            "bezpodmínečným a úplným potvrzením Nabídky je uzavřena kupní smlouva;",
+            "v případě jakéhokoli pozměňovacího návrhu ze strany Zákazníka je smlouva uzavřena teprve okamžikem, kdy Společnost potvrdí přijetí pozměňovacího návrhu Zákazníka;",
+            "Společnost je oprávněna požadovat dodatečné schválení Nabídky nebo potvrzení Nabídky upravené dle pozměňovacího návrhu Zákazníka, a to prostřednictvím Komunikační platformy, jejíž kontaktní údaje je Společnost oprávněna pro tento účel požadovat;",
+            "Společnost je oprávněna pozastavit odeslání Zboží do doby, než Zákazník schválí Nabídku prostřednictvím Komunikační platformy, na kterou Společnost zaslala žádost o dodatečné schválení Nabídky a Zákazník nemá nárok na jakoukoli náhradu újmy nebo úroky z prodlení či jakékoli jiné plnění z toho plynoucí; pokud Zákazník dodatečně neschválí Nabídku do 7 dnů od jejího odeslání Společností, je Společnost oprávněna od kupní smlouvy odstoupit."
+          ]
+        },
+        {
+          "text": "Uzavření kupní smlouvy prostřednictvím Komunikační platformy probíhá následovně:",
+          "children": [
+            "Zákazník prostřednictvím Komunikační platformy Společnosti sdělí Poptávku;",
+            "Společnost prostřednictvím stejné Komunikační platformy sdělí Nabídku;",
+            "Zákazník taktéž prostřednictvím stejné Komunikační platformy potvrdí, zda má o Zboží zájem či nikoli, tj. nabídku schválí nebo odmítne;",
+            "bezpodmínečným a úplným potvrzením Nabídky je uzavřena kupní smlouva;",
+            "v případě jakéhokoli pozměňovacího návrhu ze strany Zákazníka je kupní smlouva uzavřena teprve okamžikem, kdy Společnost potvrdí přijetí pozměňovacího návrhu Zákazníka."
+          ]
+        },
+        {
+          "text": "Uzavření kupní smlouvy prostřednictvím Kontaktního formuláře v kombinaci s telefonickým uzavřením nebo uzavřením prostřednictvím Komunikační platformy probíhá následovně:",
+          "children": [
+            "Zákazník vyplní Kontaktní formulář, tj. uvede alespoň Zboží, o které má zájem, kontaktní údaje, prostřednictvím kterých jej má Společnost kontaktovat (buď telefon, nebo kontaktní údaje na některou Komunikační platformu);",
+            "Společnost Zákazníka kontaktuje telefonicky nebo prostřednictvím Komunikační platformy;",
+            "dále uzavření kupní smlouvy probíhá obdobně jako v případě telefonického uzavření kupní smlouvy (odst. 2.6. Podmínek) nebo v případě uzavření kupní smlouvy prostřednictvím Komunikační platformy (odst. 7.6. a 7.7. Podmínek)."
+          ]
+        },
+        {
+          "text": "Zákazník souhlasí s použitím komunikačních prostředků na dálku při uzavírání kupní smlouvy. Náklady vzniklé Zákazníkovi při použití komunikačních prostředků na dálku v souvislosti s uzavřením kupní smlouvy (náklady na internetové připojení, náklady na telefonní hovory) si hradí Zákazník sám, přičemž tyto náklady se neliší od základní sazby.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Prodej Zboží – platební podmínky",
+      "clauses": [
+        {
+          "text": "Společnost umožňuje následující způsoby úhrady kupní ceny za Zboží a nákladů na jeho dodání:",
+          "children": [
+            "v hotovosti na dobírku v místě určeném Zákazníkem k dodání Zboží;",
+            "bezhotovostně převodem na účet Společnosti č. 2000915234/2010, vedený u FIO banky"
+          ]
+        },
+        {
+          "text": "Společně s kupní cenou je Zákazník povinen zaplatit Společnosti také náklady spojené s balením a dodáním Zboží. Pokud se dále v tomto článku hovoří o kupní ceně, rozumí se tím kupní cena společně s náklady na balení a dodání Zboží.",
+          "children": []
+        },
+        {
+          "text": "V případě bezhotovostní platby je kupní cena splatná do 7 dnů od dodání Zboží.",
+          "children": []
+        },
+        {
+          "text": "Společnost je oprávněna požadovat uhrazení celé kupní ceny ještě před odesláním Zboží Zákazníkovi. Ustanovení § 2119 odst. 1 Občanského zákoníku se nepoužije.",
+          "children": []
+        },
+        {
+          "text": "Případné slevy z ceny Zboží poskytnuté Společností Zákazníkovi nelze vzájemně kombinovat.",
+          "children": []
+        },
+        {
+          "text": "Společnost vystaví na platby provedené na základě kupní smlouvy na Zboží daňový doklad – fakturu. Podnikatel je plátcem daně z přidané hodnoty. Fakturu vystaví Společnost Zákazníkovi po uhrazení ceny Zboží a zašle ji v elektronické podobě na e-mail Zákazníka.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Prodej Zboží – přeprava a dodání",
+      "clauses": [
+        {
+          "text": "Pokud je Společnost podle kupní smlouvy povinna dodat Zboží Zákazníkovi, je Zákazník povinen převzít Zboží při dodání.",
+          "children": []
+        },
+        {
+          "text": "Jestliže je nutné doručovat Zboží opakovaně nebo jiným než původně sjednaným způsobem z důvodů na straně Zákazníka, je Zákazník povinen uhradit náklady spojené s opakovaným doručováním Zboží, resp. náklady spojené s jiným způsobem doručení.",
+          "children": []
+        },
+        {
+          "text": "Při převzetí Zboží od přepravce je Zákazník povinen zkontrolovat neporušenost obalů Zboží a v případě jakýchkoliv závad je neprodleně oznámit přepravci. Zákazník je oprávněn odmítnout převzetí zásilky v případě, že je obal porušen způsobem svědčícím o neoprávněném vniknutí do zásilky.",
+          "children": []
+        },
+        {
+          "text": "Společnost nabízí zaslání zboží a zařízení smluvními dopravci PPL. Tato služba je zpoplatněna fixní cenou 99 CZK bez DPH. V případě objednávky za cenu 3000 CZK a výše bez DPH je doprava placena Prodejcem.",
+          "children": []
+        },
+        {
+          "text": "Společnost nabízí expresní smluvní kurýrní službu Wolt Drive. Tato služba je zpoplatněna dle adresy zákazníka. V případě objednávky za cenu 7500 CZK a výše bez DPH je doprava placena Prodejcem.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Prodej Zboží – záruka",
+      "clauses": [
+        {
+          "text": "Společnost poskytuje na Zboží záruku, která trvá po takovou dobu, po jakou bude Zboží vlastnit Zákazník, s nímž Společnost uzavřela kupní smlouvu na Zboží. V případě baterií však Společnost poskytuje pouze 6 měsíční záruku na kapacitu baterie.",
+          "children": []
+        },
+        {
+          "text": "Záruka dle odst. 10.1. se vztahuje na Zboží, které odpovídá obvyklému opotřebení. Záruka se nevztahuje na případy, kdy Zboží přišlo do kontaktu s kapalinou, je prasklé či došlo k přetrhání flex kabelů, případně vykazuje známky zjevně úmyslného poškození nebo poškození, které je nad rámec běžného opotřebení.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Ochrana osobních údajů",
+      "clauses": [
+        {
+          "text": "Osobní údaje Zákazníků Společnost zpracovává v souladu s platnými zákony České republiky a příslušnými právními předpisy Evropské Unie.",
+          "children": []
+        },
+        {
+          "text": "Osobní údaje, které Zákazník uvede v objednávce nebo ve smlouvě, slouží výhradně pro potřebu Společnosti, a to pro účely realizace práv a povinností ze smluv.",
+          "children": []
+        },
+        {
+          "text": "Zákazník bere na vědomí, že je povinen své osobní údaje uvádět správně a pravdivě. Informace o zpracování osobních údajů Společností jsou dostupné na adrese www.refurb.zone/podminky-ochrany-osobnich-udaju/.",
+          "children": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Informace o řešení sporů a dohledu",
+      "clauses": [
+        {
+          "text": "Vyřizování stížností Zákazníků – spotřebitelů, zajišťuje Společnost prostřednictvím elektronické adresy info@refurb.zone. Informaci o vyřízení stížnosti Zákazníka zašle Společnost na elektronickou adresu Zákazníka.",
+          "children": []
+        },
+        {
+          "text": "K mimosoudnímu řešení spotřebitelských sporů ze smlouvy o dílo je příslušná Česká obchodní inspekce, se sídlem Štěpánská 567/15, 120 00 Praha 2, IČ: 00020 869, internetová adresa: http://www.coi.cz. Platformu pro řešení sporů on-line nacházející se na internetové adrese http://ec.europa.eu/consumers/odr je možné využít při řešení sporů mezi Společností a Zákazníkem ze smlouvy o dílo.",
+          "children": []
+        },
+        {
+          "text": "Evropské spotřebitelské centrum Česká republika, se sídlem Štěpánská 567/15, 120 00 Praha 2, internetová adresa: http://www.evropskyspotrebitel.cz je kontaktním místem podle Nařízení Evropského parlamentu a Rady (EU) č. 524/2013 ze dne 21. května 2013 o řešení spotřebitelských sporů on-line a o změně nařízení (ES) č. 2006/2004 a směrnice 2009/22/ES (nařízení o řešení spotřebitelských sporů on-line).",
+          "children": []
+        },
+        {
+          "text": "Společnost je oprávněna k provozování činnosti na základě živnostenského oprávnění. Živnostenskou kontrolu provádí v rámci své působnosti příslušný živnostenský úřad. Dozor nad oblastí ochrany osobních údajů vykonává Úřad pro ochranu osobních údajů. Česká obchodní inspekce vykonává ve vymezeném rozsahu mimo jiné dozor nad dodržováním zákona č. 634/1992 Sb., o ochraně spotřebitele, ve znění pozdějších předpisů.",
+          "children": []
+        }
+      ],
+      "notice": {
+        "title": "Aktuální informace k řešení sporů",
+        "text": "Evropská platforma ODR ukončila provoz 20. 7. 2025. Historické odkazy na tuto platformu a nařízení č. 524/2013 v dodaném znění níže už nejsou aktuální. Pro mimosoudní řešení spotřebitelského sporu využijte aktuální informace České obchodní inspekce. Oddělení ADR sídlí na adrese Gorazdova 1969/24, 120 00 Praha 2.",
+        "links": [
+          {
+            "label": "Mimosoudní řešení sporů u ČOI",
+            "url": "https://coi.gov.cz/informace-o-adr/"
+          },
+          {
+            "label": "Ukončení ODR – Evropská komise",
+            "url": "https://consumer-redress.ec.europa.eu/site-relocation_en"
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "title": "Závěrečná ustanovení",
+      "clauses": [
+        {
+          "text": "Pokud vztah založený smlouvou o dílo nebo kupní smlouvou dle těchto Podmínek obsahuje mezinárodní (zahraniční) prvek, pak Společnost a Zákazník sjednávají, že vztah se řídí českým právem. Tímto nejsou dotčena práva spotřebitele vyplývající z obecně závazných právních předpisů.",
+          "children": []
+        },
+        {
+          "text": "Veškerá písemná komunikace mezi Společností a Zákazníkem bude probíhat na jejich adresy bydliště/sídla (u Zákazníka – spotřebitele rovněž na adresu provozovny) uvedené ve smlouvě. Písemná forma je zachována také při komunikaci přes Komunikační platformu za dodržení těchto Podmínek.",
+          "children": []
+        },
+        {
+          "text": "Smlouva o dílo včetně všeobecných obchodních podmínek je archivována v kombinované elektronické a fyzické podobě u Společnosti. Společnost k ní neumožňuje přístup.",
+          "children": []
+        },
+        {
+          "text": "Společnost není ve vztahu k Zákazníkovi vázána žádnými kodexy chování ve smyslu ustanovení § 1826 odst. 1 písm. e) Občanského zákoníku.",
+          "children": []
+        },
+        {
+          "text": "Zákazník tímto přebírá na sebe nebezpečí změny okolností ve smyslu § 1765 Občanského zákoníku.",
+          "children": []
+        },
+        {
+          "text": "Uzavřením Smlouvy Zákazník stvrzuje, že se seznámil s těmito Podmínkami a že s nimi souhlasí. Na tyto Podmínky byl Zákazník dostatečným způsobem před vlastním uzavřením smlouvy upozorněn a měl možnost se s nimi seznámit.",
+          "children": []
+        },
+        {
+          "text": "V případě soudních sporů je příslušný obecný soud Společnosti. Toto ustanovení se nepoužije, je-li Zákazníkem spotřebitel.",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

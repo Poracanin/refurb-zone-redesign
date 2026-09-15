@@ -39,7 +39,9 @@ async function inspect(directory) {
         `${label}: chybí prefix assetu`,
       );
       assert(
-        !/["'`]\/(?:index|katalog|produkt|sluzby|doprava|administrace)\.html/.test(text),
+        !/["'`]\/(?:index|katalog|produkt|sluzby|doprava|administrace|obchodni-podminky)\.html/.test(
+          text,
+        ),
         `${label}: chybí prefix stránky`,
       );
     }
@@ -59,7 +61,9 @@ async function inspect(directory) {
           match[1].startsWith(base) &&
           (path === '' ||
             /^(assets|data|src)\//.test(path) ||
-            /^(index|katalog|produkt|sluzby|doprava|administrace)\.html/.test(path))
+            /^(index|katalog|produkt|sluzby|doprava|administrace|obchodni-podminky)\.html/.test(
+              path,
+            ))
         ) {
           checkUrl(match[1], label);
         }

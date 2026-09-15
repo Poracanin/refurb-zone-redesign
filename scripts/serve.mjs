@@ -17,6 +17,7 @@ const pages = new Set([
   'sluzby.html',
   'doprava.html',
   'administrace.html',
+  'obchodni-podminky.html',
 ]);
 const mime = {
   '.html': 'text/html; charset=utf-8',
@@ -29,6 +30,8 @@ const mime = {
   '.jpeg': 'image/jpeg',
   '.webp': 'image/webp',
   '.woff2': 'font/woff2',
+  '.pdf': 'application/pdf',
+  '.ttf': 'font/ttf',
   '.txt': 'text/plain; charset=utf-8',
 };
 const server = http.createServer(async (request, response) => {
