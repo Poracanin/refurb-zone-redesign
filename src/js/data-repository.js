@@ -14,7 +14,7 @@ const dataRepository = {
       brands: '/data/brands.json',
       devices: '/data/devices.json',
       services: '/data/services.json',
-      delivery: '/data/delivery.json',
+      delivery: '/data/delivery.json?v=shipping-1745',
     };
     const entries = await Promise.all(
       Object.entries(sources).map(async ([key, url]) => {
