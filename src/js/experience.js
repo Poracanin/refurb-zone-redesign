@@ -41,14 +41,34 @@ function initCompactHeader() {
 }
 const NAV_GROUPS = [
   {
-    label: 'Díly pro Apple',
+    label: 'Náhradní díly',
     key: 'apple-parts',
     url: '/katalog.html?category=nahradni-dily',
     items: [
-      ['iPhone', '/katalog.html?category=iphone', 'Displeje, baterie a další díly'],
-      ['iPad', '/katalog.html?category=ipad', 'Díly pro vaše tablety'],
-      ['MacBook', '/katalog.html?category=macbook', 'Klávesnice a další díly'],
-      ['Apple Watch', '/katalog.html?category=watch', 'Díly pro chytré hodinky'],
+      {
+        name: 'iPhone',
+        url: '/katalog.html?category=iphone',
+        desc: 'Displeje, baterie a další díly',
+        image: '/assets/categories/iphone.png',
+      },
+      {
+        name: 'iPad',
+        url: '/katalog.html?category=ipad',
+        desc: 'Díly pro vaše tablety',
+        image: '/assets/categories/ipad.png',
+      },
+      {
+        name: 'MacBook',
+        url: '/katalog.html?category=macbook',
+        desc: 'Díly pro notebooky Apple',
+        image: '/assets/categories/macbook.png',
+      },
+      {
+        name: 'Apple Watch',
+        url: '/katalog.html?category=watch',
+        desc: 'Díly pro chytré hodinky',
+        image: '/assets/categories/watch.png',
+      },
     ],
   },
   {
@@ -56,14 +76,23 @@ const NAV_GROUPS = [
     key: 'materials',
     url: '/katalog.html?category=refurb',
     items: [
-      ['Pro Apple', '/katalog.html?category=refurb-apple', 'Skla, rámečky a drobné komponenty'],
-      ['Pro Android', '/katalog.html?category=refurb-android', 'Materiál pro Samsung a Lenovo'],
-      ['Lepení', '/katalog.html?category=lepeni', 'Lepidla, pásky a příslušenství'],
-      [
-        'Čištění a chemie',
-        '/katalog.html?category=cisteni-a-chemie',
-        'Příprava a čištění při opravách',
-      ],
+      {
+        name: 'Apple',
+        url: '/katalog.html?category=refurb-apple',
+        desc: 'Skla, OCA a rámečky pro repasování',
+        logo: '/assets/brands/apple.svg',
+        children: [
+          { name: 'iPhone', url: '/katalog.html?category=refurb-iphone' },
+          { name: 'iPad', url: '/katalog.html?category=refurb-ipad' },
+          { name: 'Watch', url: '/katalog.html?category=refurb-watch' },
+        ],
+      },
+      {
+        name: 'Android',
+        url: '/katalog.html?category=refurb-android',
+        desc: 'Materiál pro telefony a tablety s Androidem',
+        logo: '/assets/brands/android.svg',
+      },
     ],
   },
   {
@@ -71,25 +100,40 @@ const NAV_GROUPS = [
     key: 'equipment',
     url: '/katalog.html?category=doplnky',
     items: [
-      ['Programátory', '/katalog.html?category=programatory', ''],
-      ['Adaptéry a kabely', '/katalog.html?category=adaptery-a-kabely', ''],
-      ['Ochranná skla', '/katalog.html?category=ochranna-skla', ''],
-      ['Nářadí', '/katalog.html?category=naradi', ''],
-      ['Pájení', '/katalog.html?category=pajeni', ''],
-      ['Čištění a chemie', '/katalog.html?category=cisteni-a-chemie', ''],
+      { name: 'Programátory', url: '/katalog.html?category=programatory' },
+      { name: 'Adaptéry a kabely', url: '/katalog.html?category=adaptery-a-kabely' },
+      { name: 'Lepení', url: '/katalog.html?category=lepeni' },
+      { name: 'Ochranná skla', url: '/katalog.html?category=ochranna-skla' },
+      { name: 'Nářadí', url: '/katalog.html?category=naradi' },
+      { name: 'Pájení', url: '/katalog.html?category=pajeni' },
+      { name: 'Čištění a chemie', url: '/katalog.html?category=cisteni-a-chemie' },
     ],
   },
 ];
+function navigationItemsHtml(group) {
+  return `<div class="nav-panel-grid nav-items-${group.key}">${group.items
+    .map((item) => {
+      const content = `${item.image ? `<img class="nav-device-photo" src="${item.image}" alt="" width="160" height="120" loading="lazy">` : ''}<span class="nav-item-title">${item.logo ? `<img class="nav-platform-logo" src="${item.logo}" alt="" width="24" height="24">` : ''}<strong>${esc(item.name)}</strong>${icon('arrow')}</span>${item.desc ? `<small>${esc(item.desc)}</small>` : ''}`;
+      const link = `<a class="nav-item${item.image ? ' nav-device-item' : ''}" href="${item.url}">${content}</a>`;
+      return item.children
+        ? `<div class="nav-family">${link}<div class="nav-family-links" role="group" aria-label="Refurbish materiál pro ${esc(item.name)}">${item.children.map((child) => `<a href="${child.url}">${esc(child.name)}${icon('arrow')}</a>`).join('')}</div></div>`
+        : link;
+    })
+    .join('')}</div>`;
+}
 const SERVICE_LINKS = [
   ['Repasování displejů', 'repase'],
   ['Výkup displejů', 'vykup'],
   ['Výměna zadních skel', 'zadni-skla'],
 ];
+function shippingCutoff() {
+  return esc(DATA.delivery?.cutoff || '17:45');
+}
 function deliveryTopline() {
-  return `<div class="delivery-topline"><div class="container"><a href="/doprava.html">${icon('truck')}<span>Objednávky do <strong>17:30</strong> ve všední dny odesíláme tentýž den</span></a><a href="/doprava.html#wolt"><span class="wolt-mini">Wolt Drive</span> Praha do 2 hodin ${icon('arrow')}</a></div></div>`;
+  return `<div class="delivery-topline"><div class="container"><a class="delivery-cutoff" href="/doprava.html">${icon('truck')}<span class="delivery-cutoff-copy">Objednávky do <strong data-shipping-cutoff>${shippingCutoff()}</strong><span class="delivery-cutoff-detail"> ve všední dny odesíláme tentýž den</span></span><span class="shipping-countdown" data-shipping-countdown role="timer" aria-live="off"><span data-countdown-label>Zbývá</span><strong data-countdown-value></strong></span></a><a class="delivery-wolt-link" href="/doprava.html#wolt"><span class="wolt-mini">Wolt Drive</span> Praha do 2 hodin ${icon('arrow')}</a></div></div>`;
 }
 function navigationHtml() {
-  return `<nav class="container main-nav focused-nav" aria-label="Hlavní navigace">${NAV_GROUPS.map((g) => `<details class="nav-dropdown"><summary>${esc(g.label)}${icon('chevron')}</summary><div class="nav-panel"><div class="nav-panel-heading"><strong>${esc(g.label)}</strong><a href="${g.url}">Zobrazit vše ${icon('arrow')}</a></div><div class="nav-panel-grid">${g.items.map(([name, url, desc]) => `<a href="${url}"><strong>${esc(name)}</strong>${desc ? `<small>${esc(desc)}</small>` : ''}</a>`).join('')}</div></div></details>`).join('')}<span class="nav-separator" aria-hidden="true"></span>${SERVICE_LINKS.map(([label, key], i) => `<a class="${i === 0 ? 'nav-service-primary' : ''}" href="/sluzby.html?service=${key}" ${location.pathname.endsWith('sluzby.html') && qs.get('service') === key ? 'aria-current="page"' : ''}>${label}</a>`).join('')}<a class="sale-link" href="/katalog.html?category=novinky">Novinky</a></nav>`;
+  return `<nav class="container main-nav focused-nav" aria-label="Hlavní navigace">${NAV_GROUPS.map((g) => `<details class="nav-dropdown"><summary>${esc(g.label)}${icon('chevron')}</summary><div class="nav-panel"><div class="nav-panel-heading"><strong>${esc(g.label)}</strong><a href="${g.url}">Zobrazit vše ${icon('arrow')}</a></div>${navigationItemsHtml(g)}</div></details>`).join('')}<span class="nav-separator" aria-hidden="true"></span>${SERVICE_LINKS.map(([label, key], i) => `<a class="${i === 0 ? 'nav-service-primary' : ''}" href="/sluzby.html?service=${key}" ${location.pathname.endsWith('sluzby.html') && qs.get('service') === key ? 'aria-current="page"' : ''}>${label}</a>`).join('')}<a class="sale-link" href="/katalog.html?category=novinky">Novinky</a></nav>`;
 }
 document.addEventListener('click', (e) => {
   document.querySelectorAll('.nav-dropdown[open]').forEach((d) => {
@@ -125,10 +169,10 @@ function renderHomeExperience() {
     services.innerHTML = `<section class="service-feature" aria-labelledby="services-heading"><div class="service-feature-main"><span class="eyebrow">VÍCE NEŽ NÁHRADNÍ DÍLY</span><h2 id="services-heading">Prasklé sklo.<br>Další šance pro displej.</h2><p>Repasování displejů pro iPhone, iPad a Apple Watch. Najděte svůj model a podívejte se na možnosti opravy.</p><a class="button" href="/sluzby.html?service=repase">Prohlédnout repasování ${icon('arrow')}</a><span class="service-devices">iPhone <span>·</span> iPad <span>·</span> Apple Watch</span></div><div class="service-feature-aside"><a href="/sluzby.html?service=vykup"><span class="service-number">01</span><div><h3>Výkup displejů</h3><p>Poškozené displeje nám můžete poslat k otestování a výkupu.</p></div>${icon('arrow')}</a><a href="/sluzby.html?service=zadni-skla"><span class="service-number">02</span><div><h3>Výměna zadních skel</h3><p>Oprava zadního skla iPhonu s rozebráním a novým podlepením.</p></div>${icon('arrow')}</a></div></section>`;
 }
 function deliveryCards() {
-  return `<section class="delivery-section" aria-labelledby="delivery-heading"><div class="section-heading"><div><span class="eyebrow">ZE SKLADU ROVNOU DO VAŠEHO SERVISU</span><h2 id="delivery-heading">Na správný díl nemusíte dlouho čekat.</h2></div><a class="text-link" href="/doprava.html">Vše o dopravě ${icon('arrow')}</a></div><div class="delivery-cards"><article class="delivery-card wolt-card" id="wolt"><div class="delivery-card-top"><span class="delivery-location">PRAHA</span><img src="/assets/delivery/wolt.jpg" alt="Wolt Drive" width="136" height="46" loading="lazy"></div><div class="delivery-metric">Do 2 hodin<span>od objednání</span></div><p>Expresní doručení zboží po Praze přes Wolt Drive.</p><div class="delivery-card-bottom"><span>Doprava zdarma <strong>nad 7 500 Kč</strong> bez DPH</span><a class="circle" href="/doprava.html#wolt" aria-label="Podmínky doručení Wolt Drive">${icon('arrow')}</a></div></article><article class="delivery-card parcel-card"><div class="delivery-card-top"><span class="delivery-location">PO ČESKU</span><img src="/assets/delivery/carriers.png" alt="PPL a Balíkovna" width="180" height="46" loading="lazy"></div><div class="delivery-metric">Odeslání v den objednání<span>ve všední dny do 17:30</span></div><div class="carrier-details"><p><strong>PPL</strong><span>Doporučeno pro doručení do druhého dne</span><small>Zdarma od 3 000 Kč bez DPH</small></p><p><strong>Balíkovna</strong><span>Obvykle 1–2 pracovní dny</span><small>Zdarma od 2 000 Kč bez DPH</small></p></div></article></div></section>`;
+  return `<section class="delivery-section" aria-labelledby="delivery-heading"><div class="section-heading"><div><span class="eyebrow">ZE SKLADU ROVNOU DO VAŠEHO SERVISU</span><h2 id="delivery-heading">Na správný díl nemusíte dlouho čekat.</h2></div><a class="text-link" href="/doprava.html">Vše o dopravě ${icon('arrow')}</a></div><div class="delivery-cards"><article class="delivery-card wolt-card" id="wolt"><div class="delivery-card-top"><span class="delivery-location">PRAHA</span><img src="/assets/delivery/wolt.jpg" alt="Wolt Drive" width="136" height="46" loading="lazy"></div><div class="delivery-metric">Do 2 hodin<span>od objednání</span></div><p>Expresní doručení zboží po Praze přes Wolt Drive.</p><div class="delivery-card-bottom"><span>Doprava zdarma <strong>nad 7 500 Kč</strong> bez DPH</span><a class="circle" href="/doprava.html#wolt" aria-label="Podmínky doručení Wolt Drive">${icon('arrow')}</a></div></article><article class="delivery-card parcel-card"><div class="delivery-card-top"><span class="delivery-location">PO ČESKU</span><img src="/assets/delivery/carriers.png" alt="PPL a Balíkovna" width="180" height="46" loading="lazy"></div><div class="delivery-metric">Odeslání v den objednání<span>ve všední dny do ${shippingCutoff()}</span></div><div class="carrier-details"><p><strong>PPL</strong><span>Doporučeno pro doručení do druhého dne</span><small>Zdarma od 3 000 Kč bez DPH</small></p><p><strong>Balíkovna</strong><span>Obvykle 1–2 pracovní dny</span><small>Zdarma od 2 000 Kč bez DPH</small></p></div></article></div></section>`;
 }
 function deliveryDetailHtml() {
-  return `<div class="delivery-detail-content"><div class="delivery-detail-note">${icon('truck')}<div><strong>Objednávky do 17:30 odesíláme tentýž pracovní den.</strong><p>Pro doručení do druhého dne doporučuje obchod PPL. Balíkovna obvykle doručuje během 1–2 pracovních dnů.</p></div></div><div class="delivery-detail-grid"><article><h3>Praha do 2 hodin</h3><p>Wolt Drive nabízí expresní doručení zboží po Praze. Doprava je zdarma při nákupu nad 7 500 Kč bez DPH.</p></article><article><h3>Doprava zdarma</h3><dl><div><dt>Balíkovna</dt><dd>od 2 000 Kč bez DPH</dd></div><div><dt>PPL</dt><dd>od 3 000 Kč bez DPH</dd></div><div><dt>Wolt Drive po Praze</dt><dd>nad 7 500 Kč bez DPH</dd></div></dl></article></div><a class="text-link" href="https://www.refurb.zone/doprava-a-platba/" target="_blank" rel="noopener">Kompletní ceník a aktuální podmínky dopravy ${icon('arrow')}</a></div>`;
+  return `<div class="delivery-detail-content"><div class="delivery-detail-note">${icon('truck')}<div><strong>Objednávky do ${shippingCutoff()} odesíláme tentýž pracovní den.</strong><p>Pro doručení do druhého dne doporučuje obchod PPL. Balíkovna obvykle doručuje během 1–2 pracovních dnů.</p></div></div><div class="delivery-detail-grid"><article><h3>Praha do 2 hodin</h3><p>Wolt Drive nabízí expresní doručení zboží po Praze. Doprava je zdarma při nákupu nad 7 500 Kč bez DPH.</p></article><article><h3>Doprava zdarma</h3><dl><div><dt>Balíkovna</dt><dd>od 2 000 Kč bez DPH</dd></div><div><dt>PPL</dt><dd>od 3 000 Kč bez DPH</dd></div><div><dt>Wolt Drive po Praze</dt><dd>nad 7 500 Kč bez DPH</dd></div></dl></article></div><a class="text-link" href="https://www.refurb.zone/doprava-a-platba/" target="_blank" rel="noopener">Kompletní ceník a aktuální podmínky dopravy ${icon('arrow')}</a></div>`;
 }
 function deliveryPage() {
   document.title = 'Doprava do vašeho servisu — Refurb.zone';
@@ -171,7 +215,7 @@ function renderServicePrices() {
 }
 function mobileNavigation() {
   openDialog(
-    `<div class="dialog-heading"><h2 id="dialog-title">Nabídka a služby</h2>${closeButton()}</div><div class="mobile-category-list focused-mobile-menu"><a class="mobile-all-products" href="/katalog.html">Všechny produkty ${icon('arrow')}</a>${NAV_GROUPS.map((g) => `<section><h3><a href="${g.url}">${esc(g.label)}</a></h3>${g.items.map(([name, url]) => `<a href="${url}">${esc(name)}${icon('arrow')}</a>`).join('')}</section>`).join('')}<section><h3>Servisní služby</h3>${SERVICE_LINKS.map(([name, key]) => `<a href="/sluzby.html?service=${key}">${name}${icon('arrow')}</a>`).join('')}<a href="/doprava.html">Doprava ${icon('truck')}</a></section></div>`,
+    `<div class="dialog-heading"><h2 id="dialog-title">Nabídka a služby</h2>${closeButton()}</div><div class="mobile-category-list focused-mobile-menu"><a class="mobile-all-products" href="/katalog.html">Všechny produkty ${icon('arrow')}</a>${NAV_GROUPS.map((g) => `<section><h3><a href="${g.url}">${esc(g.label)}</a></h3>${navigationItemsHtml(g)}</section>`).join('')}<section><h3>Servisní služby</h3>${SERVICE_LINKS.map(([name, key]) => `<a href="/sluzby.html?service=${key}">${name}${icon('arrow')}</a>`).join('')}<a href="/doprava.html">Doprava ${icon('truck')}</a></section></div>`,
     'menu-drawer',
   );
 }

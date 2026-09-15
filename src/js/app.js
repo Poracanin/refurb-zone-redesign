@@ -85,6 +85,7 @@ function header() {
   document.getElementById('site-footer').innerHTML =
     `<div class="footer"><div class="container"><div class="footer-top"><a class="logo" href="/">refurb<span>.</span>zone</a><div class="footer-links"><a href="tel:+420777122858">+420 777 122 858</a><a href="mailto:info@refurb.zone">info@refurb.zone</a><a href="/doprava.html">Doprava</a><a href="https://www.refurb.zone/vraceni-a-reklamace/" target="_blank" rel="noopener">Vrácení a reklamace</a></div></div><div class="footer-bottom"><span>© ${new Date().getFullYear()} Refurb.zone · Díly a vybavení pro servisy.</span><span>Ukázka obchodu · katalog k 10. 9. 2026 · ${demoClient ? (qs.get('service') === 'vykup' ? 'výkupní ceník v Kč' : 'ceny bez DPH') : 'ceny po přihlášení'}</span></div><details class="brand-attribution"><summary>Loga a licence</summary><p>Apple a ostatní značky patří svým vlastníkům. Android je ochranná známka společnosti Google LLC. Robot Android pochází z díla vytvořeného a sdíleného společností Google a je použit podle licence <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">Creative Commons Uveďte původ 3.0</a>.</p></details></div></div>`;
   decorate();
+  shippingCountdown.mount(DATA.delivery);
   initCompactHeader();
 }
 function inStock(p) {
@@ -154,6 +155,7 @@ dataRepository
   .load()
   .then((d) => {
     DATA = d;
+    shippingCountdown.mount(DATA.delivery);
     home();
     refreshDeviceSearch();
     if (typeof initPage === 'function') initPage();
@@ -167,7 +169,7 @@ dataRepository
   });
 
 const CAT_NAMES = {
-  'nahradni-dily': 'Náhradní díly pro Apple',
+  'nahradni-dily': 'Náhradní díly',
   iphone: 'Díly pro iPhone',
   ipad: 'Díly pro iPad',
   macbook: 'Díly pro MacBook',
@@ -183,6 +185,9 @@ const CAT_NAMES = {
   kamery: 'Kamery',
   naradi: 'Nářadí',
   'refurb-apple': 'Refurbish materiál — Apple',
+  'refurb-iphone': 'Refurbish materiál — iPhone',
+  'refurb-ipad': 'Refurbish materiál — iPad',
+  'refurb-watch': 'Refurbish materiál — Watch',
   'refurb-android': 'Refurbish materiál — Android',
   programatory: 'Programátory',
   'adaptery-a-kabely': 'Adaptéry a kabely',
@@ -234,6 +239,13 @@ function categoryMatch(p, key) {
   if (key === 'novinky') return p.flags.includes('Novinka');
   if (key === 'apple') return /iphone|ipad|macbook|watch|apple/i.test(p.name);
   if (key === 'refurb') return p.group.startsWith('refurb-');
+  if (['refurb-iphone', 'refurb-ipad', 'refurb-watch'].includes(key)) {
+    const family = key.slice('refurb-'.length);
+    return (
+      p.group === 'refurb-apple' &&
+      new RegExp('\\b' + family + '\\b', 'i').test([p.name, ...(p.category_path || [])].join(' '))
+    );
+  }
   if (key === 'doplnky')
     return !['nahradni-dily', 'refurb-apple', 'refurb-android'].includes(p.group);
   if (key === 'akce') return p.flags.some((f) => /[–−-]\d+\s?%/.test(f));
@@ -280,6 +292,9 @@ function categoryOptions() {
     'kryty',
     'kamery',
     'refurb-apple',
+    'refurb-iphone',
+    'refurb-ipad',
+    'refurb-watch',
     'refurb-android',
     'programatory',
     'adaptery-a-kabely',
@@ -307,13 +322,23 @@ function catalog() {
     `<div class="container catalog-page"><div class="breadcrumbs"><a href="/">Domů</a><span>/</span><span>Katalog produktů</span></div><div class="catalog-heading"><div><span class="eyebrow">DÍLY, KTERÉ POTŘEBUJETE</span><h1 id="catalog-title">${esc(searchTerm ? 'Výsledky pro „' + searchTerm + '“' : deviceTitle() || brandTitle() || CAT_NAMES[activeCategory] || 'Katalog')}</h1></div><span class="catalog-total">${DATA.products.length} produktů pro váš servis</span></div><div class="catalog-layout"><aside class="catalog-sidebar"><h2>Kategorie</h2><div id="category-links">${categoryLinks()}</div><div class="sidebar-help">${icon('headphones')}<h3>Nevíte si rady s výběrem?</h3><p>Pomůžeme vám najít správný díl.</p><a href="tel:+420777122858">+420 777 122 858</a><small>Po–Pá 10:00–18:00</small></div></aside><section class="catalog-results" aria-label="Produkty"><div class="catalog-toolbar"><button class="filter-toggle button secondary" data-mobile-filters>${icon('sliders')} Kategorie</button><span id="result-count" aria-live="polite"></span><label class="sort-label">Řadit podle <select id="sort-select"><option value="recommended">Doporučené</option>${demoClient ? '<option value="price-asc">Nejlevnější</option><option value="price-desc">Nejdražší</option>' : ''}<option value="new">Nejnovější</option><option value="name">Názvu A–Z</option></select></label></div><div class="catalog-access ${demoClient ? 'signed-in' : ''}">${icon(demoClient ? 'check' : 'lock')}<span>${demoClient ? 'Klientské ceny jsou zobrazené bez DPH.' : 'Ceny jsou dostupné přihlášeným klientům.'}</span>${demoClient ? '' : '<button data-login>Přihlásit se</button>'}</div>${activeDevice ? `<div class="brand-filter-label">Zařízení: ${esc(deviceTitle())}<button data-clear-device aria-label="Zrušit filtr zařízení">${icon('close')}</button></div>` : ''}${activeBrand ? `<div class="brand-filter-label">${esc(brandTitle())}<button data-clear-brand aria-label="Zrušit filtr značky">${icon('close')}</button></div>` : ''}<div class="filter-row"><label><input type="checkbox" id="stock-filter"> Pouze skladem</label><label><input type="checkbox" id="favorite-filter"> Jen oblíbené ${icon('heart')}</label><button class="reset-filters" data-reset-filters>Zrušit filtry</button></div><div class="products-grid catalog-grid" id="catalog-grid"></div></section></div></div>`;
   renderResults();
 }
+const REFURB_CATEGORY_SOURCES = {
+  'refurb-iphone': 'https://www.refurb.zone/iphone-2/',
+  'refurb-ipad': 'https://www.refurb.zone/ipad-3/',
+  'refurb-watch': 'https://www.refurb.zone/watch-2/',
+};
+function emptyCatalogHtml() {
+  const source = REFURB_CATEGORY_SOURCES[activeCategory];
+  const hasCategoryProducts = DATA.products.some((p) => categoryMatch(p, activeCategory));
+  if (source && !hasCategoryProducts)
+    return `<div class="empty">${icon('info')}<h2>Tuto kategorii ještě doplňujeme</h2><p>${esc(CAT_NAMES[activeCategory])} zatím není v ukázkovém katalogu. Kompletní nabídku najdete v původním obchodě.</p><a class="button primary" href="${source}" target="_blank" rel="noopener">Prohlédnout na refurb.zone ${icon('arrow')}</a></div>`;
+  return `<div class="empty">${icon('search')}<h2>Žádný odpovídající produkt</h2><p>Zkuste jiný název, model nebo upravte filtry.</p><button class="button primary" data-reset-filters>Zobrazit všechny produkty</button></div>`;
+}
 function renderResults() {
   const ps = filteredProducts();
   const grid = document.getElementById('catalog-grid');
   if (!grid) return;
-  grid.innerHTML = ps.length
-    ? ps.map(card).join('')
-    : `<div class="empty">${icon('search')}<h2>Žádný odpovídající produkt</h2><p>Zkuste jiný název, model nebo upravte filtry.</p><button class="button primary" data-reset-filters>Zobrazit všechny produkty</button></div>`;
+  grid.innerHTML = ps.length ? ps.map(card).join('') : emptyCatalogHtml();
   document.getElementById('result-count').textContent =
     ps.length +
     ' ' +
@@ -367,7 +392,7 @@ function product() {
       .map((f) => `<span>${esc(f)}</span>`)
       .join(
         '',
-      )}</div><h1>${esc(p.name)}</h1><div class="detail-review">${rating}</div>${compatible ? `<div class="compatibility">${icon('phone')}<div><strong>Kompatibilita</strong><p>${esc(compatible)}</p></div></div>` : ''}<div class="buy-box">${p.variants.length > 1 ? `<div class="variant-heading"><label for="variant-select">${esc(p.variants[0].name?.split(':')[0] || 'Varianta')}</label><span>${p.variants.length} variant</span></div><select id="variant-select" class="variant-select"><option value="">Vyberte variantu</option>${p.variants.map((v) => `<option value="${v.id}">${esc(variantLabel(v))}${demoClient ? ' — ' + money(v.price) : ''}${v.availability ? ' · ' + esc(v.availability) : ''}</option>`).join('')}</select>${p.variants.length <= 5 ? `<div class="variant-chips" aria-label="Rychlý výběr varianty">${p.variants.map((v) => `<button data-variant="${v.id}" aria-pressed="false">${esc(variantLabel(v))}</button>`).join('')}</div>` : ''}` : ''}<div class="detail-price-row"><div><div class="detail-price" id="detail-price"></div><div class="detail-gross" id="detail-gross"></div></div></div><div id="variant-status"></div><div class="buy-actions"><div class="quantity"><button data-qty="-1" aria-label="Snížit množství">${icon('minus')}</button><input type="number" id="quantity" value="1" min="1" max="99" step="1" aria-label="Počet kusů"><button data-qty="1" aria-label="Zvýšit množství">${icon('plus')}</button></div><button class="button primary add-main" id="add-main" data-add-detail>${icon('cart')}<span>Do košíku</span></button></div><div class="detail-sku">Kód produktu: <span id="detail-sku">${esc(currentVariant?.sku || 'vyberte variantu')}</span></div><div class="buy-details"><div>${icon('truck')}<span>Ve všední dny do 17:30 odesíláme tentýž den<a href="/doprava.html">Praha do 2 hodin s Wolt Drive</a></span></div><div>${icon('shield')}<span>${p.warranty ? 'Záruka: ' + esc(p.warranty) : 'Podpora při výběru i po nákupu'}<a href="https://www.refurb.zone/vraceni-a-reklamace/" target="_blank" rel="noopener">Podmínky vrácení a reklamace</a></span></div></div></div><div class="detail-help">${icon('headphones')}<p>Potřebujete poradit? <a href="tel:+420777122858">+420 777 122 858</a><small>Po–Pá 10:00–18:00</small></p></div></div></div><section class="product-content"><div class="detail-tabs" role="tablist" aria-label="Informace o produktu"><button role="tab" id="detail-tab-description" data-detail-tab="description" aria-selected="true">Popis produktu</button><button role="tab" id="detail-tab-parameters" data-detail-tab="parameters" aria-selected="false">Parametry</button><button role="tab" id="detail-tab-delivery" data-detail-tab="delivery" aria-selected="false">Doprava a vrácení</button></div><div id="detail-tab-panel" role="tabpanel" aria-labelledby="detail-tab-description"></div></section>${p.rating.value ? `<section class="rating-summary" id="hodnoceni"><div><h2>Hodnocení zákazníků</h2><p>Hodnocení převzaté z původního e-shopu.</p></div><strong>${p.rating.value.toLocaleString('cs-CZ')}<small> / 5 · ${p.rating.count} hodnocení</small></strong><a class="text-link" href="${p.source}" target="_blank" rel="noopener">Zobrazit na Refurb.zone ${icon('arrow')}</a></section>` : ''}<section class="related-section"><div class="section-heading"><h2>Mohlo by se vám hodit</h2><a class="text-link" href="/katalog.html">Celá nabídka ${icon('arrow')}</a></div><div class="products-grid">${DATA.products
+      )}</div><h1>${esc(p.name)}</h1><div class="detail-review">${rating}</div>${compatible ? `<div class="compatibility">${icon('phone')}<div><strong>Kompatibilita</strong><p>${esc(compatible)}</p></div></div>` : ''}<div class="buy-box">${p.variants.length > 1 ? `<div class="variant-heading"><label for="variant-select">${esc(p.variants[0].name?.split(':')[0] || 'Varianta')}</label><span>${p.variants.length} variant</span></div><select id="variant-select" class="variant-select"><option value="">Vyberte variantu</option>${p.variants.map((v) => `<option value="${v.id}">${esc(variantLabel(v))}${demoClient ? ' — ' + money(v.price) : ''}${v.availability ? ' · ' + esc(v.availability) : ''}</option>`).join('')}</select>${p.variants.length <= 5 ? `<div class="variant-chips" aria-label="Rychlý výběr varianty">${p.variants.map((v) => `<button data-variant="${v.id}" aria-pressed="false">${esc(variantLabel(v))}</button>`).join('')}</div>` : ''}` : ''}<div class="detail-price-row"><div><div class="detail-price" id="detail-price"></div><div class="detail-gross" id="detail-gross"></div></div></div><div id="variant-status"></div><div class="buy-actions"><div class="quantity"><button data-qty="-1" aria-label="Snížit množství">${icon('minus')}</button><input type="number" id="quantity" value="1" min="1" max="99" step="1" aria-label="Počet kusů"><button data-qty="1" aria-label="Zvýšit množství">${icon('plus')}</button></div><button class="button primary add-main" id="add-main" data-add-detail>${icon('cart')}<span>Do košíku</span></button></div><div class="detail-sku">Kód produktu: <span id="detail-sku">${esc(currentVariant?.sku || 'vyberte variantu')}</span></div><div class="buy-details"><div>${icon('truck')}<span>Ve všední dny do ${shippingCutoff()} odesíláme tentýž den<a href="/doprava.html">Praha do 2 hodin s Wolt Drive</a></span></div><div>${icon('shield')}<span>${p.warranty ? 'Záruka: ' + esc(p.warranty) : 'Podpora při výběru i po nákupu'}<a href="https://www.refurb.zone/vraceni-a-reklamace/" target="_blank" rel="noopener">Podmínky vrácení a reklamace</a></span></div></div></div><div class="detail-help">${icon('headphones')}<p>Potřebujete poradit? <a href="tel:+420777122858">+420 777 122 858</a><small>Po–Pá 10:00–18:00</small></p></div></div></div><section class="product-content"><div class="detail-tabs" role="tablist" aria-label="Informace o produktu"><button role="tab" id="detail-tab-description" data-detail-tab="description" aria-selected="true">Popis produktu</button><button role="tab" id="detail-tab-parameters" data-detail-tab="parameters" aria-selected="false">Parametry</button><button role="tab" id="detail-tab-delivery" data-detail-tab="delivery" aria-selected="false">Doprava a vrácení</button></div><div id="detail-tab-panel" role="tabpanel" aria-labelledby="detail-tab-description"></div></section>${p.rating.value ? `<section class="rating-summary" id="hodnoceni"><div><h2>Hodnocení zákazníků</h2><p>Hodnocení převzaté z původního e-shopu.</p></div><strong>${p.rating.value.toLocaleString('cs-CZ')}<small> / 5 · ${p.rating.count} hodnocení</small></strong><a class="text-link" href="${p.source}" target="_blank" rel="noopener">Zobrazit na Refurb.zone ${icon('arrow')}</a></section>` : ''}<section class="related-section"><div class="section-heading"><h2>Mohlo by se vám hodit</h2><a class="text-link" href="/katalog.html">Celá nabídka ${icon('arrow')}</a></div><div class="products-grid">${DATA.products
       .filter((x) => x.id !== p.id)
       .sort((a, b) => (b.group === p.group) - (a.group === p.group))
       .slice(0, 6)

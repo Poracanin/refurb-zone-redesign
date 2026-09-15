@@ -124,3 +124,10 @@ Pull request se nejprve kontroluje; jeho sloučení do `main` spustí nasazení.
 ## Původ podkladů
 
 Projekt navazuje na schválený návrh ze září 2026. Produkty a ceníky jsou snapshot z původního Refurb.zone; nejde o živou synchronizaci. U jednotlivých služeb jsou uvedené datum kontroly a původní URL. Fotografie modelů a produktů pocházejí z původního obchodu, servisní hero fotografie jsou ilustrační. Viz [docs/ASSETS.md](docs/ASSETS.md).
+
+### Navigace a uzávěrka expedice
+
+- Uzávěrka je v `data/delivery.json` (`cutoff: "17:45"`, `timezone: "Europe/Prague"`). Odpočet vybírá nejbližší uzávěrku od pondělí do pátku, respektuje český letní/zimní čas a po uzávěrce přejde na další všední den. Zvláštní sváteční výjimky zatím nejsou součástí dat.
+- Desktopové i mobilní menu používá společné `NAV_GROUPS` v `src/js/experience.js`. Materiály pro iPhone, iPad a Watch mají samostatné filtry, oddělené od náhradních dílů.
+- V současném vzorku nejsou materiály pro iPad a Watch; jejich kategorie zobrazují odkaz na odpovídající nabídku původního obchodu.
+- `npm run check` spouští také regresní testy odpočtu včetně uzávěrky, víkendů a změny času.

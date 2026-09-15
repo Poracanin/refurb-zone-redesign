@@ -1,7 +1,7 @@
 {
   "source": "https://www.refurb.zone/doprava-a-platba/",
   "checked_at": "2026-09-11",
-  "cutoff": "17:30",
+  "cutoff": "17:45",
   "cutoff_days": "Ve všední dny",
   "vat_basis": "bez DPH",
   "options": [
@@ -30,5 +30,8 @@
       "free_threshold": 2000,
       "threshold_comparison": "at_least"
     }
-  ]
+  ],
+  "timezone": "Europe/Prague",
+  "cutoff_updated_at": "2026-09-15",
+  "cutoff_source": "Zadání provozovatele redesignu"
 }
