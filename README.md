@@ -15,15 +15,16 @@ Otevřete **http://127.0.0.1:4173/**. Jiný port: `npm run dev -- --port 4175`. 
 
 ## Stránky
 
-| Soubor / adresa                  | Obsah                                                              |
-| -------------------------------- | ------------------------------------------------------------------ |
-| `index.html`                     | Úvodní stránka, vyhledávání zařízení, výběr dílů, služby a doprava |
-| `katalog.html`                   | Produkty, kategorie, značky, řazení a filtry                       |
-| `produkt.html?id=3051`           | Detail produktu, varianty, fotografie a ukázkový košík             |
-| `sluzby.html?service=repase`     | Repasování displejů: fotografie modelů a ceník                     |
-| `sluzby.html?service=vykup`      | Výkup displejů: modely, stav dotyku, filtrování cen a postup       |
-| `sluzby.html?service=zadni-skla` | Výměna zadních skel a ceník                                        |
-| `doprava.html`                   | Wolt Drive, PPL, Balíkovna a podmínky doručení                     |
+| Soubor / adresa                  | Obsah                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------ |
+| `index.html`                     | Úvodní stránka, vyhledávání zařízení, výběr dílů, služby a doprava       |
+| `katalog.html`                   | Produkty, kategorie, značky, řazení a filtry                             |
+| `produkt.html?id=3051`           | Detail produktu, varianty, fotografie a ukázkový košík                   |
+| `sluzby.html?service=repase`     | Repasování displejů: fotografie modelů a ceník                           |
+| `sluzby.html?service=vykup`      | Výkup displejů: modely, stav dotyku, filtrování cen a postup             |
+| `sluzby.html?service=zadni-skla` | Výměna zadních skel a ceník                                              |
+| `doprava.html`                   | Wolt Drive, PPL, Balíkovna a podmínky doručení                           |
+| `administrace.html`              | Demo správy servisních zakázek, objednávek, expedice, skladu a zákazníků |
 
 Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání modelů funguje v modálním okně, včetně Apple/Android a fotografií zařízení. Součástí je 50 vzorových produktů se 130 variantami, ne celý katalog původního obchodu.
 
@@ -31,11 +32,12 @@ Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání m
 
 ```text
 .
-├── index.html, katalog.html, produkt.html, sluzby.html, doprava.html
+├── index.html, katalog.html, produkt.html, sluzby.html, doprava.html, administrace.html
 ├── src/
 │   ├── css/
 │   │   ├── styles.css              # Společný vzhled, responzivita, komponenty
 │   │   ├── brand-logo.css          # Vzhled a proporce animovaného loga
+│   │   ├── admin.css, service-shop.css # Administrace a nabídky služeb
 │   │   └── buyback.css             # Výkup displejů
 │   └── js/
 │       ├── data-repository.js      # Jediné místo pro načítání dat
@@ -43,6 +45,8 @@ Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání m
 │       ├── app.js                  # Katalog, produkt, košík a demo přihlášení
 │       ├── experience.js           # Hlavička, navigace, služby a doprava
 │       ├── device-search.js        # Výběr zařízení a hledání kompatibilních dílů
+│       ├── operations-core.js, operations-store.js # Provozní pravidla a demo úložiště
+│       ├── admin.js, service-shop.js # Administrace a klientské poptávky
 │       └── buyback.js              # Ceník a filtry výkupu
 ├── data/
 │   ├── products.json              # Produkty a jejich varianty
@@ -50,6 +54,7 @@ Hlavička se při rolování zmenšuje a zůstává připnutá. Vyhledávání m
 │   ├── brands.json                # Značky a vazby na produkty
 │   ├── devices.json               # Modely zařízení a kompatibilita
 │   ├── services.json              # Služby a jejich ceníky
+│   ├── operations-demo.json       # Fiktivní provozní data administrace
 │   ├── delivery.json              # Doprava
 │   └── meta.json                  # Datum katalogového vzorku
 ├── assets/
@@ -87,6 +92,12 @@ Při prvním otevření webu se přehraje 3sekundová animace přes celou obrazo
 Bez přihlášení rozhraní skrývá ceny. Demo přihlášení a košík používají `sessionStorage`, oblíbené produkty `localStorage`. Nevytváří se skutečný účet ani objednávka. Nepoužívejte skutečné přihlašovací údaje.
 
 **JSON obsahuje ceny a je dostupný prohlížeči.** Toto je ukázka chování, nikoli zabezpečený B2B ceník. Pro produkci musí autentizaci a autorizaci cen řešit server. Soukromý GitHub repozitář sám o sobě není přihlášení do e-shopu.
+
+## Servisní poptávky a administrace
+
+Repase, výkup a výměna zadních skel mají nabídky jako produktové dlaždice s fotografiemi. Přihlášený klient může odeslat demo poptávku a sledovat její stav. Správce najde stejnou poptávku v administraci, kde spravuje techniky, termíny, ceny, kontrolu, poznámky a expedici. Objednávky dílů jsou propojené se skladovými rezervacemi a odpisem při odeslání.
+
+**Demo správce:** `admin@example.com` / `Admin2026!`. Přihlášení nabízí tlačítko pro vyplnění údajů. Provozní vzorek je v `data/operations-demo.json`, změny v `localStorage`. Neodesílají se e-maily ani skutečné zásilky. Podrobný průchod, přehled funkcí a uložení dat: [docs/ADMIN-DEMO.md](docs/ADMIN-DEMO.md).
 
 ## Úpravy dat a pozdější databáze
 

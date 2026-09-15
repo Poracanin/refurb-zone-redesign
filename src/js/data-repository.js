@@ -13,7 +13,7 @@ const dataRepository = {
       groups: '/data/groups.json',
       brands: '/data/brands.json',
       devices: '/data/devices.json',
-      services: '/data/services.json',
+      services: '/data/services.json?v=service-workspace-1',
       delivery: '/data/delivery.json?v=shipping-1745',
     };
     const entries = await Promise.all(

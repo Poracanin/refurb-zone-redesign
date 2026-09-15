@@ -1,0 +1,2572 @@
+{
+  "version": 1,
+  "anchor_date": "2026-09-15",
+  "counter": 1000,
+  "customers": [
+    {
+      "id": "C-101",
+      "company": "Pixel servis · demo",
+      "name": "Adam Novák",
+      "email": "servis1@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 12",
+      "city": "Praha",
+      "zip": "100 00",
+      "group": "VIP servis"
+    },
+    {
+      "id": "C-102",
+      "company": "Mobil Lab · demo",
+      "name": "Tereza Malá",
+      "email": "servis2@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 13",
+      "city": "Brno",
+      "zip": "100 00",
+      "group": "B2B partner"
+    },
+    {
+      "id": "C-103",
+      "company": "iCare dílna · demo",
+      "name": "Tomáš Dvořák",
+      "email": "servis3@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 14",
+      "city": "Plzeň",
+      "zip": "100 00",
+      "group": "B2B partner"
+    },
+    {
+      "id": "C-104",
+      "company": "Display Studio · demo",
+      "name": "Eliška Svobodová",
+      "email": "servis4@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 15",
+      "city": "Praha",
+      "zip": "100 00",
+      "group": "VIP servis"
+    },
+    {
+      "id": "C-105",
+      "company": "TechPoint · demo",
+      "name": "Jan Černý",
+      "email": "servis5@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 16",
+      "city": "Olomouc",
+      "zip": "100 00",
+      "group": "B2B partner"
+    },
+    {
+      "id": "C-106",
+      "company": "Restart servis · demo",
+      "name": "Lucie Veselá",
+      "email": "servis6@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 17",
+      "city": "Liberec",
+      "zip": "100 00",
+      "group": "B2B partner"
+    },
+    {
+      "id": "C-107",
+      "company": "Phone Garage · demo",
+      "name": "Martin Procházka",
+      "email": "servis7@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 18",
+      "city": "Ostrava",
+      "zip": "100 00",
+      "group": "VIP servis"
+    },
+    {
+      "id": "C-108",
+      "company": "Ukázkový servis · demo",
+      "name": "Petr Servisní",
+      "email": "servis@example.com",
+      "phone": "+420 000 000 000",
+      "street": "Ukázková 19",
+      "city": "Praha",
+      "zip": "100 00",
+      "group": "B2B partner"
+    }
+  ],
+  "team": [
+    "Adam · servis",
+    "Tereza · servis",
+    "Martin · expedice"
+  ],
+  "settings": {
+    "company": "Refurb.zone",
+    "warehouse": "Praha · hlavní sklad",
+    "sender": "Korytná 1538/4, Praha 10",
+    "defaultCarrier": "PPL"
+  },
+  "orders": [
+    {
+      "id": "OBJ-2609-1024",
+      "customerId": "C-101",
+      "createdAt": "2026-09-15T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "new",
+      "payment": "pending",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "3051",
+          "quantity": 1,
+          "unitPrice": 1284.66
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-15T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1023",
+      "customerId": "C-102",
+      "createdAt": "2026-09-14T09:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "processing",
+      "payment": "paid",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "1454",
+          "quantity": 2,
+          "unitPrice": 207.22
+        },
+        {
+          "productId": "1646",
+          "quantity": 3,
+          "unitPrice": 209.29
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1022",
+      "customerId": "C-103",
+      "createdAt": "2026-09-14T10:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "ready",
+      "payment": "paid",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "2762",
+          "quantity": 3,
+          "unitPrice": 283.07
+        },
+        {
+          "productId": "2965",
+          "quantity": 1,
+          "unitPrice": 403.75
+        },
+        {
+          "productId": "9270",
+          "quantity": 2,
+          "unitPrice": 60.92
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1021",
+      "customerId": "C-104",
+      "createdAt": "2026-09-14T11:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "shipped",
+      "payment": "paid",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "4419",
+          "quantity": 1,
+          "unitPrice": 66.29
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1020",
+      "customerId": "C-105",
+      "createdAt": "2026-09-14T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "done",
+      "payment": "paid",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "9273",
+          "quantity": 2,
+          "unitPrice": 60.92
+        },
+        {
+          "productId": "4959",
+          "quantity": 3,
+          "unitPrice": 287.06
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1019",
+      "customerId": "C-106",
+      "createdAt": "2026-09-13T09:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "processing",
+      "payment": "paid",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "8802",
+          "quantity": 3,
+          "unitPrice": 203.7
+        },
+        {
+          "productId": "10220",
+          "quantity": 1,
+          "unitPrice": 199.0
+        },
+        {
+          "productId": "10205",
+          "quantity": 2,
+          "unitPrice": 711.71
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1018",
+      "customerId": "C-107",
+      "createdAt": "2026-09-13T10:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "ready",
+      "payment": "paid",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "9126",
+          "quantity": 1,
+          "unitPrice": 336.0
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1017",
+      "customerId": "C-108",
+      "createdAt": "2026-09-13T11:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "new",
+      "payment": "pending",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "9981",
+          "quantity": 2,
+          "unitPrice": 212.0
+        },
+        {
+          "productId": "10002",
+          "quantity": 3,
+          "unitPrice": 1117.2
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1016",
+      "customerId": "C-101",
+      "createdAt": "2026-09-13T08:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "new",
+      "payment": "pending",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "10008",
+          "quantity": 3,
+          "unitPrice": 680.69
+        },
+        {
+          "productId": "9294",
+          "quantity": 1,
+          "unitPrice": 321.0
+        },
+        {
+          "productId": "8664",
+          "quantity": 2,
+          "unitPrice": 107.0
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1015",
+      "customerId": "C-102",
+      "createdAt": "2026-09-12T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "processing",
+      "payment": "paid",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "8652",
+          "quantity": 1,
+          "unitPrice": 80.46
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1014",
+      "customerId": "C-103",
+      "createdAt": "2026-09-12T10:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "ready",
+      "payment": "paid",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "9081",
+          "quantity": 2,
+          "unitPrice": 399.0
+        },
+        {
+          "productId": "9078",
+          "quantity": 3,
+          "unitPrice": 299.0
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1013",
+      "customerId": "C-104",
+      "createdAt": "2026-09-12T11:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "shipped",
+      "payment": "paid",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "9624",
+          "quantity": 3,
+          "unitPrice": 299.0
+        },
+        {
+          "productId": "9381",
+          "quantity": 1,
+          "unitPrice": 299.0
+        },
+        {
+          "productId": "9360",
+          "quantity": 2,
+          "unitPrice": 172.2
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1012",
+      "customerId": "C-105",
+      "createdAt": "2026-09-12T08:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "done",
+      "payment": "paid",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "10130",
+          "quantity": 1,
+          "unitPrice": 147.0
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1011",
+      "customerId": "C-106",
+      "createdAt": "2026-09-11T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "processing",
+      "payment": "paid",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "10217",
+          "quantity": 2,
+          "unitPrice": 1013.65
+        },
+        {
+          "productId": "9297",
+          "quantity": 3,
+          "unitPrice": 128.4
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1010",
+      "customerId": "C-107",
+      "createdAt": "2026-09-11T10:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "ready",
+      "payment": "paid",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "3726",
+          "quantity": 3,
+          "unitPrice": 499.0
+        },
+        {
+          "productId": "3004",
+          "quantity": 1,
+          "unitPrice": 2490.0
+        },
+        {
+          "productId": "2995",
+          "quantity": 2,
+          "unitPrice": 129.0
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1009",
+      "customerId": "C-108",
+      "createdAt": "2026-09-11T11:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "new",
+      "payment": "pending",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "4986",
+          "quantity": 1,
+          "unitPrice": 123.6
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1008",
+      "customerId": "C-101",
+      "createdAt": "2026-09-11T08:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "new",
+      "payment": "pending",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "8799",
+          "quantity": 2,
+          "unitPrice": 105.5
+        },
+        {
+          "productId": "8700",
+          "quantity": 3,
+          "unitPrice": 117.74
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1007",
+      "customerId": "C-102",
+      "createdAt": "2026-09-10T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "processing",
+      "payment": "paid",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "6699",
+          "quantity": 3,
+          "unitPrice": 305.57
+        },
+        {
+          "productId": "698",
+          "quantity": 1,
+          "unitPrice": 291.97
+        },
+        {
+          "productId": "1454",
+          "quantity": 2,
+          "unitPrice": 207.22
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1006",
+      "customerId": "C-103",
+      "createdAt": "2026-09-10T10:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "ready",
+      "payment": "paid",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "1646",
+          "quantity": 1,
+          "unitPrice": 209.29
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1005",
+      "customerId": "C-104",
+      "createdAt": "2026-09-10T11:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "shipped",
+      "payment": "paid",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "2965",
+          "quantity": 2,
+          "unitPrice": 403.75
+        },
+        {
+          "productId": "9270",
+          "quantity": 3,
+          "unitPrice": 60.92
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1004",
+      "customerId": "C-105",
+      "createdAt": "2026-09-10T08:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "done",
+      "payment": "paid",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "4599",
+          "quantity": 3,
+          "unitPrice": 33.01
+        },
+        {
+          "productId": "9258",
+          "quantity": 1,
+          "unitPrice": 66.29
+        },
+        {
+          "productId": "9273",
+          "quantity": 2,
+          "unitPrice": 60.92
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1003",
+      "customerId": "C-106",
+      "createdAt": "2026-09-09T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "processing",
+      "payment": "paid",
+      "paymentMethod": "Převodem",
+      "carrier": "PPL",
+      "lines": [
+        {
+          "productId": "4959",
+          "quantity": 1,
+          "unitPrice": 287.06
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-09T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1002",
+      "customerId": "C-107",
+      "createdAt": "2026-09-09T10:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "ready",
+      "payment": "paid",
+      "paymentMethod": "Kartou",
+      "carrier": "Balíkovna",
+      "lines": [
+        {
+          "productId": "10220",
+          "quantity": 2,
+          "unitPrice": 199.0
+        },
+        {
+          "productId": "10205",
+          "quantity": 3,
+          "unitPrice": 711.71
+        }
+      ],
+      "shippingPrice": 99,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-09T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    },
+    {
+      "id": "OBJ-2609-1001",
+      "customerId": "C-108",
+      "createdAt": "2026-09-09T11:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "new",
+      "payment": "pending",
+      "paymentMethod": "Dobírka",
+      "carrier": "Wolt Drive",
+      "lines": [
+        {
+          "productId": "9123",
+          "quantity": 3,
+          "unitPrice": 1608.6
+        },
+        {
+          "productId": "6114",
+          "quantity": 1,
+          "unitPrice": 482.94
+        },
+        {
+          "productId": "9981",
+          "quantity": 2,
+          "unitPrice": 212.0
+        }
+      ],
+      "shippingPrice": 0,
+      "notes": [],
+      "history": [
+        {
+          "at": "2026-09-09T08:00:00Z",
+          "text": "Objednávka přijata z ukázkového e-shopu.",
+          "actor": "Systém"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "id": "SRV-2609-321",
+      "service": "repase",
+      "family": "iphone",
+      "model": "iPhone 6S/7/8",
+      "work": "Výměna vrchního skla/podsvícení",
+      "image": "/assets/service-models/iphone-8g.jpg",
+      "quantity": 1,
+      "unitPrice": 350,
+      "basePrice": 350,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-101",
+      "ownerId": null,
+      "contact": {
+        "id": "C-101",
+        "company": "Pixel servis · demo",
+        "name": "Adam Novák",
+        "email": "servis1@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 12",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-15T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "new",
+      "technician": "Adam · servis",
+      "priority": "high",
+      "carrier": "PPL",
+      "inbound": "Pošlu přepravcem",
+      "description": "Prasklé vrchní sklo, obraz i dotyk jsou funkční.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-15T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-15T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-320",
+      "service": "repase",
+      "family": "ipad",
+      "model": "iPad Mini 5",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/service-models/ipad-mini-5--generace--2019.jpg",
+      "quantity": 2,
+      "unitPrice": 1800,
+      "basePrice": 1800,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-102",
+      "ownerId": null,
+      "contact": {
+        "id": "C-102",
+        "company": "Mobil Lab · demo",
+        "name": "Tereza Malá",
+        "email": "servis2@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 13",
+        "city": "Brno",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-14T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "received",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "Balíkovna",
+      "inbound": "Pošlu přepravcem",
+      "description": "Kontrola OLED panelu a výměna skla.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-14T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-319",
+      "service": "repase",
+      "family": "watch",
+      "model": "Apple Watch 3",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/service-models/watch-3--generace.jpg",
+      "quantity": 4,
+      "unitPrice": 1300,
+      "basePrice": 1300,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-103",
+      "ownerId": null,
+      "contact": {
+        "id": "C-103",
+        "company": "iCare dílna · demo",
+        "name": "Tomáš Dvořák",
+        "email": "servis3@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 14",
+        "city": "Plzeň",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-14T10:00:00Z",
+      "dueAt": "2026-09-14T14:00:00Z",
+      "status": "diagnostics",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "Wolt Drive",
+      "inbound": "Pošlu přepravcem",
+      "description": "Série displejů z oprav, prosíme o test report.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-14T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-318",
+      "service": "zadni-skla",
+      "family": "iphone",
+      "model": "iPhone 13/13 Mini/13 Pro/13 Pro Max",
+      "work": "Výměna zadního skla",
+      "image": "/assets/devices/iphone-13.png",
+      "quantity": 6,
+      "unitPrice": 2100,
+      "basePrice": 2100,
+      "surcharge": 0,
+      "deviceScope": "Celé zařízení",
+      "condition": "Funkční dotyk",
+      "customerId": "C-104",
+      "ownerId": null,
+      "contact": {
+        "id": "C-104",
+        "company": "Display Studio · demo",
+        "name": "Eliška Svobodová",
+        "email": "servis4@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 15",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-14T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "approval",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "PPL",
+      "inbound": "Pošlu přepravcem",
+      "description": "Prasklé vrchní sklo, obraz i dotyk jsou funkční.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-14T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-317",
+      "service": "repase",
+      "family": "ipad",
+      "model": "iPad Pro 11\"/Mini 6",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/devices/ipad-pro-11--2--generace--2020.png",
+      "quantity": 1,
+      "unitPrice": 2500,
+      "basePrice": 2500,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-105",
+      "ownerId": null,
+      "contact": {
+        "id": "C-105",
+        "company": "TechPoint · demo",
+        "name": "Jan Černý",
+        "email": "servis5@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 16",
+        "city": "Olomouc",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-14T09:00:00Z",
+      "dueAt": "2026-09-14T14:00:00Z",
+      "status": "repair",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "Balíkovna",
+      "inbound": "Pošlu přepravcem",
+      "description": "Kontrola OLED panelu a výměna skla.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-14T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-14T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-316",
+      "service": "repase",
+      "family": "watch",
+      "model": "Apple Watch 4/5/6/SE1/SE2",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/devices/watch-5--generace.png",
+      "quantity": 2,
+      "unitPrice": 1500,
+      "basePrice": 1500,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-106",
+      "ownerId": null,
+      "contact": {
+        "id": "C-106",
+        "company": "Restart servis · demo",
+        "name": "Lucie Veselá",
+        "email": "servis6@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 17",
+        "city": "Liberec",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-13T10:00:00Z",
+      "dueAt": "2026-09-17T14:00:00Z",
+      "status": "quality",
+      "technician": "Tereza · servis",
+      "priority": "high",
+      "carrier": "Wolt Drive",
+      "inbound": "Pošlu přepravcem",
+      "description": "Série displejů z oprav, prosíme o test report.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-13T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-315",
+      "service": "repase",
+      "family": "iphone",
+      "model": "iPhone 12 Pro Max",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/service-models/iphone-12-pro-max.jpg",
+      "quantity": 4,
+      "unitPrice": 1300,
+      "basePrice": 1300,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-107",
+      "ownerId": null,
+      "contact": {
+        "id": "C-107",
+        "company": "Phone Garage · demo",
+        "name": "Martin Procházka",
+        "email": "servis7@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 18",
+        "city": "Ostrava",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-13T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "ready",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "PPL",
+      "inbound": "Pošlu přepravcem",
+      "description": "Prasklé vrchní sklo, obraz i dotyk jsou funkční.",
+      "checks": [
+        "image",
+        "touch",
+        "frame",
+        "clean",
+        "pack"
+      ],
+      "notes": [
+        {
+          "at": "2026-09-13T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-314",
+      "service": "zadni-skla",
+      "family": "iphone",
+      "model": "iPhone 12/12 Pro/12 Pro Max",
+      "work": "Výměna zadního skla",
+      "image": "/assets/service-models/iphone-12.jpg",
+      "quantity": 6,
+      "unitPrice": 1800,
+      "basePrice": 1800,
+      "surcharge": 0,
+      "deviceScope": "Celé zařízení",
+      "condition": "Funkční dotyk",
+      "customerId": "C-108",
+      "ownerId": "demo-client",
+      "contact": {
+        "id": "C-108",
+        "company": "Ukázkový servis · demo",
+        "name": "Petr Servisní",
+        "email": "servis@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 19",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-13T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "new",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "Balíkovna",
+      "inbound": "Pošlu přepravcem",
+      "description": "Kontrola OLED panelu a výměna skla.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-13T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-313",
+      "service": "repase",
+      "family": "watch",
+      "model": "Apple Watch 3",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/service-models/watch-3--generace.jpg",
+      "quantity": 1,
+      "unitPrice": 1300,
+      "basePrice": 1300,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-101",
+      "ownerId": null,
+      "contact": {
+        "id": "C-101",
+        "company": "Pixel servis · demo",
+        "name": "Adam Novák",
+        "email": "servis1@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 12",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-13T10:00:00Z",
+      "dueAt": "2026-09-17T14:00:00Z",
+      "status": "received",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "Wolt Drive",
+      "inbound": "Pošlu přepravcem",
+      "description": "Série displejů z oprav, prosíme o test report.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-13T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-13T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-312",
+      "service": "repase",
+      "family": "iphone",
+      "model": "iPhone 14 Pro/14 Pro Max/15/15 Plus",
+      "work": "Výměna vrchního skla",
+      "image": "/assets/devices/iphone-14-pro.png",
+      "quantity": 2,
+      "unitPrice": 2300,
+      "basePrice": 2300,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-102",
+      "ownerId": null,
+      "contact": {
+        "id": "C-102",
+        "company": "Mobil Lab · demo",
+        "name": "Tereza Malá",
+        "email": "servis2@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 13",
+        "city": "Brno",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-12T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "diagnostics",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "PPL",
+      "inbound": "Pošlu přepravcem",
+      "description": "Prasklé vrchní sklo, obraz i dotyk jsou funkční.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-12T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-311",
+      "service": "repase",
+      "family": "ipad",
+      "model": "iPad Pro 10.5\"/Air 3",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/service-models/ipad-pro-10-5-2017.jpg",
+      "quantity": 4,
+      "unitPrice": 2000,
+      "basePrice": 2000,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-103",
+      "ownerId": null,
+      "contact": {
+        "id": "C-103",
+        "company": "iCare dílna · demo",
+        "name": "Tomáš Dvořák",
+        "email": "servis3@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 14",
+        "city": "Plzeň",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-12T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "approval",
+      "technician": "Adam · servis",
+      "priority": "high",
+      "carrier": "Balíkovna",
+      "inbound": "Pošlu přepravcem",
+      "description": "Kontrola OLED panelu a výměna skla.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-12T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-310",
+      "service": "zadni-skla",
+      "family": "iphone",
+      "model": "iPhone 11/11 Pro/11 Pro Max",
+      "work": "Výměna zadního skla",
+      "image": "/assets/devices/iphone-11.png",
+      "quantity": 6,
+      "unitPrice": 1500,
+      "basePrice": 1500,
+      "surcharge": 0,
+      "deviceScope": "Celé zařízení",
+      "condition": "Funkční dotyk",
+      "customerId": "C-104",
+      "ownerId": null,
+      "contact": {
+        "id": "C-104",
+        "company": "Display Studio · demo",
+        "name": "Eliška Svobodová",
+        "email": "servis4@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 15",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-12T10:00:00Z",
+      "dueAt": "2026-09-17T14:00:00Z",
+      "status": "repair",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "Wolt Drive",
+      "inbound": "Pošlu přepravcem",
+      "description": "Série displejů z oprav, prosíme o test report.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-12T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-309",
+      "service": "repase",
+      "family": "iphone",
+      "model": "iPhone 16 Plus",
+      "work": "Výměna vrchního skla",
+      "image": "/assets/service-models/iphone-16-plus.jpg",
+      "quantity": 1,
+      "unitPrice": 2600,
+      "basePrice": 2600,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-105",
+      "ownerId": null,
+      "contact": {
+        "id": "C-105",
+        "company": "TechPoint · demo",
+        "name": "Jan Černý",
+        "email": "servis5@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 16",
+        "city": "Olomouc",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-12T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "quality",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "PPL",
+      "inbound": "Pošlu přepravcem",
+      "description": "Prasklé vrchní sklo, obraz i dotyk jsou funkční.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-12T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-12T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-308",
+      "service": "repase",
+      "family": "ipad",
+      "model": "iPad Pro 12.9\" 2015/2017",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/service-models/ipad-pro-12-9--1--generace--2015.jpg",
+      "quantity": 2,
+      "unitPrice": 3000,
+      "basePrice": 3000,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-106",
+      "ownerId": null,
+      "contact": {
+        "id": "C-106",
+        "company": "Restart servis · demo",
+        "name": "Lucie Veselá",
+        "email": "servis6@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 17",
+        "city": "Liberec",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-11T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "ready",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "Balíkovna",
+      "inbound": "Pošlu přepravcem",
+      "description": "Kontrola OLED panelu a výměna skla.",
+      "checks": [
+        "image",
+        "touch",
+        "frame",
+        "clean",
+        "pack"
+      ],
+      "notes": [
+        {
+          "at": "2026-09-11T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-307",
+      "service": "repase",
+      "family": "watch",
+      "model": "Apple Watch 3",
+      "work": "Výměna vrchního skla/dotyku",
+      "image": "/assets/service-models/watch-3--generace.jpg",
+      "quantity": 4,
+      "unitPrice": 1300,
+      "basePrice": 1300,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-107",
+      "ownerId": null,
+      "contact": {
+        "id": "C-107",
+        "company": "Phone Garage · demo",
+        "name": "Martin Procházka",
+        "email": "servis7@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 18",
+        "city": "Ostrava",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-11T10:00:00Z",
+      "dueAt": "2026-09-17T14:00:00Z",
+      "status": "new",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "Wolt Drive",
+      "inbound": "Pošlu přepravcem",
+      "description": "Série displejů z oprav, prosíme o test report.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-11T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-306",
+      "service": "vykup",
+      "family": "iphone",
+      "model": "iPhone 16 Pro",
+      "work": "Výkup prasklého displeje",
+      "image": "/assets/devices/iphone-16-pro.png",
+      "quantity": 6,
+      "unitPrice": 1600,
+      "basePrice": 1600,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-108",
+      "ownerId": "demo-client",
+      "contact": {
+        "id": "C-108",
+        "company": "Ukázkový servis · demo",
+        "name": "Petr Servisní",
+        "email": "servis@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 19",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-11T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "received",
+      "technician": "Tereza · servis",
+      "priority": "high",
+      "carrier": "PPL",
+      "inbound": "Pošlu přepravcem",
+      "description": "Prasklé vrchní sklo, obraz i dotyk jsou funkční.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-11T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-305",
+      "service": "vykup",
+      "family": "ipad",
+      "model": "iPad Pro 12.9“ 2021/2022",
+      "work": "Výkup prasklého displeje",
+      "image": "/assets/categories/ipad.png",
+      "quantity": 1,
+      "unitPrice": 1000,
+      "basePrice": 1000,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-101",
+      "ownerId": null,
+      "contact": {
+        "id": "C-101",
+        "company": "Pixel servis · demo",
+        "name": "Adam Novák",
+        "email": "servis1@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 12",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-11T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "diagnostics",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "Balíkovna",
+      "inbound": "Pošlu přepravcem",
+      "description": "Kontrola OLED panelu a výměna skla.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-11T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-11T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-304",
+      "service": "vykup",
+      "family": "watch",
+      "model": "Apple Watch Series 4-6",
+      "work": "Výkup prasklého displeje",
+      "image": "/assets/devices/watch-5--generace.png",
+      "quantity": 2,
+      "unitPrice": 200,
+      "basePrice": 200,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-102",
+      "ownerId": null,
+      "contact": {
+        "id": "C-102",
+        "company": "Mobil Lab · demo",
+        "name": "Tereza Malá",
+        "email": "servis2@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 13",
+        "city": "Brno",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-10T10:00:00Z",
+      "dueAt": "2026-09-17T14:00:00Z",
+      "status": "approval",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "Wolt Drive",
+      "inbound": "Pošlu přepravcem",
+      "description": "Série displejů z oprav, prosíme o test report.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-10T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-303",
+      "service": "vykup",
+      "family": "iphone",
+      "model": "iPhone Air",
+      "work": "Výkup prasklého displeje",
+      "image": "/assets/categories/iphone.png",
+      "quantity": 4,
+      "unitPrice": 1500,
+      "basePrice": 1500,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-103",
+      "ownerId": null,
+      "contact": {
+        "id": "C-103",
+        "company": "iCare dílna · demo",
+        "name": "Tomáš Dvořák",
+        "email": "servis3@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 14",
+        "city": "Plzeň",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-10T08:00:00Z",
+      "dueAt": "2026-09-15T14:00:00Z",
+      "status": "repair",
+      "technician": "Adam · servis",
+      "priority": "normal",
+      "carrier": "PPL",
+      "inbound": "Pošlu přepravcem",
+      "description": "Prasklé vrchní sklo, obraz i dotyk jsou funkční.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-10T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-302",
+      "service": "vykup",
+      "family": "ipad",
+      "model": "iPad Mini 5",
+      "work": "Výkup prasklého displeje",
+      "image": "/assets/service-models/ipad-mini-5--generace--2019.jpg",
+      "quantity": 6,
+      "unitPrice": 300,
+      "basePrice": 300,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-104",
+      "ownerId": null,
+      "contact": {
+        "id": "C-104",
+        "company": "Display Studio · demo",
+        "name": "Eliška Svobodová",
+        "email": "servis4@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 15",
+        "city": "Praha",
+        "zip": "100 00",
+        "group": "VIP servis"
+      },
+      "createdAt": "2026-09-10T09:00:00Z",
+      "dueAt": "2026-09-16T14:00:00Z",
+      "status": "quality",
+      "technician": "Tereza · servis",
+      "priority": "normal",
+      "carrier": "Balíkovna",
+      "inbound": "Pošlu přepravcem",
+      "description": "Kontrola OLED panelu a výměna skla.",
+      "checks": [],
+      "notes": [
+        {
+          "at": "2026-09-10T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    },
+    {
+      "id": "SRV-2609-301",
+      "service": "vykup",
+      "family": "watch",
+      "model": "Apple Watch Series 3",
+      "work": "Výkup prasklého displeje",
+      "image": "/assets/service-models/watch-3--generace.jpg",
+      "quantity": 1,
+      "unitPrice": 100,
+      "basePrice": 100,
+      "surcharge": 0,
+      "deviceScope": "Samostatný displej",
+      "condition": "Funkční dotyk",
+      "customerId": "C-105",
+      "ownerId": null,
+      "contact": {
+        "id": "C-105",
+        "company": "TechPoint · demo",
+        "name": "Jan Černý",
+        "email": "servis5@example.com",
+        "phone": "+420 000 000 000",
+        "street": "Ukázková 16",
+        "city": "Olomouc",
+        "zip": "100 00",
+        "group": "B2B partner"
+      },
+      "createdAt": "2026-09-10T10:00:00Z",
+      "dueAt": "2026-09-17T14:00:00Z",
+      "status": "ready",
+      "technician": "Adam · servis",
+      "priority": "high",
+      "carrier": "Wolt Drive",
+      "inbound": "Pošlu přepravcem",
+      "description": "Série displejů z oprav, prosíme o test report.",
+      "checks": [
+        "image",
+        "touch",
+        "frame",
+        "clean",
+        "pack"
+      ],
+      "notes": [
+        {
+          "at": "2026-09-10T10:00:00Z",
+          "text": "Ukázková zakázka. Zařízení označeno a přijato do evidence.",
+          "actor": "Tereza"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T08:00:00Z",
+          "text": "Poptávka přijata.",
+          "actor": "Klient"
+        }
+      ]
+    }
+  ],
+  "shipments": [
+    {
+      "id": "BAL-2609-201",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1022",
+      "customerId": "C-103",
+      "carrier": "Wolt Drive",
+      "status": "labeled",
+      "weight": 0.75,
+      "createdAt": "2026-09-14T10:00:00Z",
+      "tracking": "DEMO-00000201",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-202",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1021",
+      "customerId": "C-104",
+      "carrier": "PPL",
+      "status": "shipped",
+      "weight": 1.0,
+      "createdAt": "2026-09-14T11:00:00Z",
+      "tracking": "DEMO-00000202",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-203",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1020",
+      "customerId": "C-105",
+      "carrier": "Balíkovna",
+      "status": "delivered",
+      "weight": 0.5,
+      "createdAt": "2026-09-14T08:00:00Z",
+      "tracking": "DEMO-00000203",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-204",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1018",
+      "customerId": "C-107",
+      "carrier": "PPL",
+      "status": "ready",
+      "weight": 0.75,
+      "createdAt": "2026-09-13T10:00:00Z",
+      "tracking": "DEMO-00000204",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-205",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1014",
+      "customerId": "C-103",
+      "carrier": "Balíkovna",
+      "status": "labeled",
+      "weight": 1.0,
+      "createdAt": "2026-09-12T10:00:00Z",
+      "tracking": "DEMO-00000205",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-206",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1013",
+      "customerId": "C-104",
+      "carrier": "Wolt Drive",
+      "status": "shipped",
+      "weight": 0.5,
+      "createdAt": "2026-09-12T11:00:00Z",
+      "tracking": "DEMO-00000206",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-207",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1012",
+      "customerId": "C-105",
+      "carrier": "PPL",
+      "status": "delivered",
+      "weight": 0.75,
+      "createdAt": "2026-09-12T08:00:00Z",
+      "tracking": "DEMO-00000207",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-208",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1010",
+      "customerId": "C-107",
+      "carrier": "Wolt Drive",
+      "status": "ready",
+      "weight": 1.0,
+      "createdAt": "2026-09-11T10:00:00Z",
+      "tracking": "DEMO-00000208",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-209",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1006",
+      "customerId": "C-103",
+      "carrier": "PPL",
+      "status": "labeled",
+      "weight": 0.5,
+      "createdAt": "2026-09-10T10:00:00Z",
+      "tracking": "DEMO-00000209",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-210",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1005",
+      "customerId": "C-104",
+      "carrier": "Balíkovna",
+      "status": "shipped",
+      "weight": 0.75,
+      "createdAt": "2026-09-10T11:00:00Z",
+      "tracking": "DEMO-00000210",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-211",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1004",
+      "customerId": "C-105",
+      "carrier": "Wolt Drive",
+      "status": "delivered",
+      "weight": 1.0,
+      "createdAt": "2026-09-10T08:00:00Z",
+      "tracking": "DEMO-00000211",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-212",
+      "sourceType": "order",
+      "sourceId": "OBJ-2609-1002",
+      "customerId": "C-107",
+      "carrier": "Balíkovna",
+      "status": "ready",
+      "weight": 0.5,
+      "createdAt": "2026-09-09T10:00:00Z",
+      "tracking": "DEMO-00000212",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-213",
+      "sourceType": "repair",
+      "sourceId": "SRV-2609-315",
+      "customerId": "C-107",
+      "carrier": "PPL",
+      "status": "labeled",
+      "weight": 0.75,
+      "createdAt": "2026-09-13T08:00:00Z",
+      "tracking": "DEMO-00000213",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-214",
+      "sourceType": "repair",
+      "sourceId": "SRV-2609-308",
+      "customerId": "C-106",
+      "carrier": "Balíkovna",
+      "status": "ready",
+      "weight": 1.0,
+      "createdAt": "2026-09-11T09:00:00Z",
+      "tracking": "DEMO-00000214",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    },
+    {
+      "id": "BAL-2609-215",
+      "sourceType": "repair",
+      "sourceId": "SRV-2609-301",
+      "customerId": "C-105",
+      "carrier": "Wolt Drive",
+      "status": "labeled",
+      "weight": 0.5,
+      "createdAt": "2026-09-10T10:00:00Z",
+      "tracking": "DEMO-00000215",
+      "note": "Ukázková zásilka, bez skutečného přepravního štítku."
+    }
+  ],
+  "inventory": [
+    {
+      "productId": "3051",
+      "sku": "LCD/SO/15PRO",
+      "location": "A-01-01",
+      "onHand": 3,
+      "minimum": 12,
+      "incoming": 20
+    },
+    {
+      "productId": "6699",
+      "sku": "BAT/KONF/13M",
+      "location": "A-02-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "698",
+      "sku": "KAM/Z/11",
+      "location": "A-03-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "1454",
+      "sku": "102111/BIL",
+      "location": "A-04-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "1646",
+      "sku": "752",
+      "location": "A-05-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9339",
+      "sku": "9339/US",
+      "location": "A-01-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "2762",
+      "sku": "904028/40",
+      "location": "A-02-01",
+      "onHand": 4,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "2965",
+      "sku": "102629/BIL",
+      "location": "A-03-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 20
+    },
+    {
+      "productId": "9270",
+      "sku": "9270",
+      "location": "A-04-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "4419",
+      "sku": "611164",
+      "location": "A-05-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "4599",
+      "sku": "153719",
+      "location": "A-01-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9258",
+      "sku": "9258",
+      "location": "A-02-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9273",
+      "sku": "9273",
+      "location": "A-03-01",
+      "onHand": 3,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "4959",
+      "sku": "4959",
+      "location": "A-04-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "4944",
+      "sku": "4944",
+      "location": "A-05-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 20
+    },
+    {
+      "productId": "8802",
+      "sku": "8802",
+      "location": "B-01-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "10220",
+      "sku": "10220/41",
+      "location": "B-02-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "10205",
+      "sku": "10205",
+      "location": "B-03-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9126",
+      "sku": "9126/A",
+      "location": "B-04-01",
+      "onHand": 3,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "9123",
+      "sku": "9123",
+      "location": "B-05-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "6114",
+      "sku": "6114/SG",
+      "location": "B-01-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9981",
+      "sku": "9981",
+      "location": "B-02-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 20
+    },
+    {
+      "productId": "10002",
+      "sku": "9997",
+      "location": "B-03-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "10214",
+      "sku": "10214",
+      "location": "B-04-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "10008",
+      "sku": "9999",
+      "location": "B-05-01",
+      "onHand": 4,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "9294",
+      "sku": "ACCS8773",
+      "location": "B-01-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "8664",
+      "sku": "8664",
+      "location": "B-02-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "8652",
+      "sku": "8652",
+      "location": "B-03-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "3771",
+      "sku": "ACCS0450",
+      "location": "B-04-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 20
+    },
+    {
+      "productId": "3732",
+      "sku": "LEP/LANRUI/55/CL",
+      "location": "B-05-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9081",
+      "sku": "KOBU/3D/13M",
+      "location": "C-01-01",
+      "onHand": 3,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "9078",
+      "sku": "KOBU/2-5/X/XS/11PRO",
+      "location": "C-02-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9084",
+      "sku": "KOBU/3D/PRIV/15PL",
+      "location": "C-03-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9624",
+      "sku": "KOBU/CAM/3D/17PM/BIL",
+      "location": "C-04-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "9381",
+      "sku": "KOBU/CAM/3D/17PRO/BIL",
+      "location": "C-05-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "9360",
+      "sku": "9360/PENT",
+      "location": "C-01-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 20
+    },
+    {
+      "productId": "10130",
+      "sku": "50273",
+      "location": "C-02-01",
+      "onHand": 3,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "9111",
+      "sku": "9111",
+      "location": "C-03-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "3078",
+      "sku": "ACCS0400",
+      "location": "C-04-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "10217",
+      "sku": "10217",
+      "location": "C-05-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "9297",
+      "sku": "ACCS8774",
+      "location": "C-01-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "3010",
+      "sku": "ACCS0305",
+      "location": "C-02-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "3726",
+      "sku": "ACCS0300",
+      "location": "C-03-01",
+      "onHand": 4,
+      "minimum": 12,
+      "incoming": 20
+    },
+    {
+      "productId": "3004",
+      "sku": "ACCS0301",
+      "location": "C-04-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "2995",
+      "sku": "ACCS0070",
+      "location": "C-05-03",
+      "onHand": 36,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "4986",
+      "sku": "ACCS0473",
+      "location": "D-01-01",
+      "onHand": 42,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "9840",
+      "sku": "IPA",
+      "location": "D-02-02",
+      "onHand": 18,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "10208",
+      "sku": "10208",
+      "location": "D-03-03",
+      "onHand": 60,
+      "minimum": 8,
+      "incoming": 0
+    },
+    {
+      "productId": "8799",
+      "sku": "8799",
+      "location": "D-04-01",
+      "onHand": 3,
+      "minimum": 12,
+      "incoming": 0
+    },
+    {
+      "productId": "8700",
+      "sku": "ACCS8700",
+      "location": "D-05-02",
+      "onHand": 7,
+      "minimum": 8,
+      "incoming": 20
+    }
+  ],
+  "movements": [
+    {
+      "id": "POH-0",
+      "productId": "3051",
+      "quantity": 20,
+      "at": "2026-09-13T08:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    },
+    {
+      "id": "POH-1",
+      "productId": "6699",
+      "quantity": 20,
+      "at": "2026-09-13T09:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    },
+    {
+      "id": "POH-2",
+      "productId": "698",
+      "quantity": 20,
+      "at": "2026-09-13T10:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    },
+    {
+      "id": "POH-3",
+      "productId": "1454",
+      "quantity": 20,
+      "at": "2026-09-13T11:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    },
+    {
+      "id": "POH-4",
+      "productId": "1646",
+      "quantity": 20,
+      "at": "2026-09-13T12:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    },
+    {
+      "id": "POH-5",
+      "productId": "9339",
+      "quantity": 20,
+      "at": "2026-09-13T13:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    },
+    {
+      "id": "POH-6",
+      "productId": "2762",
+      "quantity": 20,
+      "at": "2026-09-13T14:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    },
+    {
+      "id": "POH-7",
+      "productId": "2965",
+      "quantity": 20,
+      "at": "2026-09-13T15:00:00Z",
+      "reason": "Ukázková příjemka zboží",
+      "actor": "Martin"
+    }
+  ]
+}
