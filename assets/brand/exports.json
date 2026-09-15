@@ -5,49 +5,49 @@
       "file": "apple-touch-icon.png",
       "width": 180,
       "height": 180,
-      "bytes": 4463
+      "bytes": 5817
     },
     {
       "file": "favicon-192.png",
       "width": 192,
       "height": 192,
-      "bytes": 4767
+      "bytes": 6235
     },
     {
       "file": "favicon-32.png",
       "width": 32,
       "height": 32,
-      "bytes": 754
+      "bytes": 959
     },
     {
       "file": "favicon-64.png",
       "width": 64,
       "height": 64,
-      "bytes": 1449
+      "bytes": 1993
     },
     {
       "file": "favicon.png",
       "width": 512,
       "height": 512,
-      "bytes": 13495
+      "bytes": 17362
     },
     {
       "file": "logo-negative.png",
       "width": 1736,
       "height": 360,
-      "bytes": 54821
+      "bytes": 58606
     },
     {
       "file": "logo-with-tagline.png",
       "width": 1736,
       "height": 360,
-      "bytes": 54637
+      "bytes": 58292
     },
     {
       "file": "logo.png",
       "width": 1296,
       "height": 256,
-      "bytes": 29789
+      "bytes": 29791
     }
   ],
   "tagline": "LCD & OLED REFURBISHING",
@@ -56,5 +56,7 @@
     "#24bfff",
     "#7952e8",
     "#ec4899"
-  ]
+  ],
+  "symbolBackground": "blue-to-pink gradient",
+  "symbolForeground": "#ffffff"
 }

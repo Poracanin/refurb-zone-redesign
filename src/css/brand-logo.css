@@ -105,9 +105,6 @@
 .brand-logo.is-negative .brand-tagline {
   color: #c0c8d5;
 }
-.brand-logo.is-negative .brand-seed-bg {
-  fill: #f7f9fc;
-}
 
 /* The opening animation sits above the page without moving its layout. */
 html.has-site-intro,

@@ -4,7 +4,7 @@
 
 Wordmark `refurb.zone` používá Inter 800, barvu `#101318`, tečku s přechodem modrá `#24bfff` → fialová `#7952e8` → růžová `#ec4899` a stejné proporce jako hlavička návrhu. Exporty PNG mají průhledné pozadí. Textové logo zůstává v hlavičce pro ostré zobrazení v každé velikosti. Nový podtitulek je `LCD & OLED REFURBISHING`.
 
-Favicon je původní symbol `r` na zaobleném tmavém poli `#111419` s písmenem a tečkou ve stejném modro-růžovém přechodu jako logo. Vektorový zdroj je `assets/favicon.svg`, PNG velikosti jsou v `assets/brand/`.
+Favicon tvoří bílé `r` a bílá tečka na zaobleném pozadí s modro-fialovo-růžovým přechodem. Tato podoba symbolu se zachovává i v negativní variantě a po celou dobu animace. Vektorový zdroj je `assets/favicon.svg`, PNG velikosti jsou v `assets/brand/`.
 
 Inter je přibalený v latinské a rozšířené latinské sadě pro češtinu. Licence SIL Open Font License je v `assets/fonts/OFL.txt`.
 

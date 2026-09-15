@@ -26,9 +26,9 @@ window.refurbBrand = (() => {
               <stop offset="1" stop-color="#ec4899"/>
             </linearGradient>
           </defs>
-          <rect class="brand-seed-bg" width="40" height="40" rx="11" fill="#111419"/>
-          <text class="brand-seed-letter" x="10" y="29" fill="url(#${gradientId})" font-family="Arial,sans-serif" font-size="31" font-weight="700">r</text>
-          <circle cx="30" cy="28" r="3" fill="url(#${gradientId})"/>
+          <rect class="brand-seed-bg" width="40" height="40" rx="11" fill="url(#${gradientId})"/>
+          <text class="brand-seed-letter" x="10" y="29" fill="white" font-family="Arial,sans-serif" font-size="31" font-weight="700">r</text>
+          <circle cx="30" cy="28" r="3" fill="white"/>
         </svg>
         <span class="brand-wordmark"><span class="brand-initial">r</span><span class="brand-stem">efurb</span><span class="brand-dot">.</span><span class="brand-zone">zone</span></span>
       </span>
@@ -118,7 +118,6 @@ window.refurbBrand = (() => {
       };
       animate('.brand-wordmark', [{ color: '#101318' }, { color: '#f7f9fc' }], negativeTiming);
       animate('.brand-tagline', [{ color: '#737d8c' }, { color: '#c0c8d5' }], negativeTiming);
-      animate('.brand-seed-bg', [{ fill: '#111419' }, { fill: '#f7f9fc' }], negativeTiming);
       last = animate(
         negativeCanvas,
         [
