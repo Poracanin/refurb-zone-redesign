@@ -16,6 +16,7 @@ const pages = new Set([
   'produkt.html',
   'sluzby.html',
   'doprava.html',
+  'administrace.html',
 ]);
 const mime = {
   '.html': 'text/html; charset=utf-8',

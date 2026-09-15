@@ -4,16 +4,19 @@ Databáze zatím není vytvořená. Současná datová vrstva je `src/js/data-re
 
 ## Navržené entity
 
-| Entita                                           | Dnešní zdroj                                 |
-| ------------------------------------------------ | -------------------------------------------- |
-| products                                         | `products.json` bez vnořených variant        |
-| product_variants                                 | `products[].variants[]`, vazba na product_id |
-| product_images                                   | Obrázky produktu a pořadí                    |
-| categories / product_categories                  | `groups.json` a vazby na produkty            |
-| brands / product_brands                          | `brands.json`                                |
-| devices / product_compatibility                  | `devices.json` a konkrétní product_ids       |
-| services / service_price_groups / service_prices | `services.json`, oddělené typy cen           |
-| shipping_methods                                 | `delivery.json`                              |
+| Entita                                           | Dnešní zdroj                                                    |
+| ------------------------------------------------ | --------------------------------------------------------------- |
+| products                                         | `products.json` bez vnořených variant                           |
+| product_variants                                 | `products[].variants[]`, vazba na product_id                    |
+| product_images                                   | Obrázky produktu a pořadí                                       |
+| categories / product_categories                  | `groups.json` a vazby na produkty                               |
+| brands / product_brands                          | `brands.json`                                                   |
+| devices / product_compatibility                  | `devices.json` a konkrétní product_ids                          |
+| services / service_price_groups / service_prices | `services.json`, oddělené typy cen                              |
+| customers / service_requests / repair_history    | `operations-demo.json`: zákazníci, zakázky, poznámky a historie |
+| orders / order_lines / shipments                 | `operations-demo.json`: objednávky a demo balíky                |
+| inventory / stock_movements                      | `operations-demo.json`: zásoby a skladové pohyby                |
+| shipping_methods                                 | `delivery.json`                                                 |
 
 U peněz ukládejte celá čísla v haléřích nebo přesný desetinný typ. Zachovejte původní ID či jejich mapování, aby fungovaly stávající odkazy na produkty. U cen evidujte měnu, daňový režim, datum a původ. Chybějící cena zůstává `null`.
 
@@ -25,4 +28,4 @@ U peněz ukládejte celá čísla v haléřích nebo přesný desetinný typ. Za
 4. Doplnit skutečné objednávky, rezervaci dostupnosti, výpočet cen a validaci košíku na serveru, pokud budou součástí další etapy.
 5. Podle velikosti katalogu přejít z načtení celého vzorku na stránkování a vyhledávání přes API. Současný vzorek obsahuje pouze 50 produktů.
 
-Tento dokument popisuje navazující práci; žádné účty, objednávky, platby ani databázové tabulky nyní neběží.
+Servisní poptávky a administrace nyní pracují pouze s ukázkovými daty v prohlížeči, viz [ADMIN-DEMO.md](ADMIN-DEMO.md). `operations-store.js` bude druhým místem výměny za API. Přesun provozních pravidel na server musí zachovat atomické rezervace/odpisy zásob, ochranu před duplicitním odesláním a kontrolu vlastnictví každé klientské poptávky. Skutečné účty, platby, dopravci ani databázové tabulky zatím připojené nejsou.

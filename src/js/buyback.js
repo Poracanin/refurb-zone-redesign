@@ -158,8 +158,8 @@ function renderBuybackPrices() {
     buybackState.sort !== 'default'
   );
   document.getElementById('buyback-table').innerHTML = rows.length
-    ? `<div class="buyback-table-scroll" tabindex="0" role="region" aria-label="Výkupní ceník, posouvatelný seznam"><table class="buyback-table"><caption class="sr-only">Výkupní ceník — ${buybackGroup().label}</caption><thead><tr><th scope="col">Model zařízení</th>${working ? `<th scope="col">${iphone ? 'Funkční dotyk <span>OK</span>' : 'Prasklý displej'}</th>` : ''}${damaged ? '<th scope="col">Poškozený dotyk <span>KO</span></th>' : ''}</tr></thead><tbody>${rows.map((row) => `<tr><th scope="row">${esc(row.model.replaceAll('/', ' / '))}</th>${working ? `<td>${buybackPriceCell(row.price)}</td>` : ''}${damaged ? `<td class="buyback-damaged-price">${buybackPriceCell(row.damaged_touch_price)}</td>` : ''}</tr>`).join('')}</tbody></table></div>`
-    : `<div class="buyback-empty">${icon('search')}<h3>Pro tento výběr jsme cenu nenašli.</h3><p>Zkuste jiný model nebo upravte filtry. Model, který není v ceníku, můžete ověřit přímo se servisem.</p><button class="button secondary" data-buyback-clear>Zrušit filtry</button><a class="text-link" href="tel:+420777122858">Zavolat do servisu ${icon('arrow')}</a></div>`;
+    ? `<div class="service-products-grid">${rows.map((row) => serviceTile(row, buybackGroup(), buybackService(), buybackGroup().rows.indexOf(row))).join('')}</div>`
+    : `<div class="buyback-empty">${icon('search')}<h3>Pro tento výběr jsme cenu nenašli.</h3><p>Zkuste jiný model nebo upravte filtry.</p><button class="button secondary" data-buyback-clear>Zrušit filtry</button></div>`;
   document.getElementById('buyback-condition-note').textContent = iphone
     ? 'Označení „Na posouzení“ znamená, že zdroj pro tento stav cenu neuvádí.'
     : 'U této skupiny původní ceník nerozlišuje stav dotyku.';

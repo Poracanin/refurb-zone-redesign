@@ -284,140 +284,246 @@
             "model": "iPhone 11 Pro",
             "price": 100,
             "damaged_touch_price": 30,
-            "models": ["iPhone 11 Pro"]
+            "models": [
+              "iPhone 11 Pro"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-2",
             "model": "iPhone 11 Pro Max",
             "price": 100,
             "damaged_touch_price": 30,
-            "models": ["iPhone 11 Pro Max"]
+            "models": [
+              "iPhone 11 Pro Max"
+            ],
+            "image": "/assets/service-models/iphone-11-pro-max.jpg",
+            "image_model": "iPhone 11 Pro Max",
+            "image_is_family": false
           },
           {
             "id": "iphone-3",
             "model": "iPhone 12/12 Pro",
             "price": 150,
             "damaged_touch_price": 50,
-            "models": ["iPhone 12", "iPhone 12 Pro"]
+            "models": [
+              "iPhone 12",
+              "iPhone 12 Pro"
+            ],
+            "image": "/assets/service-models/iphone-12.jpg",
+            "image_model": "iPhone 12",
+            "image_is_family": false
           },
           {
             "id": "iphone-4",
             "model": "iPhone 12 mini/13/13 mini/14",
             "price": 300,
             "damaged_touch_price": 150,
-            "models": ["iPhone 12 mini", "iPhone 13", "iPhone 13 mini", "iPhone 14"]
+            "models": [
+              "iPhone 12 mini",
+              "iPhone 13",
+              "iPhone 13 mini",
+              "iPhone 14"
+            ],
+            "image": "/assets/devices/iphone-13.png",
+            "image_model": "iPhone 13",
+            "image_is_family": false
           },
           {
             "id": "iphone-5",
             "model": "iPhone 12 Pro Max",
             "price": 300,
             "damaged_touch_price": 150,
-            "models": ["iPhone 12 Pro Max"]
+            "models": [
+              "iPhone 12 Pro Max"
+            ],
+            "image": "/assets/service-models/iphone-12-pro-max.jpg",
+            "image_model": "iPhone 12 Pro Max",
+            "image_is_family": false
           },
           {
             "id": "iphone-6",
             "model": "iPhone 13 Pro/13 Pro Max",
             "price": 500,
             "damaged_touch_price": 200,
-            "models": ["iPhone 13 Pro", "iPhone 13 Pro Max"]
+            "models": [
+              "iPhone 13 Pro",
+              "iPhone 13 Pro Max"
+            ],
+            "image": "/assets/devices/iphone-13-pro.png",
+            "image_model": "iPhone 13 Pro",
+            "image_is_family": false
           },
           {
             "id": "iphone-7",
             "model": "iPhone 14 Pro",
             "price": 800,
             "damaged_touch_price": 200,
-            "models": ["iPhone 14 Pro"]
+            "models": [
+              "iPhone 14 Pro"
+            ],
+            "image": "/assets/devices/iphone-14-pro.png",
+            "image_model": "iPhone 14 Pro",
+            "image_is_family": false
           },
           {
             "id": "iphone-8",
             "model": "iPhone 14 Plus",
             "price": 500,
             "damaged_touch_price": 100,
-            "models": ["iPhone 14 Plus"]
+            "models": [
+              "iPhone 14 Plus"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-9",
             "model": "iPhone 14 Pro Max",
             "price": 900,
             "damaged_touch_price": 200,
-            "models": ["iPhone 14 Pro Max"]
+            "models": [
+              "iPhone 14 Pro Max"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-10",
             "model": "iPhone 15",
             "price": 700,
             "damaged_touch_price": null,
-            "models": ["iPhone 15"]
+            "models": [
+              "iPhone 15"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-11",
             "model": "iPhone 15 Plus",
             "price": 700,
             "damaged_touch_price": null,
-            "models": ["iPhone 15 Plus"]
+            "models": [
+              "iPhone 15 Plus"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-12",
             "model": "iPhone 15 Pro",
             "price": 1300,
             "damaged_touch_price": 300,
-            "models": ["iPhone 15 Pro"]
+            "models": [
+              "iPhone 15 Pro"
+            ],
+            "image": "/assets/devices/iphone-15-pro.png",
+            "image_model": "iPhone 15 Pro",
+            "image_is_family": false
           },
           {
             "id": "iphone-13",
             "model": "iPhone 15 Pro Max",
             "price": 1500,
             "damaged_touch_price": 300,
-            "models": ["iPhone 15 Pro Max"]
+            "models": [
+              "iPhone 15 Pro Max"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-14",
             "model": "iPhone 16",
             "price": 1000,
             "damaged_touch_price": 300,
-            "models": ["iPhone 16"]
+            "models": [
+              "iPhone 16"
+            ],
+            "image": "/assets/service-models/iphone-16.jpg",
+            "image_model": "iPhone 16",
+            "image_is_family": false
           },
           {
             "id": "iphone-15",
             "model": "iPhone 16 Plus",
             "price": 1000,
             "damaged_touch_price": 300,
-            "models": ["iPhone 16 Plus"]
+            "models": [
+              "iPhone 16 Plus"
+            ],
+            "image": "/assets/service-models/iphone-16-plus.jpg",
+            "image_model": "iPhone 16 Plus",
+            "image_is_family": false
           },
           {
             "id": "iphone-16",
             "model": "iPhone 16 Pro",
             "price": 1600,
             "damaged_touch_price": 300,
-            "models": ["iPhone 16 Pro"]
+            "models": [
+              "iPhone 16 Pro"
+            ],
+            "image": "/assets/devices/iphone-16-pro.png",
+            "image_model": "iPhone 16 Pro",
+            "image_is_family": false
           },
           {
             "id": "iphone-17",
             "model": "iPhone 16 Pro Max/17 Pro",
             "price": 1800,
             "damaged_touch_price": 300,
-            "models": ["iPhone 16 Pro Max", "iPhone 17 Pro"]
+            "models": [
+              "iPhone 16 Pro Max",
+              "iPhone 17 Pro"
+            ],
+            "image": "/assets/service-models/iphone-16-pro-max.jpg",
+            "image_model": "iPhone 16 Pro Max",
+            "image_is_family": false
           },
           {
             "id": "iphone-18",
             "model": "iPhone 17",
             "price": 1500,
             "damaged_touch_price": 800,
-            "models": ["iPhone 17"]
+            "models": [
+              "iPhone 17"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-19",
             "model": "iPhone Air",
             "price": 1500,
             "damaged_touch_price": 900,
-            "models": ["iPhone Air"]
+            "models": [
+              "iPhone Air"
+            ],
+            "image": "/assets/categories/iphone.png",
+            "image_model": "iPhone",
+            "image_is_family": true
           },
           {
             "id": "iphone-20",
             "model": "iPhone 17 Pro Max",
             "price": 2000,
             "damaged_touch_price": 300,
-            "models": ["iPhone 17 Pro Max"]
+            "models": [
+              "iPhone 17 Pro Max"
+            ],
+            "image": "/assets/devices/iphone-17-pro-max.png",
+            "image_model": "iPhone 17 Pro Max",
+            "image_is_family": false
           }
         ]
       },
@@ -431,63 +537,117 @@
             "model": "iPad Air 2/Pro 9.7“/mini 4",
             "price": 200,
             "damaged_touch_price": null,
-            "models": ["iPad Air 2", "iPad Pro 9.7", "iPad mini 4"]
+            "models": [
+              "iPad Air 2",
+              "iPad Pro 9.7",
+              "iPad mini 4"
+            ],
+            "image": "/assets/service-models/ipad-air-2--generace--2014.jpg",
+            "image_model": "iPad Air 2",
+            "image_is_family": false
           },
           {
             "id": "ipad-2",
             "model": "iPad Mini 5",
             "price": 300,
             "damaged_touch_price": null,
-            "models": ["iPad Mini 5"]
+            "models": [
+              "iPad Mini 5"
+            ],
+            "image": "/assets/service-models/ipad-mini-5--generace--2019.jpg",
+            "image_model": "iPad mini 5",
+            "image_is_family": false
           },
           {
             "id": "ipad-3",
             "model": "iPad Air 3/Pro 10.5“",
             "price": 300,
             "damaged_touch_price": null,
-            "models": ["iPad Air 3", "iPad Pro 10.5"]
+            "models": [
+              "iPad Air 3",
+              "iPad Pro 10.5"
+            ],
+            "image": "/assets/categories/ipad.png",
+            "image_model": "iPad",
+            "image_is_family": true
           },
           {
             "id": "ipad-4",
             "model": "iPad Air 4/Air 5",
             "price": 500,
             "damaged_touch_price": null,
-            "models": ["iPad Air 4", "iPad Air 5"]
+            "models": [
+              "iPad Air 4",
+              "iPad Air 5"
+            ],
+            "image": "/assets/service-models/ipad-air-4--generace--2020.jpg",
+            "image_model": "iPad Air 4",
+            "image_is_family": false
           },
           {
             "id": "ipad-5",
             "model": "iPad Pro 11“ 2018/2020",
             "price": 500,
             "damaged_touch_price": null,
-            "models": ["iPad Pro 11 2018", "iPad Pro 11 2020"]
+            "models": [
+              "iPad Pro 11 2018",
+              "iPad Pro 11 2020"
+            ],
+            "image": "/assets/categories/ipad.png",
+            "image_model": "iPad",
+            "image_is_family": true
           },
           {
             "id": "ipad-6",
             "model": "iPad Pro 11“ 2021/2022",
             "price": 500,
             "damaged_touch_price": null,
-            "models": ["iPad Pro 11 2021", "iPad Pro 11 2022"]
+            "models": [
+              "iPad Pro 11 2021",
+              "iPad Pro 11 2022"
+            ],
+            "image": "/assets/categories/ipad.png",
+            "image_model": "iPad",
+            "image_is_family": true
           },
           {
             "id": "ipad-7",
             "model": "iPad Pro 12.9“ 2018/2020",
             "price": 600,
             "damaged_touch_price": null,
-            "models": ["iPad Pro 12.9 2018", "iPad Pro 12.9 2020"]
+            "models": [
+              "iPad Pro 12.9 2018",
+              "iPad Pro 12.9 2020"
+            ],
+            "image": "/assets/categories/ipad.png",
+            "image_model": "iPad",
+            "image_is_family": true
           },
           {
             "id": "ipad-8",
             "model": "iPad Pro 12.9“ 2021/2022",
             "price": 1000,
             "damaged_touch_price": null,
-            "models": ["iPad Pro 12.9 2021", "iPad Pro 12.9 2022"]
+            "models": [
+              "iPad Pro 12.9 2021",
+              "iPad Pro 12.9 2022"
+            ],
+            "image": "/assets/categories/ipad.png",
+            "image_model": "iPad",
+            "image_is_family": true
           },
           {
             "id": "ipad-9",
             "model": "iPad Mini 6/Mini 7",
             "price": 800,
             "damaged_touch_price": null,
-            "models": ["iPad Mini 6", "iPad Mini 7"]
+            "models": [
+              "iPad Mini 6",
+              "iPad Mini 7"
+            ],
+            "image": "/assets/categories/ipad.png",
+            "image_model": "iPad",
+            "image_is_family": true
           }
         ]
       },
@@ -501,14 +661,26 @@
             "model": "Apple Watch Series 3",
             "price": 100,
             "damaged_touch_price": null,
-            "models": ["Apple Watch Series 3"]
+            "models": [
+              "Apple Watch Series 3"
+            ],
+            "image": "/assets/service-models/watch-3--generace.jpg",
+            "image_model": "Apple Watch Series 3",
+            "image_is_family": false
           },
           {
             "id": "watch-2",
             "model": "Apple Watch Series 4-6",
             "price": 200,
             "damaged_touch_price": null,
-            "models": ["Apple Watch Series 4", "Apple Watch Series 5", "Apple Watch Series 6"]
+            "models": [
+              "Apple Watch Series 4",
+              "Apple Watch Series 5",
+              "Apple Watch Series 6"
+            ],
+            "image": "/assets/devices/watch-5--generace.png",
+            "image_model": "Apple Watch Series 5",
+            "image_is_family": false
           },
           {
             "id": "watch-3",
@@ -521,14 +693,23 @@
               "Apple Watch Series 9",
               "Apple Watch Series 10",
               "Apple Watch Series 11"
-            ]
+            ],
+            "image": "/assets/categories/watch.png",
+            "image_model": "Apple Watch",
+            "image_is_family": true
           },
           {
             "id": "watch-4",
             "model": "Apple Watch Ultra 1/2",
             "price": 400,
             "damaged_touch_price": null,
-            "models": ["Apple Watch Ultra 1", "Apple Watch Ultra 2"]
+            "models": [
+              "Apple Watch Ultra 1",
+              "Apple Watch Ultra 2"
+            ],
+            "image": "/assets/categories/watch.png",
+            "image_model": "Apple Watch",
+            "image_is_family": true
           }
         ]
       }

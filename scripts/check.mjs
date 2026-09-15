@@ -34,10 +34,25 @@ function checkAssetReferences(value) {
 }
 for (const file of await readdir(resolve(root, 'data')))
   checkAssetReferences(JSON.parse(await readFile(resolve(root, 'data', file), 'utf8')));
-for (const file of ['index.html', 'katalog.html', 'produkt.html', 'sluzby.html', 'doprava.html']) {
+for (const file of [
+  'index.html',
+  'katalog.html',
+  'produkt.html',
+  'sluzby.html',
+  'doprava.html',
+  'administrace.html',
+]) {
   const html = await readFile(resolve(root, file), 'utf8');
-  assert(html.includes('data-repository.js'), `Chybí datová vrstva v ${file}.`);
-  assert(html.includes('shipping-countdown.js'), `Chybí odpočet expedice v ${file}.`);
+  if (file !== 'administrace.html') {
+    assert(html.includes('data-repository.js'), `Chybí datová vrstva v ${file}.`);
+    assert(html.includes('shipping-countdown.js'), `Chybí odpočet expedice v ${file}.`);
+  }
+  for (const script of [
+    'operations-core.js',
+    'operations-store.js',
+    file === 'administrace.html' ? 'admin.js' : 'service-shop.js',
+  ])
+    assert(html.includes(script), `Chybí ${script} v ${file}.`);
   for (const match of html.matchAll(/(?:src|href)=["'](\/[^"'#?]+)["'?]/g))
     assert(existsSync(resolve(root, '.' + match[1])), `${file}: chybí ${match[1]}`);
 }
