@@ -82,9 +82,21 @@ const NAV_GROUPS = [
         desc: 'Skla, OCA a rámečky pro repasování',
         logo: '/assets/brands/apple.svg',
         children: [
-          { name: 'iPhone', url: '/katalog.html?category=refurb-iphone' },
-          { name: 'iPad', url: '/katalog.html?category=refurb-ipad' },
-          { name: 'Watch', url: '/katalog.html?category=refurb-watch' },
+          {
+            name: 'iPhone',
+            url: '/katalog.html?category=refurb-iphone',
+            image: '/assets/categories/iphone.png',
+          },
+          {
+            name: 'iPad',
+            url: '/katalog.html?category=refurb-ipad',
+            image: '/assets/categories/ipad.png',
+          },
+          {
+            name: 'Watch',
+            url: '/katalog.html?category=refurb-watch',
+            image: '/assets/categories/watch.png',
+          },
         ],
       },
       {
@@ -116,7 +128,7 @@ function navigationItemsHtml(group) {
       const content = `${item.image ? `<img class="nav-device-photo" src="${item.image}" alt="" width="160" height="120" loading="lazy">` : ''}<span class="nav-item-title">${item.logo ? `<img class="nav-platform-logo" src="${item.logo}" alt="" width="24" height="24">` : ''}<strong>${esc(item.name)}</strong>${icon('arrow')}</span>${item.desc ? `<small>${esc(item.desc)}</small>` : ''}`;
       const link = `<a class="nav-item${item.image ? ' nav-device-item' : ''}" href="${item.url}">${content}</a>`;
       return item.children
-        ? `<div class="nav-family">${link}<div class="nav-family-links" role="group" aria-label="Refurbish materiál pro ${esc(item.name)}">${item.children.map((child) => `<a href="${child.url}">${esc(child.name)}${icon('arrow')}</a>`).join('')}</div></div>`
+        ? `<div class="nav-family">${link}<div class="nav-family-links" role="group" aria-label="Refurbish materiál pro ${esc(item.name)}">${item.children.map((child) => `<a href="${child.url}"><img class="nav-family-photo" src="${child.image}" alt="" width="52" height="64" loading="lazy"><span>${esc(child.name)}</span>${icon('arrow')}</a>`).join('')}</div></div>`
         : link;
     })
     .join('')}</div>`;

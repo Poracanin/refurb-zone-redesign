@@ -5756,30 +5756,43 @@ html {
   border-radius: 8px;
 }
 .nav-family-links {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   padding: 0 15px 15px;
 }
 .nav-family-links > a {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 10px 13px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: #fff;
-  font-size: 0.8125rem;
-  flex: 1;
+  gap: 10px;
+  min-width: 0;
+  min-height: 80px;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  font-size: 0.875rem;
+  transition: background 150ms ease;
+}
+.nav-family-links > a > span {
+  font-weight: 550;
+}
+.nav-family-photo {
+  width: 52px;
+  height: 64px;
+  flex-shrink: 0;
+  object-fit: contain;
+  mix-blend-mode: multiply;
 }
 .nav-family-links .icon {
   width: 14px;
   height: 14px;
+  margin-left: auto;
   flex-shrink: 0;
+  color: #607087;
 }
 .nav-family-links > a:hover {
-  border-color: #9daec4;
+  background: #e9eef5;
 }
 .focused-mobile-menu .nav-panel-grid {
   padding-top: 0;
@@ -5788,6 +5801,9 @@ html {
 }
 .focused-mobile-menu .nav-items-materials,
 .focused-mobile-menu .nav-items-equipment {
+  grid-template-columns: 1fr;
+}
+.focused-mobile-menu .nav-family-links {
   grid-template-columns: 1fr;
 }
 .focused-mobile-menu .nav-device-photo {
@@ -5799,7 +5815,23 @@ html {
     display: none;
   }
 }
+@media (min-width: 621px) and (max-width: 1100px) {
+  .nav-family-links .icon {
+    display: none;
+  }
+  .nav-family-photo {
+    width: 40px;
+    height: 54px;
+  }
+  .nav-family-links > a {
+    gap: 8px;
+    padding-inline: 4px;
+  }
+}
 @media (max-width: 850px) {
+  .nav-items-materials {
+    grid-template-columns: 1fr;
+  }
   .delivery-topline .delivery-cutoff {
     justify-content: center;
     gap: 7px;
@@ -5820,12 +5852,18 @@ html {
     gap: 7px;
   }
   .nav-family-links {
+    grid-template-columns: 1fr;
     padding: 0 12px 12px;
-    gap: 6px;
+    gap: 4px;
   }
   .nav-family-links > a {
-    gap: 8px;
-    padding: 9px;
+    gap: 16px;
+    min-height: 66px;
+    padding: 6px 8px;
+  }
+  .nav-family-photo {
+    width: 44px;
+    height: 54px;
   }
   .delivery-topline > .container {
     width: calc(100% - 16px);
