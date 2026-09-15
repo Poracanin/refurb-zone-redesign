@@ -8,8 +8,10 @@ window.refurbBrand = (() => {
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const playing = new Map();
   const pending = new WeakMap();
+  let instance = 0;
   function markup({ header = false, intro = false } = {}) {
     const animate = !header && intro && !reducedMotion.matches;
+    const gradientId = `refurb-brand-gradient-${++instance}`;
     const tag = header ? 'a' : 'div';
     const attributes = header
       ? 'href="/" aria-label="Refurb.zone — LCD & OLED REFURBISHING — úvodní stránka"'
@@ -17,9 +19,16 @@ window.refurbBrand = (() => {
     return `<${tag} class="${header ? 'logo ' : ''}brand-logo${animate ? ' is-intro' : ''}" ${attributes}>
       <span class="brand-stage" aria-hidden="true">
         <svg class="brand-seed" viewBox="0 0 40 40" focusable="false">
+          <defs>
+            <linearGradient id="${gradientId}" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0" stop-color="#24bfff"/>
+              <stop offset=".5" stop-color="#7952e8"/>
+              <stop offset="1" stop-color="#ec4899"/>
+            </linearGradient>
+          </defs>
           <rect class="brand-seed-bg" width="40" height="40" rx="11" fill="#111419"/>
-          <text class="brand-seed-letter" x="10" y="29" fill="white" font-family="Arial,sans-serif" font-size="31" font-weight="700">r</text>
-          <circle cx="30" cy="28" r="3" fill="#ec4899"/>
+          <text class="brand-seed-letter" x="10" y="29" fill="url(#${gradientId})" font-family="Arial,sans-serif" font-size="31" font-weight="700">r</text>
+          <circle cx="30" cy="28" r="3" fill="url(#${gradientId})"/>
         </svg>
         <span class="brand-wordmark"><span class="brand-initial">r</span><span class="brand-stem">efurb</span><span class="brand-dot">.</span><span class="brand-zone">zone</span></span>
       </span>
@@ -109,9 +118,7 @@ window.refurbBrand = (() => {
       };
       animate('.brand-wordmark', [{ color: '#101318' }, { color: '#f7f9fc' }], negativeTiming);
       animate('.brand-tagline', [{ color: '#737d8c' }, { color: '#c0c8d5' }], negativeTiming);
-      animate('.brand-dot', [{ color: '#ec4899' }, { color: '#ec4899' }], negativeTiming);
       animate('.brand-seed-bg', [{ fill: '#111419' }, { fill: '#f7f9fc' }], negativeTiming);
-      animate('.brand-seed-letter', [{ fill: '#ffffff' }, { fill: '#111419' }], negativeTiming);
       last = animate(
         negativeCanvas,
         [

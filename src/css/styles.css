@@ -139,8 +139,12 @@ input[type='search']::-webkit-search-cancel-button {
   letter-spacing: -1.5px;
   line-height: 1.05;
 }
-.logo span {
-  color: #ec4899;
+.logo:not(.brand-logo) > span {
+  color: transparent;
+  background: linear-gradient(90deg, #24bfff, #7952e8 50%, #ec4899);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .logo small {
   display: block;
